@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C804253C308D0CA8006046DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8042526308D0CA7006046DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C804252D308D0CA7006046DD;
+			remoteInfo = Talaqqi;
+		};
+		C8042546308D0CA8006046DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8042526308D0CA7006046DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C804252D308D0CA7006046DD;
+			remoteInfo = Talaqqi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C804252E308D0CA7006046DD /* Talaqqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talaqqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C804253B308D0CA8006046DD /* TalaqqiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalaqqiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8042545308D0CA8006046DD /* TalaqqiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalaqqiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C8042530308D0CA7006046DD /* Talaqqi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Talaqqi;
+			sourceTree = "<group>";
+		};
+		C804253E308D0CA8006046DD /* TalaqqiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TalaqqiTests;
+			sourceTree = "<group>";
+		};
+		C8042548308D0CA8006046DD /* TalaqqiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TalaqqiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C804252B308D0CA7006046DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		C8042538308D0CA8006046DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		C8042542308D0CA8006046DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8042525308D0CA7006046DD = {
+			isa = PBXGroup;
+			children = (
+				C8042530308D0CA7006046DD /* Talaqqi */,
+				C804253E308D0CA8006046DD /* TalaqqiTests */,
+				C8042548308D0CA8006046DD /* TalaqqiUITests */,
+				C804252F308D0CA7006046DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C804252F308D0CA7006046DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C804252E308D0CA7006046DD /* Talaqqi.app */,
+				C804253B308D0CA8006046DD /* TalaqqiTests.xctest */,
+				C8042545308D0CA8006046DD /* TalaqqiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C804252D308D0CA7006046DD /* Talaqqi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C804254D308D0CA8006046DD /* Build configuration list for PBXNativeTarget "Talaqqi" */;
+			buildPhases = (
+				C804252A308D0CA7006046DD /* Sources */,
+				C804252B308D0CA7006046DD /* Frameworks */,
+				C804252C308D0CA7006046DD /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				C8042530308D0CA7006046DD /* Talaqqi */,
+			);
+			name = Talaqqi;
+			productName = Talaqqi;
+			productReference = C804252E308D0CA7006046DD /* Talaqqi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C804253A308D0CA8006046DD /* TalaqqiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8042550308D0CA8006046DD /* Build configuration list for PBXNativeTarget "TalaqqiTests" */;
+			buildPhases = (
+				C8042537308D0CA8006046DD /* Sources */,
+				C8042538308D0CA8006046DD /* Frameworks */,
+				C8042539308D0CA8006046DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C804253D308D0CA8006046DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C804253E308D0CA8006046DD /* TalaqqiTests */,
+			);
+			name = TalaqqiTests;
+			productName = TalaqqiTests;
+			productReference = C804253B308D0CA8006046DD /* TalaqqiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8042544308D0CA8006046DD /* TalaqqiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8042553308D0CA8006046DD /* Build configuration list for PBXNativeTarget "TalaqqiUITests" */;
+			buildPhases = (
+				C8042541308D0CA8006046DD /* Sources */,
+				C8042542308D0CA8006046DD /* Frameworks */,
+				C8042543308D0CA8006046DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8042547308D0CA8006046DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C8042548308D0CA8006046DD /* TalaqqiUITests */,
+			);
+			name = TalaqqiUITests;
+			productName = TalaqqiUITests;
+			productReference = C8042545308D0CA8006046DD /* TalaqqiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8042526308D0CA7006046DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					C804252D308D0CA7006046DD = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					C804253A308D0CA8006046DD = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = C804252D308D0CA7006046DD;
+					};
+					C8042544308D0CA8006046DD = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = C804252D308D0CA7006046DD;
+					};
+				};
+			};
+			buildConfigurationList = C8042529308D0CA7006046DD /* Build configuration list for PBXProject "Talaqqi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8042525308D0CA7006046DD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C804252F308D0CA7006046DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C804252D308D0CA7006046DD /* Talaqqi */,
+				C804253A308D0CA8006046DD /* TalaqqiTests */,
+				C8042544308D0CA8006046DD /* TalaqqiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C804252C308D0CA7006046DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		C8042539308D0CA8006046DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		C8042543308D0CA8006046DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C804252A308D0CA7006046DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		C8042537308D0CA8006046DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		C8042541308D0CA8006046DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C804253D308D0CA8006046DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C804252D308D0CA7006046DD /* Talaqqi */;
+			targetProxy = C804253C308D0CA8006046DD /* PBXContainerItemProxy */;
+		};
+		C8042547308D0CA8006046DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C804252D308D0CA7006046DD /* Talaqqi */;
+			targetProxy = C8042546308D0CA8006046DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C804254B308D0CA8006046DD /* Debug configuration for PBXProject "Talaqqi" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q6J6G98354;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C804254C308D0CA8006046DD /* Release configuration for PBXProject "Talaqqi" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q6J6G98354;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C804254E308D0CA8006046DD /* Debug configuration for PBXNativeTarget "Talaqqi" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6J6G98354;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playgroundagc.Talaqqi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C804254F308D0CA8006046DD /* Release configuration for PBXNativeTarget "Talaqqi" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6J6G98354;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playgroundagc.Talaqqi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8042551308D0CA8006046DD /* Debug configuration for PBXNativeTarget "TalaqqiTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6J6G98354;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playgroundagc.TalaqqiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talaqqi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Talaqqi";
+			};
+			name = Debug;
+		};
+		C8042552308D0CA8006046DD /* Release configuration for PBXNativeTarget "TalaqqiTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6J6G98354;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playgroundagc.TalaqqiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talaqqi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Talaqqi";
+			};
+			name = Release;
+		};
+		C8042554308D0CA8006046DD /* Debug configuration for PBXNativeTarget "TalaqqiUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6J6G98354;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playgroundagc.TalaqqiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Talaqqi;
+			};
+			name = Debug;
+		};
+		C8042555308D0CA8006046DD /* Release configuration for PBXNativeTarget "TalaqqiUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6J6G98354;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playgroundagc.TalaqqiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Talaqqi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8042529308D0CA7006046DD /* Build configuration list for PBXProject "Talaqqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C804254B308D0CA8006046DD /* Debug configuration for PBXProject "Talaqqi" */,
+				C804254C308D0CA8006046DD /* Release configuration for PBXProject "Talaqqi" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		C804254D308D0CA8006046DD /* Build configuration list for PBXNativeTarget "Talaqqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C804254E308D0CA8006046DD /* Debug configuration for PBXNativeTarget "Talaqqi" */,
+				C804254F308D0CA8006046DD /* Release configuration for PBXNativeTarget "Talaqqi" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		C8042550308D0CA8006046DD /* Build configuration list for PBXNativeTarget "TalaqqiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8042551308D0CA8006046DD /* Debug configuration for PBXNativeTarget "TalaqqiTests" */,
+				C8042552308D0CA8006046DD /* Release configuration for PBXNativeTarget "TalaqqiTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		C8042553308D0CA8006046DD /* Build configuration list for PBXNativeTarget "TalaqqiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8042554308D0CA8006046DD /* Debug configuration for PBXNativeTarget "TalaqqiUITests" */,
+				C8042555308D0CA8006046DD /* Release configuration for PBXNativeTarget "TalaqqiUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8042526308D0CA7006046DD /* Project object */;
+	validationLevel = 1;
+}

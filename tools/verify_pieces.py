@@ -1,31 +1,38 @@
-"""Vérifie chaque morceau par transcription automatique (faster-whisper) et écrit un rapport.
+"""Transcription automatique des morceaux (faster-whisper), utilisée par les tests de tools/tests/.
 
-    python tools/verify_pieces.py 2:255
-    python tools/verify_pieces.py 2:255 --clips-only   # extraits audio seulement, sans transcription
+Chaque morceau est découpé exactement comme dans l'application (mêmes trames, mêmes fondus).
+Les transcriptions sont gardées en cache dans tools/.cache/whisper/ : une relance ne retranscrit
+que les morceaux dont l'audio a changé.
 
-Chaque morceau est découpé exactement comme dans l'application (mêmes trames, mêmes fondus),
-transcrit en arabe, puis comparé au texte attendu sans voyelles. Le rapport signale les
-morceaux dont la transcription s'écarte du texte ou déborde sur le morceau suivant.
+    python tools/verify_pieces.py 2:255   # écrit aussi les extraits dans tools/reports/2_255/ pour l'écoute
 """
 
-import difflib
+import hashlib
+import os
 import json
 import subprocess
 import sys
+from functools import cache
 from pathlib import Path
 
 import numpy as np
 
 import audio
-import text
 
 TOOLS = Path(__file__).resolve().parent
-RESOURCES = TOOLS.parent / "Talaqqi" / "Talaqqi" / "Resources"
+CACHE = TOOLS / ".cache" / "whisper"
 REPORTS = TOOLS / "reports"
+MODEL = "small"
+
+# Le transfert « Xet » de Hugging Face passe par des hôtes souvent bloqués ; le téléchargement classique suffit.
+os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
 
 FADE_IN_SECONDS = 0.010
 FADE_OUT_SECONDS = 0.030
-MIN_SIMILARITY = 0.75
+
+
+class WhisperUnavailable(Exception):
+    pass
 
 
 def piece_samples(samples: np.ndarray, clip: dict) -> np.ndarray:
@@ -39,6 +46,46 @@ def piece_samples(samples: np.ndarray, clip: dict) -> np.ndarray:
     return piece
 
 
+def _resample_16k(samples: np.ndarray) -> np.ndarray:
+    raw = subprocess.run(
+        ["ffmpeg", "-v", "error", "-f", "f32le", "-ar", str(audio.SAMPLE_RATE), "-ac", "1", "-i", "-",
+         "-f", "f32le", "-ar", "16000", "-ac", "1", "-"],
+        input=samples.astype(np.float32).tobytes(), capture_output=True, check=True,
+    ).stdout
+    return np.frombuffer(raw, dtype=np.float32)
+
+
+@cache
+def _load_model():
+    """Charge le modèle une seule fois ; en cas d'échec, l'erreur est gardée pour ne pas retenter à chaque morceau."""
+    try:
+        from faster_whisper import WhisperModel
+
+        return WhisperModel(MODEL, device="cpu", compute_type="int8"), None
+    except Exception as error:  # modèle introuvable ou téléchargement bloqué
+        return None, f"modèle Whisper « {MODEL} » indisponible ({type(error).__name__})"
+
+
+def _model():
+    model, failure = _load_model()
+    if failure:
+        raise WhisperUnavailable(failure)
+    return model
+
+
+def transcribe(samples: np.ndarray) -> str:
+    key = hashlib.sha1(samples.astype(np.float32).tobytes() + MODEL.encode()).hexdigest()
+    cached = CACHE / f"{key}.txt"
+    if cached.exists():
+        return cached.read_text(encoding="utf-8")
+    segments, _ = _model().transcribe(_resample_16k(samples), language="ar", beam_size=5,
+                                      vad_filter=False, condition_on_previous_text=False)
+    heard = " ".join(segment.text.strip() for segment in segments).strip()
+    CACHE.mkdir(parents=True, exist_ok=True)
+    cached.write_text(heard, encoding="utf-8")
+    return heard
+
+
 def export_mp3(samples: np.ndarray, target: Path) -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run(
@@ -48,59 +95,19 @@ def export_mp3(samples: np.ndarray, target: Path) -> None:
     )
 
 
-def to_16k(samples: np.ndarray) -> np.ndarray:
-    raw = subprocess.run(
-        ["ffmpeg", "-v", "error", "-f", "f32le", "-ar", str(audio.SAMPLE_RATE), "-ac", "1", "-i", "-",
-         "-f", "f32le", "-ar", "16000", "-ac", "1", "-"],
-        input=samples.astype(np.float32).tobytes(), capture_output=True, check=True,
-    ).stdout
-    return np.frombuffer(raw, dtype=np.float32)
-
-
-def main(content_id: str, transcribe: bool) -> None:
-    library = json.loads((RESOURCES / "Content" / "library.json").read_text(encoding="utf-8"))
+def export_clips(content_id: str) -> Path:
+    """Extraits audio de chaque morceau, pour l'écoute."""
+    library = json.loads((TOOLS.parent / "Talaqqi" / "Talaqqi" / "Resources" / "Content" / "library.json").read_text(encoding="utf-8"))
     content = next(c for c in library["contents"] if c["id"] == content_id)
-    from faster_whisper import WhisperModel
-
-    model = WhisperModel("small", device="cpu", compute_type="int8") if transcribe else None
+    folder = REPORTS / content_id.replace(":", "_")
     decoded: dict[str, np.ndarray] = {}
-    slug = content_id.replace(":", "_")
-    rows, problems = [], 0
-
     for piece in content["pieces"]:
         clip = piece["audio"]
         if clip["file"] not in decoded:
-            decoded[clip["file"]] = audio.decode(RESOURCES / "Audio" / clip["file"])
-        samples = piece_samples(decoded[clip["file"]], clip)
-        export_mp3(samples, REPORTS / slug / f"{piece['index']}.mp3")
-        if model is None:
-            continue
-        segments, _ = model.transcribe(to_16k(samples), language="ar", beam_size=5, vad_filter=False,
-                                       condition_on_previous_text=False)
-        heard = " ".join(segment.text.strip() for segment in segments)
-        expected = text.normalize_arabic(piece["arabic"])
-        similarity = difflib.SequenceMatcher(None, expected, text.normalize_arabic(heard)).ratio()
-        ok = similarity >= MIN_SIMILARITY
-        problems += not ok
-        rows.append((piece, clip, heard, similarity, ok))
-        print(f"morceau {piece['index']} : {similarity:.0%} {'ok' if ok else 'À VÉRIFIER'}")
-
-    if model is None:
-        print(f"Extraits audio dans {REPORTS / slug}")
-        return
-    lines = [f"# Vérification : {content['title']}", "",
-             f"Transcription faster-whisper `small`, seuil {MIN_SIMILARITY:.0%}. "
-             f"Extraits audio découpés comme dans l'application : `{slug}/<morceau>.mp3`.", "",
-             "| Morceau | Début | Fin | Durée | Ressemblance | Texte attendu | Transcription |",
-             "|---|---|---|---|---|---|---|"]
-    for piece, clip, heard, similarity, ok in rows:
-        start, end = clip["startFrame"] / audio.SAMPLE_RATE, clip["endFrame"] / audio.SAMPLE_RATE
-        lines.append(f"| {piece['index']} | {start:.2f} s | {end:.2f} s | {end - start:.2f} s | "
-                     f"{similarity:.0%}{'' if ok else ' (à vérifier)'} | {piece['arabic']} | {heard} |")
-    lines += ["", f"{len(rows) - problems} morceaux sur {len(rows)} au-dessus du seuil."]
-    REPORTS.mkdir(parents=True, exist_ok=True)
-    (REPORTS / f"{slug}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+            decoded[clip["file"]] = audio.decode(TOOLS.parent / "Talaqqi" / "Talaqqi" / "Resources" / "Audio" / clip["file"])
+        export_mp3(piece_samples(decoded[clip["file"]], clip), folder / f"{piece['index']}.mp3")
+    return folder
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], transcribe="--clips-only" not in sys.argv)
+    print(f"Extraits audio dans {export_clips(sys.argv[1])}")

@@ -37,16 +37,16 @@
       ],
       "pieces": [
         {
-          "index": 0,
           "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
-          "phonetic": "Bismil laahir Rahmaanir Raheem",
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
             "file": "hudhaify_bismillah.m4a",
             "startFrame": 38367,
             "endFrame": 305613,
             "sampleRate": 44100
-          }
+          },
+          "index": 0
         },
         {
           "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ",
@@ -58,8 +58,8 @@
             "endFrame": 392049,
             "sampleRate": 44100
           },
-          "index": 1,
-          "verse": 255
+          "verse": 255,
+          "index": 1
         },
         {
           "arabic": "لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ",
@@ -71,8 +71,8 @@
             "endFrame": 686196,
             "sampleRate": 44100
           },
-          "index": 2,
-          "verse": 255
+          "verse": 255,
+          "index": 2
         },
         {
           "arabic": "لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ",
@@ -84,8 +84,8 @@
             "endFrame": 906696,
             "sampleRate": 44100
           },
-          "index": 3,
-          "verse": 255
+          "verse": 255,
+          "index": 3
         },
         {
           "arabic": "مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ",
@@ -97,8 +97,8 @@
             "endFrame": 1281105,
             "sampleRate": 44100
           },
-          "index": 4,
-          "verse": 255
+          "verse": 255,
+          "index": 4
         },
         {
           "arabic": "يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ",
@@ -110,8 +110,8 @@
             "endFrame": 1526742,
             "sampleRate": 44100
           },
-          "index": 5,
-          "verse": 255
+          "verse": 255,
+          "index": 5
         },
         {
           "arabic": "وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ",
@@ -123,8 +123,8 @@
             "endFrame": 2028600,
             "sampleRate": 44100
           },
-          "index": 6,
-          "verse": 255
+          "verse": 255,
+          "index": 6
         },
         {
           "arabic": "وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَـُٔودُهُۥ حِفۡظُهُمَاۚ",
@@ -136,8 +136,8 @@
             "endFrame": 2377872,
             "sampleRate": 44100
           },
-          "index": 7,
-          "verse": 255
+          "verse": 255,
+          "index": 7
         },
         {
           "arabic": "وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ",
@@ -149,8 +149,8 @@
             "endFrame": 2590875,
             "sampleRate": 44100
           },
-          "index": 8,
-          "verse": 255
+          "verse": 255,
+          "index": 8
         }
       ]
     }

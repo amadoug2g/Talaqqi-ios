@@ -11,8 +11,9 @@ Ce plan répond aux trois attentes du brief : questions, plan (architecture, arb
 | Sujet | Décision |
 |---|---|
 | iOS minimum | **iOS 26** (Liquid Glass natif ; iPhone 11 ou plus récent, Xcode 26 ou plus) |
-| Phonétique | **Tanzil `en.transliteration`** (style des maquettes) ; répartition sur les morceaux de 2:255 aux mêmes mots que l'arabe, validée par Amadou |
+| Phonétique | **QUL « English Transliteration (Tajweed) »** (ressource 469), choisie après vérification : le style exact des maquettes n'est disponible depuis aucune source vérifiée accessible. Ses arrêts tombent sur les signes de pause de l'arabe, ce qui rend la découpe mécanique |
 | Traduction | **Hamidullah** (`french_hameedullah`) ; pour 2:255, **coupée aux phrases**, sans changer un mot, validée par Amadou ; repli « traduction au niveau du verset » si un futur verset ne se coupe pas proprement |
+| Appels de note | Les renvois `[n]` de la traduction QuranEnc sont retirés, sans la note ; aucun autre changement |
 | « Toute la sourate » | **Menu natif sur le titre « Morceaux 2 → 4 » du lecteur** |
 | Réseau | Amadou **autorise les domaines** des sources dans l'environnement ; les scripts de `tools/` tournent ici et le résultat est committé |
 | Projet Xcode | **Amadou le crée dans Xcode** selon mes réglages (dossiers synchronisés), puis je n'ajoute que des fichiers |
@@ -217,6 +218,37 @@ Chaque étape se termine par un commit poussé sur `claude/clever-mayer-c5wxy7` 
 **État de l'étape 1** : projet créé par Amadou (commit `8a9d937`, après correction d'un dépôt Git imbriqué créé par Xcode). Réglages de la cible appliqués ensuite directement dans `project.pbxproj` : iOS 26.0, iPhone seul, portrait seul, et `Talaqqi/Talaqqi-Info.plist` (hors du dossier synchronisé) avec `UIBackgroundModes` = `audio`. La disposition imbriquée `Talaqqi/Talaqqi.xcodeproj` (créée automatiquement par Xcode) est conservée ; le paquet sera référencé comme `../Packages/ShadowingCore`. Les cibles de test `TalaqqiTests` et `TalaqqiUITests` créées par Xcode sont gardées.
 
 **État de l'étape 2 (commit `996cd87`)** : premier `swift test` sur le Mac d'Amadou : compilation OK, 42 tests sur 43 passent. Échec dans `FadesTests.fadesInAndOutWithoutTouchingTheMiddle` (`Packages/ShadowingCore/Tests/ShadowingCoreTests/SettingsAndFadesTests.swift:46`) : `samples[70] == 29.0 / 30.0` compare un `Float` (0.96666664) à un `Double` (0.9666666666666667), car la macro `#expect` type les deux côtés séparément. Le code de `Fades.apply` est correct, c'est le test qui est faux. Correction : écrire `#expect(samples[70] == Float(29) / Float(30))`. Corrigé dans le commit `a8c942c` ; Amadou relance `swift test` (attendu : 43 tests passés).
+
+**État de l'étape 3 (commit `6cd28d6`, en cours)** : scripts `tools/` écrits, sources de 1:1 et 2:255 téléchargées, Ayat al-Kursî construit (Basmala + 8 morceaux, 7 pauses nettes d'Al-Hudhaify, dont une entre « ḥifẓuhumā » et « wa huwa »). Phonétique : QUL Tajweed (ressource 469, lue sur la page publique de chaque verset). Traduction : appels de note `[n]` retirés. Pas encore validé à l'écoute.
+
+### Étape 3 bis : chaîne de contenu automatisée, tests d'abord (demande d'Amadou)
+
+**Pourquoi** : le même travail se répétera pour chaque sourate. Au lieu de vérifier à la main à chaque fois, on écrit d'abord des tests génériques, puis une seule commande télécharge, construit et teste. Vert : on committe. Rouge : le test dit quoi et où.
+
+**Spécification par contenu** (`tools/content/<id>.json`, le « test écrit d'abord ») : pour une sourate, juste `id`, `kind`, `surah`, `title`, `arabicName`, `basmala` (noms repris de la liste de `docs/BRIEF_DESIGN.md`, section 7). Les versets sont énumérés depuis la source ; règle par défaut : un morceau par verset. Le regroupement en phrases (`pieces`) n'est écrit que pour les versets longs, comme `tools/content/2_255.json`.
+
+**Tests pytest** (`tools/tests/`, `pytest` ajouté à `tools/requirements.txt`), paramétrés sur chaque contenu de `library.json` :
+1. **Fidélité des textes** : les morceaux d'un verset remis bout à bout redonnent exactement `arabic_text` (QuranEnc), la translittération QUL et la traduction ; seule différence permise : les `[n]` retirés (`tools/text.py` : `strip_footnote_refs`, `waqf_phrases`, `transliteration_phrases`, `sentences`).
+2. **Cohérence des sources** : autant de signes de pause en arabe que d'arrêts en phonétique pour les versets découpés ; chaque phrase de traduction utilisée une fois, dans l'ordre.
+3. **Libellés** : ni tiret cadratin ni émoji dans titres et sous-titres.
+4. **Structure audio** : morceaux ordonnés, sans chevauchement, dans les bornes du fichier, tous à 44 100 Hz, fichiers présents.
+5. **Pas de débordement** : avant le début et après la fin de chaque morceau (hors bords du fichier), au moins 150 ms de silence sous le seuil (`tools/audio.py` : `loudness_profile`).
+6. **Durée plausible** : secondes par lettre arabe (texte normalisé, `text.normalize_arabic`) dans une plage calibrée sur Ayat al-Kursî ; attrape deux phrases fusionnées ou une phrase manquante.
+7. **Conversion fidèle** : `.m4a` aligné à l'échantillon près sur le MP3 source (décalage 0, longueur à une trame AAC près).
+8. **Whisper mot à mot** : premier et dernier mots entendus = premier et dernier mots attendus, ressemblance globale ≥ 75 % ; transcriptions mises en cache (`tools/.cache/`, clé = empreinte de l'extrait) pour que les relances soient rapides.
+9. **Non-régression de l'algorithme de découpe** : sur `docs/prototype/kursi.mp3` (Al-Ghamidi), retrouver les coupes du prototype à ±0,15 s là où le récitant fait une vraie pause (timings du bloc `LESSON` de `docs/prototype/index.html`, copiés dans `tools/tests/golden/ghamidi_2255.json` ; la coupe sans pause « ḥifẓuhumā / wa huwa » est exclue).
+
+**Test Swift** : `Packages/ShadowingCore/Tests/ShadowingCoreTests/LibraryTests.swift` décode le vrai `Talaqqi/Talaqqi/Resources/Content/library.json` (chemin relatif via `#filePath`) et construit un `PlaybackPlan` pour chaque contenu ; indices de morceaux contigus, plages de versets cohérentes.
+
+**Commande unique** : `tools/.venv/bin/python tools/pipeline.py 114` = `fetch_sources` (si absent) → `build_content` → `pytest` sur ce contenu → résumé vert / rouge + rapport `tools/reports/<id>.md` ; code de sortie non nul si rouge. `verify_pieces.py` devient le module Whisper appelé par les tests.
+
+**Whisper** : `hf.co` ajouté, mais `us.aws.cdn.hf.co` et `cas-server.xethub.hf.co` répondent encore 403 (règle pas encore appliquée, ou sous-domaines non couverts). Tant que c'est bloqué, le test 8 est marqué « non exécuté » et le résultat du pipeline est « incomplet », jamais vert. Demander à Amadou d'ajouter ces deux hôtes exacts, ou de relancer la session.
+
+**Rôle humain restant** : une écoute du contenu complet avant chaque commit ; décision quand un test signale une pause manquante ou en trop (jamais tranchée par le script).
+
+**Ordre** : écrire les tests → les lancer sur Ayat al-Kursî (calibrer les seuils, noter les valeurs retenues) → écoute d'Amadou → commit → An-Nâs (114) avec la commande unique.
+
+**État** : chaîne en place (`tools/pipeline.py`, `tools/tests/`, `LibraryTests.swift`). Découpe : pauses = creux du volume lissé, frontières estimées au prorata des lettres, attribution ordonnée (programmation dynamique) ; retrouve les 7 coupes du prototype d'Al-Ghamidi à 0,12 s près et ignore sa pause après وَٱلۡأَرۡضَۖ comme la spécification le demande. Débit mesuré d'Al-Hudhaify : 0,19 à 0,38 s par lettre (plage tolérée 0,12 à 0,60). Ayat al-Kursî : 28 tests verts, 9 Whisper non exécutés (CDN Hugging Face encore bloqué). Deux fautes injectées volontairement (une lettre changée, une coupe allongée) ont bien été détectées.
 
 L'audio passe avant l'interface (étape 4), sur une interface minimale : c'est le risque principal, et le prototype web a justement échoué sur iPhone à cet endroit. Il est testé directement sur Ayat al-Kursî, le cas le plus exigeant (9 morceaux, coupes nettes, enchaînement « ḥifẓuhumā / wa huwa »).
 

@@ -1,0 +1,12 @@
+{
+  "audio": "docs/prototype/kursi.mp3",
+  "reciter": "Saad Al-Ghamidi",
+  "origin": "Bloc LESSON de docs/prototype/index.html : morceaux vérifiés à l'oreille et par transcription.",
+  "prototypePieces": [
+    [0.20, 5.15], [5.78, 13.40], [13.78, 19.45], [19.78, 23.65], [24.10, 30.50],
+    [30.88, 35.45], [35.73, 44.40], [44.78, 51.98], [51.98, 55.35]
+  ],
+  "note": "Unités : Basmala puis les 9 phrases de 2:255. La coupe à 51,98 s n'a pas de pause : les deux derniers morceaux sont fusionnés.",
+  "groupEnds": [1, 2, 3, 4, 5, 6, 7, 10],
+  "cuts": [5.465, 13.59, 19.615, 23.875, 30.69, 35.59, 44.59]
+}

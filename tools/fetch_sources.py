@@ -3,7 +3,8 @@
 Chaque fichier garde l'URL d'origine et la date de téléchargement. Rien n'est modifié :
 la mise en forme pour l'application se fait dans build_content.py.
 
-    python tools/fetch_sources.py 1:1 2:255
+    python tools/fetch_sources.py 1:1 2:255   # versets
+    python tools/fetch_sources.py 114         # sourate entière, avec la Basmala
 """
 
 import datetime
@@ -21,6 +22,7 @@ SOURCES = Path(__file__).resolve().parent / "sources"
 RECITER_FOLDER = "Hudhaify_128kbps"
 AUDIO_URL = "https://everyayah.com/data/{folder}/{name}.mp3"
 QURANENC_AYA_URL = "https://quranenc.com/api/v1/translation/aya/{key}/{surah}/{ayah}"
+QURANENC_SURA_URL = "https://quranenc.com/api/v1/translation/sura/{key}/{surah}"
 QUL_TRANSLITERATION_URL = "https://qul.tarteel.ai/resources/transliteration/{resource}?ayah={surah}:{ayah}"
 
 TRANSLATION_KEY = "french_hameedullah"
@@ -66,6 +68,25 @@ def fetch_quranenc(key: str, surah: int, ayah: int) -> None:
     })
 
 
+def fetch_quranenc_surah(key: str, surah: int) -> int:
+    """Tous les versets d'une sourate en un appel, rangés verset par verset comme fetch_quranenc."""
+    url = QURANENC_SURA_URL.format(key=key, surah=surah)
+    verses = get(url).json()["result"]
+    fetched_at = now()
+    for verse in verses:
+        write_json(SOURCES / "quranenc" / key / f"{surah:03d}{int(verse['aya']):03d}.json", {
+            "url": url,
+            "fetched_at": fetched_at,
+            "data": verse,
+        })
+    write_json(SOURCES / "quranenc" / key / "index" / f"{surah:03d}.json", {
+        "url": url,
+        "fetched_at": fetched_at,
+        "verseCount": len(verses),
+    })
+    return len(verses)
+
+
 def fetch_qul_transliteration(surah: int, ayah: int) -> None:
     """QUL ne propose le téléchargement en bloc qu'avec un compte : on lit la page publique du verset."""
     url = QUL_TRANSLITERATION_URL.format(resource=QUL_TRANSLITERATION_RESOURCE, surah=surah, ayah=ayah)
@@ -90,10 +111,21 @@ def fetch_verse(surah: int, ayah: int) -> None:
         fetch_audio(f"{surah:03d}{ayah:03d}")
 
 
+def fetch_surah(surah: int) -> None:
+    fetch_verse(1, 1)
+    count = fetch_quranenc_surah(TRANSLATION_KEY, surah)
+    for ayah in range(1, count + 1):
+        fetch_qul_transliteration(surah, ayah)
+        fetch_audio(f"{surah:03d}{ayah:03d}")
+
+
 def main(keys: list[str]) -> None:
     for key in keys:
-        surah, ayah = (int(part) for part in key.split(":"))
-        fetch_verse(surah, ayah)
+        if ":" in key:
+            surah, ayah = (int(part) for part in key.split(":"))
+            fetch_verse(surah, ayah)
+        else:
+            fetch_surah(int(key))
         print(f"{key} : sources téléchargées")
 
 

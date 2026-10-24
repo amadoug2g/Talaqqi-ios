@@ -82,7 +82,9 @@ Talaqqi-ios/
 │  ├─ Package.swift
 │  ├─ Sources/ShadowingCore/      Models, Selection, PlaybackPlan, Formatting
 │  └─ Tests/ShadowingCoreTests/
-└─ Talaqqi/                       cible iOS (dossier synchronisé Xcode)
+└─ Talaqqi/                       dossier du projet créé par Xcode
+   ├─ Talaqqi.xcodeproj
+   └─ Talaqqi/                    cible iOS (dossier synchronisé Xcode)
    ├─ App/TalaqqiApp.swift
    ├─ Audio/                      AudioSessionController, ShadowingEngine, PieceBufferLoader, NowPlayingController
    ├─ Data/                       ContentLibrary, modèles SwiftData (historique, état par contenu)
@@ -210,6 +212,8 @@ Chaque étape se termine par un commit poussé sur `claude/clever-mayer-c5wxy7` 
 | 8 | Accueil, bandeau « Récemment », persistance SwiftData | moi | maquette 1, reprise d'une sélection |
 | 9 | Fiche de sourate, mode mémoire, « Toute la sourate » | moi | maquette 5 |
 | 10 | Contenu complet 100 à 114, finitions, sombre, VoiceOver, interruptions | moi | version 1 complète |
+
+**État de l'étape 1** : projet créé par Amadou (commit `8a9d937`, après correction d'un dépôt Git imbriqué créé par Xcode). Réglages de la cible appliqués ensuite directement dans `project.pbxproj` : iOS 26.0, iPhone seul, portrait seul, et `Talaqqi/Talaqqi-Info.plist` (hors du dossier synchronisé) avec `UIBackgroundModes` = `audio`. La disposition imbriquée `Talaqqi/Talaqqi.xcodeproj` (créée automatiquement par Xcode) est conservée ; le paquet sera référencé comme `../Packages/ShadowingCore`. Les cibles de test `TalaqqiTests` et `TalaqqiUITests` créées par Xcode sont gardées.
 
 L'audio passe en premier (étape 4), sur une interface minimale : c'est le risque principal, et le prototype web a justement échoué sur iPhone à cet endroit.
 

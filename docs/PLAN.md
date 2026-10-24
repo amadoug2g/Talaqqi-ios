@@ -18,6 +18,8 @@ Ce plan répond aux trois attentes du brief : questions, plan (architecture, arb
 | Projet Xcode | **Amadou le crée dans Xcode** selon mes réglages (dossiers synchronisés), puis je n'ajoute que des fichiers |
 | Encre pendant « À toi » | **100 %** pour toute la sélection (comme la maquette 3), sauf ce que masque le mode mémoire |
 | Bandeau « Récemment » | **La maquette 1 suffit**, reproduite telle quelle |
+| Ordre du contenu | **Ayat al-Kursî d'abord**, puis les sourates **une par une à partir de 114** (113, 112… 100), chacune validée avant la suivante |
+| Accueil | Seuls les contenus prêts apparaissent ; les sourates pas encore faites ne sont pas affichées |
 | Marqueur de fin de verset | En ligne à la fin de l'arabe quand il est affiché, sinon seul sur sa ligne (déduit des maquettes 2 et 5) |
 
 ---
@@ -175,7 +177,7 @@ ListeningEntry { contentID, selectionStart, selectionEnd, date }
    - phonétique Tanzil `en.transliteration` ;
    - traduction QuranEnc `french_hameedullah` ;
    - objectifs des sourates QuranEnc `french_mokhtasar`.
-2. **`split_long_verse.py`** (seulement 2:255 en version 1) : `ffmpeg silencedetect` (−25 dB, 0,25 s), coupes placées dans les silences proches des signes waqf, début et fin resserrés sur la voix (profil de volume par tranches de 10 ms). Le cas difficile « ḥifẓuhumā / wa huwa » est traité à part et vérifié à l'écoute. Le script sera d'abord testé sur `kursi.mp3` (Al-Ghamidi), dont on connaît déjà les bons timings, avant de l'appliquer à Al-Hudhaify.
+2. **`split_long_verse.py`** (seulement 2:255 en version 1) : `ffmpeg silencedetect` (−25 dB, 0,25 s), coupes placées dans les silences proches des signes waqf, début et fin resserrés sur la voix (profil de volume par tranches de 10 ms). Le cas difficile « ḥifẓuhumā / wa huwa » est traité à part et vérifié à l'écoute. Le script sera d'abord testé sur `docs/prototype/kursi.mp3` (Al-Ghamidi), dont on connaît déjà les bons timings, avant de l'appliquer à Al-Hudhaify.
 3. **`verify_pieces.py`** : faster-whisper `small`, langue arabe, sur chaque morceau. Il compare le texte entendu au texte attendu (sans voyelles) et signale les débordements.
 4. **`build_content.py`** : resserre aussi le début et la fin des versets courts (un morceau = un fichier), convertit l'audio et écrit `Resources/Content/library.json`.
 5. **Validation humaine** : un rapport lisible (texte, durée, résultat de la transcription) que tu valides, plus une écoute dans l'application. Rien n'est figé sans ton accord.
@@ -204,20 +206,19 @@ Chaque étape se termine par un commit poussé sur `claude/clever-mayer-c5wxy7` 
 | 0 | Ranger le dépôt : `docs/`, `CLAUDE.md`, `.gitignore`, README | moi | dépôt structuré |
 | 1 | Créer le projet Xcode vide (réglages fournis pas à pas) | toi, guidé | le projet compile |
 | 2 | ShadowingCore : modèles, sélection, plan de lecture + tests | moi | `swift test` passe sur ton Mac |
-| 3 | `tools/` : récupération des sources et contenu d'Al-Ikhlâs | moi, ici, une fois les domaines autorisés | `library.json` + audio d'Al-Ikhlâs |
-| 4 | **Moteur audio** sur Al-Ikhlâs avec une interface minimale | moi | sur l'iPhone : mode silencieux, écran éteint, autre app, coupes, pauses, vitesse, écran verrouillé |
-| 5 | Découpe d'Ayat al-Kursî (Hudhaify) + vérification Whisper + ta validation à l'écoute | moi + toi | 9 morceaux validés |
-| 6 | Écran de pratique : morceaux, niveaux d'encre, repère, défilement, barre de progression | moi | conforme aux maquettes 2 et 3 |
-| 7 | Lecteur flottant : frise, « À toi », commandes ; feuille Réglages | moi | maquettes 2, 3, 4 |
-| 8 | Accueil, bandeau « Récemment », persistance SwiftData | moi | maquette 1, reprise d'une sélection |
-| 9 | Fiche de sourate, mode mémoire, « Toute la sourate » | moi | maquette 5 |
-| 10 | Contenu complet 100 à 114, finitions, sombre, VoiceOver, interruptions | moi | version 1 complète |
+| 3 | `tools/` : contenu d'**Ayat al-Kursî** : audio Hudhaify (2:255 et Basmala), arabe, phonétique, traduction ; découpe en morceaux + vérification Whisper + ta validation à l'écoute | moi + toi | 9 morceaux validés, `library.json` + audio |
+| 4 | **Moteur audio** testé sur Ayat al-Kursî avec une interface minimale | moi | sur l'iPhone : mode silencieux, écran éteint, autre app, coupes, pauses, vitesse, écran verrouillé |
+| 5 | Écran de pratique : morceaux, niveaux d'encre, repère, défilement, barre de progression | moi | conforme aux maquettes 2 et 3 |
+| 6 | Lecteur flottant : frise, « À toi », commandes ; feuille Réglages | moi | maquettes 2, 3, 4 |
+| 7 | Accueil, bandeau « Récemment », persistance SwiftData | moi | maquette 1, reprise d'une sélection |
+| 8 | Mode mémoire, « Toute la sourate », finitions sombre, VoiceOver, interruptions | moi | comportement complet sur Ayat al-Kursî |
+| 9+ | **Sourates une par une, en partant de la fin** : 114, puis 113, 112… jusqu'à 100 ; fiche de sourate (maquette 5) avec la première sourate. Un commit par sourate, validé par toi avant la suivante | moi + toi | chaque sourate écoutée et validée |
 
 **État de l'étape 1** : projet créé par Amadou (commit `8a9d937`, après correction d'un dépôt Git imbriqué créé par Xcode). Réglages de la cible appliqués ensuite directement dans `project.pbxproj` : iOS 26.0, iPhone seul, portrait seul, et `Talaqqi/Talaqqi-Info.plist` (hors du dossier synchronisé) avec `UIBackgroundModes` = `audio`. La disposition imbriquée `Talaqqi/Talaqqi.xcodeproj` (créée automatiquement par Xcode) est conservée ; le paquet sera référencé comme `../Packages/ShadowingCore`. Les cibles de test `TalaqqiTests` et `TalaqqiUITests` créées par Xcode sont gardées.
 
-**État de l'étape 2 (commit `996cd87`)** : premier `swift test` sur le Mac d'Amadou : compilation OK, 42 tests sur 43 passent. Échec dans `FadesTests.fadesInAndOutWithoutTouchingTheMiddle` (`Packages/ShadowingCore/Tests/ShadowingCoreTests/SettingsAndFadesTests.swift:46`) : `samples[70] == 29.0 / 30.0` compare un `Float` (0.96666664) à un `Double` (0.9666666666666667), car la macro `#expect` type les deux côtés séparément. Le code de `Fades.apply` est correct, c'est le test qui est faux. Correction : écrire `#expect(samples[70] == Float(29) / Float(30))`. Aucun autre fichier touché ; commit + push, puis Amadou relance `swift test` (attendu : 43 tests passés).
+**État de l'étape 2 (commit `996cd87`)** : premier `swift test` sur le Mac d'Amadou : compilation OK, 42 tests sur 43 passent. Échec dans `FadesTests.fadesInAndOutWithoutTouchingTheMiddle` (`Packages/ShadowingCore/Tests/ShadowingCoreTests/SettingsAndFadesTests.swift:46`) : `samples[70] == 29.0 / 30.0` compare un `Float` (0.96666664) à un `Double` (0.9666666666666667), car la macro `#expect` type les deux côtés séparément. Le code de `Fades.apply` est correct, c'est le test qui est faux. Correction : écrire `#expect(samples[70] == Float(29) / Float(30))`. Corrigé dans le commit `a8c942c` ; Amadou relance `swift test` (attendu : 43 tests passés).
 
-L'audio passe en premier (étape 4), sur une interface minimale : c'est le risque principal, et le prototype web a justement échoué sur iPhone à cet endroit.
+L'audio passe avant l'interface (étape 4), sur une interface minimale : c'est le risque principal, et le prototype web a justement échoué sur iPhone à cet endroit. Il est testé directement sur Ayat al-Kursî, le cas le plus exigeant (9 morceaux, coupes nettes, enchaînement « ḥifẓuhumā / wa huwa »).
 
 ## 9. Installation sur ton iPhone (résumé, détaillé dans le README)
 

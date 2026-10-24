@@ -63,9 +63,12 @@ def main(content_id: str) -> int:
         print(SPEC_TEMPLATE.format(id=content_id))
         return 1
 
-    if sources_missing(content_id):
-        print("1/3 Téléchargement des sources")
-        run(str(TOOLS / "fetch_sources.py"), content_id)
+    # Toutes les spécifications sont construites ensemble : on complète les sources qui manquent.
+    missing = [path.stem.replace("_", ":") for path in sorted((TOOLS / "content").glob("*.json"))
+               if sources_missing(path.stem.replace("_", ":"))]
+    if missing:
+        print(f"1/3 Téléchargement des sources : {', '.join(missing)}")
+        run(str(TOOLS / "fetch_sources.py"), *missing)
     else:
         print("1/3 Sources déjà présentes")
     print("2/3 Construction")

@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/113",
+  "fetched_at": "2026-10-24T19:19:49+00:00",
+  "data": {
+    "id": "6230",
+    "sura": "113",
+    "aya": "5",
+    "arabic_text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+    "translation": "et contre le mal de l’envieux quand il envie [1109].\"",
+    "footnotes": "[1109] Quand il envie: quand l’envie se manifeste."
+  }
+}

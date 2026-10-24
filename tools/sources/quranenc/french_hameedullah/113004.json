@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/113",
+  "fetched_at": "2026-10-24T19:19:49+00:00",
+  "data": {
+    "id": "6229",
+    "sura": "113",
+    "aya": "4",
+    "arabic_text": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ",
+    "translation": "contre le mal de celles qui soufflent (les sorcières) sur les nœuds,",
+    "footnotes": ""
+  }
+}

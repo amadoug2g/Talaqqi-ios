@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/111",
+  "fetched_at": "2026-10-24T19:20:11+00:00",
+  "data": {
+    "id": "6218",
+    "sura": "111",
+    "aya": "2",
+    "arabic_text": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
+    "translation": "Sa fortune ne lui sert à rien, ni ce qu’il a acquis.",
+    "footnotes": ""
+  }
+}

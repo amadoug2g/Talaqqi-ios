@@ -20,11 +20,367 @@
     {
       "title": "Juz ‘Amma",
       "items": [
+        "111",
+        "112",
+        "113",
         "114"
       ]
     }
   ],
   "contents": [
+    {
+      "id": "111",
+      "kind": "surah",
+      "title": "Al-Masad",
+      "subtitle": "Sourate 111",
+      "arabicName": "المسد",
+      "surah": 111,
+      "verseCount": 5,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Que périssent les deux mains d’Abû-Lahab  et que lui-même périsse.",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "Sa fortune ne lui sert à rien, ni ce qu’il a acquis.",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "Il sera brûlé dans un Feu plein de flammes.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "de même sa femme, la porteuse de bois ,",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "à son cou, une corde de fibres.",
+          "firstPiece": 5,
+          "lastPiece": 5
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ",
+          "translation": "Que périssent les deux mains d’Abû-Lahab  et que lui-même périsse.",
+          "phonetic": "Tabbat yadaa abee Lahabinw wa-tabb",
+          "audio": {
+            "file": "hudhaify_111001.m4a",
+            "startFrame": 22050,
+            "endFrame": 310905,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
+          "translation": "Sa fortune ne lui sert à rien, ni ce qu’il a acquis.",
+          "phonetic": "Maa aghnaa 'anhu maaluhoo Wa-ma kasab",
+          "audio": {
+            "file": "hudhaify_111002.m4a",
+            "startFrame": 18522,
+            "endFrame": 275184,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "سَيَصۡلَىٰ نَارٗا ذَاتَ لَهَبٖ",
+          "translation": "Il sera brûlé dans un Feu plein de flammes.",
+          "phonetic": "Sa-yaslaa naaran zaata lahab",
+          "audio": {
+            "file": "hudhaify_111003.m4a",
+            "startFrame": 24255,
+            "endFrame": 231525,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
+          "translation": "de même sa femme, la porteuse de bois ,",
+          "phonetic": "Wamra-atuhoo hammaa-latal hatab",
+          "audio": {
+            "file": "hudhaify_111004.m4a",
+            "startFrame": 17640,
+            "endFrame": 224910,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "فِي جِيدِهَا حَبۡلٞ مِّن مَّسَدِۭ",
+          "translation": "à son cou, une corde de fibres.",
+          "phonetic": "Fee jeedihaa hablum mim masad",
+          "audio": {
+            "file": "hudhaify_111005.m4a",
+            "startFrame": 16758,
+            "endFrame": 251811,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        }
+      ],
+      "info": {
+        "objectives": "La généalogie et le prestige ne sont d’aucune utilité lorsqu’on mécroit en Allah.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "112",
+      "kind": "surah",
+      "title": "Al-Ikhlâs",
+      "subtitle": "Sourate 112",
+      "arabicName": "الإخلاص",
+      "surah": 112,
+      "verseCount": 4,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Dis : \"Il est Allah, Unique.",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "Allah, Le Seul à être imploré pour ce que nous désirons.",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "Il n’a jamais engendré, n’a pas été engendré non plus.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "Et nul n’est égal à Lui.\"",
+          "firstPiece": 4,
+          "lastPiece": 4
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ",
+          "translation": "Dis : \"Il est Allah, Unique.",
+          "phonetic": "Qul huwal laahu ahad",
+          "audio": {
+            "file": "hudhaify_112001.m4a",
+            "startFrame": 0,
+            "endFrame": 149499,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "translation": "Allah, Le Seul à être imploré pour ce que nous désirons.",
+          "phonetic": "Allah-hus samad",
+          "audio": {
+            "file": "hudhaify_112002.m4a",
+            "startFrame": 22491,
+            "endFrame": 132741,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ",
+          "translation": "Il n’a jamais engendré, n’a pas été engendré non plus.",
+          "phonetic": "Lam yalid Wa-lam yoolad",
+          "audio": {
+            "file": "hudhaify_112003.m4a",
+            "startFrame": 20727,
+            "endFrame": 155673,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
+          "translation": "Et nul n’est égal à Lui.\"",
+          "phonetic": "Wa-lam yakul lahoo kufuwan ahad",
+          "audio": {
+            "file": "hudhaify_112004.m4a",
+            "startFrame": 18522,
+            "endFrame": 189630,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        }
+      ],
+      "info": {
+        "objectives": "Elle établit qu’Allah est l’exclusif détenteur de la perfection et de la divinité et exclut pour Sa part toute déficience.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "113",
+      "kind": "surah",
+      "title": "Al-Falaq",
+      "subtitle": "Sourate 113",
+      "arabicName": "الفلق",
+      "surah": 113,
+      "verseCount": 5,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Dis: \"Je cherche protection auprès du Seigneur de l’aube naissante,",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "contre le mal des êtres qu’Il a créés,",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "contre le mal de l’obscurité quand elle s’approfondit,",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "contre le mal de celles qui soufflent (les sorcières) sur les nœuds,",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "et contre le mal de l’envieux quand il envie .\"",
+          "firstPiece": 5,
+          "lastPiece": 5
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ",
+          "translation": "Dis: \"Je cherche protection auprès du Seigneur de l’aube naissante,",
+          "phonetic": "Qul a'oozu bi-rabbil falaq",
+          "audio": {
+            "file": "hudhaify_113001.m4a",
+            "startFrame": 26460,
+            "endFrame": 177282,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "translation": "contre le mal des êtres qu’Il a créés,",
+          "phonetic": "Min sharri maa khalaq",
+          "audio": {
+            "file": "hudhaify_113002.m4a",
+            "startFrame": 25578,
+            "endFrame": 174080,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "translation": "contre le mal de l’obscurité quand elle s’approfondit,",
+          "phonetic": "Wa-min sharri ghaasiqin izaa waqab",
+          "audio": {
+            "file": "hudhaify_113003.m4a",
+            "startFrame": 882,
+            "endFrame": 229320,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ",
+          "translation": "contre le mal de celles qui soufflent (les sorcières) sur les nœuds,",
+          "phonetic": "Wa-min sharrin naffaa-saati fil 'uqad",
+          "audio": {
+            "file": "hudhaify_113004.m4a",
+            "startFrame": 18963,
+            "endFrame": 272097,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "translation": "et contre le mal de l’envieux quand il envie .\"",
+          "phonetic": "Wa-min sharri haasidin izaa hasad",
+          "audio": {
+            "file": "hudhaify_113005.m4a",
+            "startFrame": 1323,
+            "endFrame": 227997,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        }
+      ],
+      "info": {
+        "objectives": "Elle commande de se prémunir et de se préserver par Allah contre les maux apparents.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
     {
       "id": "114",
       "kind": "surah",

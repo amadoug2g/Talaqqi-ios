@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/111",
+  "fetched_at": "2026-10-24T19:20:11+00:00",
+  "data": {
+    "id": "6217",
+    "sura": "111",
+    "aya": "1",
+    "arabic_text": "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ",
+    "translation": "Que périssent les deux mains d’Abû-Lahab [1105] et que lui-même périsse.",
+    "footnotes": "[1105] Abū-Lahab: un des oncles de Muḥammad (صلى الله عليه وسلم), l’un des pires ennemis de l’Islam."
+  }
+}

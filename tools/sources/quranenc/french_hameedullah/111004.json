@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/111",
+  "fetched_at": "2026-10-24T19:20:11+00:00",
+  "data": {
+    "id": "6220",
+    "sura": "111",
+    "aya": "4",
+    "arabic_text": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
+    "translation": "de même sa femme, la porteuse de bois [1106],",
+    "footnotes": "[1106] Sa femme: Umm Jamil, sœur d’Abū Sufyāne. Elle jetait des branches épineuses la nuit, devant la maison du Prophète qui rentrait par des rues non éclairées, tardivement après la prière devant la Ka˒ba."
+  }
+}

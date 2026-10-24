@@ -274,6 +274,15 @@ Chaque étape se termine par un commit poussé sur `claude/clever-mayer-c5wxy7` 
 
 Paquet `ShadowingCore` relié à la cible dans `project.pbxproj` (référence locale `../Packages/ShadowingCore`). `ShadowingPlayer` (AVAudioEngine → AVAudioUnitTimePitch, buffers à l'échantillon près, silences réels, deux tours d'avance en boucle infinie, interruptions, écouteurs débranchés, Now Playing et commandes de l'écran verrouillé). Interface minimale : liste des contenus, écran de pratique (trois niveaux d'encre, barre de progression, défilement automatique), lecteur (menu « Toute la sourate », −, lecture, +, arrêt, « À toi » en doré), feuille Réglages. Couleurs Accent et Gold dans l'Asset Catalog. Police arabe système en attendant KFGQPC. Prochaine étape demandée par Amadou : le logo.
 
+### Logo et étapes C et D (faites d'une traite à la demande d'Amadou)
+
+- **Logo** : direction 3, le tā’ calligraphié (deux points : le maître à l'encre, l'élève en rouge). `AppIcon` clair (opaque), sombre et teinté (fond transparent). Planche des directions : `docs/logo-directions.png`.
+- **Sourates 110 à 100** : 691 tests verts sur 16 contenus. An-Nasr 110:3 coupé en deux morceaux (pause d'Al-Hudhaify au signe ۚ, deux phrases de traduction). La translittération QUL marque parfois l'arrêt d'une simple virgule.
+- **C, écran de pratique** : barre d'affichage Phonétique / Arabe / Français / Mémoire, repère de reprise « ×3 » dans la marge, trois niveaux d'encre, barre de progression 2 pt, marqueur de fin de verset, mode mémoire (flou + « Voir »), titre et sous-titre, bouton `info.circle` et fiche de sourate (maquette 5).
+- **Police** : KFGQPC inaccessible (sites du Complexe du Roi Fahd et CDN de Quran.com bloqués) ; **Amiri Quran** (OFL, dépôt Google Fonts) embarquée. Correspondance d'affichage des tanwīn ouverts du texte QPC (U+065E → U+08F1, U+0656 → U+08F2), le texte enregistré n'est pas modifié.
+- **D, lecteur et réglages** : frise proportionnelle aux durées (visible aussi à l'arrêt), compte à rebours doré, frise estompée pendant « À toi », Liquid Glass, feuille Réglages.
+- **Reste** (étapes E et F) : accueil conforme et bandeau « Récemment », persistance SwiftData, finitions sombre et VoiceOver ; Whisper toujours bloqué.
+
 L'audio passe avant l'interface (étape 4), sur une interface minimale : c'est le risque principal, et le prototype web a justement échoué sur iPhone à cet endroit. Il est testé directement sur Ayat al-Kursî, le cas le plus exigeant (9 morceaux, coupes nettes, enchaînement « ḥifẓuhumā / wa huwa »).
 
 ## 9. Installation sur ton iPhone (résumé, détaillé dans le README)

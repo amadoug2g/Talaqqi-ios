@@ -2,12 +2,23 @@ import Foundation
 import Observation
 import ShadowingCore
 
+/// Les textes affichés. Le mode mémoire masque les morceaux déjà acquis de la sélection.
+struct DisplayOptions: Equatable {
+    var phonetic = true
+    var arabic = true
+    var translation = true
+    var memory = false
+}
+
 /// L'état de l'écran de pratique : la sélection, les réglages et le lien avec le lecteur.
 @Observable
 final class PracticeSession {
     let content: Content
     private(set) var selection = PieceSelection(0)
     var settings = PlaybackSettings()
+    private(set) var display = DisplayOptions()
+    /// Morceaux masqués que l'on a choisi de voir, jusqu'au prochain changement de sélection.
+    private(set) var revealed: Set<Int> = []
     let player = ShadowingPlayer.shared
 
     init(content: Content) {
@@ -20,6 +31,26 @@ final class PracticeSession {
     func snapshot() -> PlaybackSnapshot {
         guard isActive, let plan = player.plan else { return PlaybackSnapshot(plan: nil, frame: 0) }
         return PlaybackSnapshot(plan: plan, frame: player.currentFrame())
+    }
+
+    /// Le plan de la sélection, même à l'arrêt : il donne la durée et la frise.
+    var previewPlan: PlaybackPlan? {
+        PlaybackPlan(content: content, selection: selection, settings: settings)
+    }
+
+    func isMasked(_ index: Int) -> Bool {
+        display.memory && selection.contains(index) && index != selection.end && !revealed.contains(index)
+    }
+
+    func reveal(_ index: Int) {
+        revealed.insert(index)
+    }
+
+    func toggle(_ option: WritableKeyPath<DisplayOptions, Bool>) {
+        display[keyPath: option].toggle()
+        if option == \DisplayOptions.memory {
+            revealed = []
+        }
     }
 
     var wholeLabel: String {
@@ -41,6 +72,7 @@ final class PracticeSession {
         guard new != selection else { return }
         let wasPlaying = isPlaying
         selection = new
+        revealed = []
         if wasPlaying {
             start()
         } else {

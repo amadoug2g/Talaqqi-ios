@@ -1,7 +1,7 @@
 import SwiftUI
 import ShadowingCore
 
-/// Le lecteur en bas de l'écran de pratique.
+/// Le lecteur flottant (maquettes 2 et 3) : sélection et temps, frise, état, commandes.
 struct PlayerBar: View {
     let session: PracticeSession
     let snapshot: PlaybackSnapshot
@@ -9,6 +9,7 @@ struct PlayerBar: View {
     @Environment(\.colorScheme) private var colorScheme
 
     var body: some View {
+        let plan = snapshot.plan ?? session.previewPlan
         VStack(alignment: .leading, spacing: 8) {
             HStack(alignment: .firstTextBaseline) {
                 Menu {
@@ -16,19 +17,26 @@ struct PlayerBar: View {
                 } label: {
                     HStack(spacing: 4) {
                         Text(Format.selection(session.selection))
-                            .font(.subheadline.weight(.semibold))
+                            .font(.system(size: 15, weight: .semibold))
                         Image(systemName: "chevron.up.chevron.down")
-                            .font(.caption2)
+                            .font(.system(size: 10, weight: .semibold))
                             .foregroundStyle(.secondary)
                     }
                 }
                 .tint(.primary)
                 Spacer()
-                if let plan = snapshot.plan, let position = snapshot.position {
-                    Text(Format.clock(position.passElapsedSeconds, of: plan.passSeconds))
-                        .font(.subheadline.monospacedDigit())
+                if let plan {
+                    Text(clock(plan))
+                        .font(.system(size: 15))
+                        .monospacedDigit()
                         .foregroundStyle(.secondary)
                 }
+            }
+
+            if let plan {
+                Timeline(plan: plan, snapshot: snapshot)
+                    .padding(.top, 2)
+                    .opacity(snapshot.turnRemaining != nil ? 0.35 : 1)
             }
 
             status
@@ -60,27 +68,32 @@ struct PlayerBar: View {
         .padding(.horizontal, 8)
     }
 
+    /// « 0:09 / 0:16 » en lecture, la durée du passage à l'arrêt.
+    private func clock(_ plan: PlaybackPlan) -> String {
+        guard let position = snapshot.position else { return Format.clock(plan.passSeconds) }
+        return Format.clock(position.passElapsedSeconds, of: plan.passSeconds)
+    }
+
     @ViewBuilder
     private var status: some View {
         if let message = session.player.errorMessage {
             Text(message)
-                .font(.footnote)
+                .font(.system(size: 13))
                 .foregroundStyle(.red)
         } else if let remaining = snapshot.turnRemaining {
             VStack(alignment: .leading, spacing: 6) {
                 Text(Format.turn(remainingSeconds: remaining))
-                    .font(.footnote.weight(.semibold))
-                    .foregroundStyle(Color("Gold"))
-                ProgressView(value: 1 - min(1, max(0, snapshot.turnProgress)))
-                    .tint(Color("Gold"))
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundStyle(Theme.gold)
+                CountdownBar(remaining: 1 - min(1, max(0, snapshot.turnProgress)))
             }
         } else if let plan = snapshot.plan, let position = snapshot.position {
             Text(Format.repetition(position.repetition, of: plan.repetitions))
-                .font(.footnote)
+                .font(.system(size: 13))
                 .foregroundStyle(.secondary)
         } else {
             Text(idleText)
-                .font(.footnote)
+                .font(.system(size: 13))
                 .foregroundStyle(.secondary)
         }
     }
@@ -104,6 +117,68 @@ struct PlayerBar: View {
     }
 }
 
+/// La frise : un segment par morceau de la sélection, de largeur proportionnelle à sa durée.
+struct Timeline: View {
+    let plan: PlaybackPlan
+    let snapshot: PlaybackSnapshot
+
+    private let spacing: CGFloat = 3
+
+    var body: some View {
+        let indices = Array(plan.selection.indices)
+        let durations = indices.map { plan.duration(ofPiece: $0) }
+        let total = max(0.001, durations.reduce(0, +))
+        GeometryReader { geometry in
+            let available = max(0, geometry.size.width - spacing * CGFloat(max(0, indices.count - 1)))
+            HStack(alignment: .top, spacing: spacing) {
+                ForEach(Array(indices.enumerated()), id: \.element) { offset, index in
+                    let width = available * durations[offset] / total
+                    let isCurrent = snapshot.playingPiece == index
+                    VStack(alignment: .leading, spacing: 5) {
+                        Capsule()
+                            .fill(Theme.track)
+                            .frame(width: width, height: 4)
+                            .overlay(alignment: .leading) {
+                                Capsule()
+                                    .fill(Color.accentColor)
+                                    .frame(width: width * min(1, max(0, snapshot.progress(ofPiece: index))), height: 4)
+                            }
+                        Text("\(index)")
+                            .font(.system(size: 13, weight: isCurrent ? .semibold : .regular))
+                            .monospacedDigit()
+                            .foregroundStyle(isCurrent ? Color.accentColor : Color.secondary)
+                            .lineLimit(1)
+                            .fixedSize()
+                    }
+                    .frame(width: width, alignment: .leading)
+                }
+            }
+        }
+        .frame(height: 25)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Frise des morceaux \(plan.selection.start) à \(plan.selection.end)")
+    }
+}
+
+/// « À toi » : une fine barre dorée qui se vide pendant le silence.
+struct CountdownBar: View {
+    let remaining: Double
+
+    var body: some View {
+        Capsule()
+            .fill(Theme.gold.opacity(0.2))
+            .frame(height: 2)
+            .overlay(alignment: .leading) {
+                GeometryReader { geometry in
+                    Capsule()
+                        .fill(Theme.gold)
+                        .frame(width: geometry.size.width * remaining)
+                }
+            }
+    }
+}
+
+/// Réglages (maquette 4), feuille native à mi-hauteur.
 struct SettingsSheet: View {
     @Binding var settings: PlaybackSettings
     @Environment(\.dismiss) private var dismiss

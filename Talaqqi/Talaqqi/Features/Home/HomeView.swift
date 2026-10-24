@@ -43,8 +43,8 @@ struct ContentRow: View {
                     .foregroundStyle(.secondary)
             }
             Spacer(minLength: 8)
-            Text(content.arabicName)
-                .font(.system(size: 22))
+            Text(Theme.arabicForDisplay(content.arabicName))
+                .font(Theme.arabic(22))
         }
         .padding(.vertical, 4)
     }

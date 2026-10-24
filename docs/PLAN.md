@@ -250,6 +250,30 @@ Chaque étape se termine par un commit poussé sur `claude/clever-mayer-c5wxy7` 
 
 **État** : chaîne en place (`tools/pipeline.py`, `tools/tests/`, `LibraryTests.swift`). Découpe : pauses = creux du volume lissé, frontières estimées au prorata des lettres, attribution ordonnée (programmation dynamique) ; retrouve les 7 coupes du prototype d'Al-Ghamidi à 0,12 s près et ignore sa pause après وَٱلۡأَرۡضَۖ comme la spécification le demande. Débit mesuré d'Al-Hudhaify : 0,19 à 0,38 s par lettre (plage tolérée 0,12 à 0,60). Ayat al-Kursî : 28 tests verts, 9 Whisper non exécutés (CDN Hugging Face encore bloqué). Deux fautes injectées volontairement (une lettre changée, une coupe allongée) ont bien été détectées.
 
+**Ayat al-Kursî validé** par Amadou à l'écoute ; `swift test` : 46 tests passés sur son Mac.
+
+### An-Nâs (114) : premier contenu passé par la chaîne
+
+**Constats sur les sources** (lecture seule) :
+- QuranEnc `french_hameedullah` sourate 114 : 6 versets ; la traduction est une seule phrase répartie sur les versets (« Le Souverain des hommes, »…), avec des guillemets droits `"` : recopiée telle quelle.
+- La fiche « Parmi les objectifs de la sourate » n'est pas dans l'API `french_mokhtasar` (qui donne le tafsir verset par verset) mais dans la page publique `https://quranenc.com/fr/browse/french_mokhtasar/114`, bloc « Parmi les objectifs de la sourate: » : texte arabe puis français. Pour 114 : « Elle commande de se prémunir et de se préserver par Allah contre le mal de Satan et son insufflation. » Pour 112, c'est exactement le texte de la maquette 5, ce qui confirme la source.
+
+**Changements** :
+1. `tools/content/114.json` (spécification, écrite d'abord) : `{"id": "114", "kind": "surah", "surah": 114, "title": "An-Nâs", "arabicName": "الناس", "basmala": true}` ; noms repris de `docs/BRIEF_DESIGN.md` section 7. Sous-titre par défaut « Sourate 114 ».
+2. `tools/fetch_sources.py` : `fetch_surah_info(surah)` lit la page publique, extrait le paragraphe français (et l'arabe pour traçabilité), et l'enregistre dans `tools/sources/quranenc/french_mokhtasar/objectives/114.json` avec URL et date ; appelé par `fetch_surah`. Si le bloc est absent : pas de fichier, pas de fiche.
+3. `tools/build_content.py` : pour une sourate, `info = {"objectives": <texte>, "source": LIBRARY_SOURCES["surahInfo"]}` si le fichier existe (correspond à `SurahInfo` dans `Packages/ShadowingCore/Sources/ShadowingCore/Models.swift`).
+4. `tools/tests/test_texts.py` : `test_surah_info_reproduces_its_source` (texte identique à la source ; absent si la source est absente).
+5. `tools/.venv/bin/python tools/pipeline.py 114` : attendu 7 morceaux (Basmala + 6), section « Juz ‘Amma » créée, tous les tests verts sauf Whisper (« non exécuté » tant que `us.aws.cdn.hf.co` et `cas-server.xethub.hf.co` sont bloqués) → résultat INCOMPLET.
+6. Envoi des 7 extraits à Amadou pour l'écoute ; commit + push (le hook l'exige en fin de tour), message indiquant « à valider à l'écoute ». Puis `swift test` sur son Mac (LibraryTests couvre le nouveau contenu).
+
+**Si un test est rouge** : ne rien forcer ; rapporter le test, le morceau et la raison, et demander la décision (par exemple une longue pause à l'intérieur d'un verset).
+
+**État** : An-Nâs, Al-Falaq, Al-Ikhlâs, Al-Masad construits par la chaîne (181 tests verts, Whisper non exécuté) ; An-Nâs validé à l'écoute.
+
+### Étape 4 (faite sans validation intermédiaire, à la demande d'Amadou)
+
+Paquet `ShadowingCore` relié à la cible dans `project.pbxproj` (référence locale `../Packages/ShadowingCore`). `ShadowingPlayer` (AVAudioEngine → AVAudioUnitTimePitch, buffers à l'échantillon près, silences réels, deux tours d'avance en boucle infinie, interruptions, écouteurs débranchés, Now Playing et commandes de l'écran verrouillé). Interface minimale : liste des contenus, écran de pratique (trois niveaux d'encre, barre de progression, défilement automatique), lecteur (menu « Toute la sourate », −, lecture, +, arrêt, « À toi » en doré), feuille Réglages. Couleurs Accent et Gold dans l'Asset Catalog. Police arabe système en attendant KFGQPC. Prochaine étape demandée par Amadou : le logo.
+
 L'audio passe avant l'interface (étape 4), sur une interface minimale : c'est le risque principal, et le prototype web a justement échoué sur iPhone à cet endroit. Il est testé directement sur Ayat al-Kursî, le cas le plus exigeant (9 morceaux, coupes nettes, enchaînement « ḥifẓuhumā / wa huwa »).
 
 ## 9. Installation sur ton iPhone (résumé, détaillé dans le README)

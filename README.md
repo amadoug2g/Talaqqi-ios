@@ -23,6 +23,9 @@ Version 1 : récitation d'Ali Al-Hudhaify, sourates 100 à 114 et Ayat al-Kursî
 
 ## Installation sur l'iPhone
 
+Après `git pull` : ouvrir `Talaqqi/Talaqqi.xcodeproj`, brancher l'iPhone, le choisir comme destination, ⌘R. Le paquet `Packages/ShadowingCore` est relié au projet et se compile avec l'application. Première fois seulement :
+
+
 1. Xcode, Réglages, Comptes : ajouter son identifiant Apple.
 2. Cible Talaqqi, Signing & Capabilities : choisir son équipe, laisser « Automatically manage signing ».
 3. Sur l'iPhone : Réglages, Confidentialité et sécurité, Mode développeur, activer (l'iPhone redémarre).

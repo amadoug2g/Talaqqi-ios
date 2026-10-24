@@ -6,6 +6,10 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C8042560308D0CA8006046DD /* ShadowingCore in Frameworks */ = {isa = PBXBuildFile; productRef = C8042562308D0CA8006046DD /* ShadowingCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C804253C308D0CA8006046DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -51,6 +55,7 @@
 		C804252B308D0CA7006046DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				C8042560308D0CA8006046DD /* ShadowingCore in Frameworks */,
 			);
 		};
 		C8042538308D0CA8006046DD /* Frameworks */ = {
@@ -103,6 +108,9 @@
 				C8042530308D0CA7006046DD /* Talaqqi */,
 			);
 			name = Talaqqi;
+			packageProductDependencies = (
+				C8042562308D0CA8006046DD /* ShadowingCore */,
+			);
 			productName = Talaqqi;
 			productReference = C804252E308D0CA7006046DD /* Talaqqi.app */;
 			productType = "com.apple.product-type.application";
@@ -181,6 +189,9 @@
 			);
 			mainGroup = C8042525308D0CA7006046DD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C8042561308D0CA8006046DD /* XCLocalSwiftPackageReference "../Packages/ShadowingCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C804252F308D0CA7006046DD /* Products */;
 			projectDirPath = "";
@@ -550,6 +561,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C8042561308D0CA8006046DD /* XCLocalSwiftPackageReference "../Packages/ShadowingCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Packages/ShadowingCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8042562308D0CA8006046DD /* ShadowingCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShadowingCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C8042526308D0CA7006046DD /* Project object */;
 	validationLevel = 1;

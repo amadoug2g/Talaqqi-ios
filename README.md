@@ -16,7 +16,10 @@ Version 1 : récitation d'Ali Al-Hudhaify, sourates 100 à 114 et Ayat al-Kursî
 | `docs/design/html/` | Les mêmes maquettes en HTML, pour les valeurs exactes (le runtime React d'affichage n'est pas inclus) |
 | `docs/prototype/` | Prototype web, référence de comportement (`index.html` + `kursi.mp3`) |
 
-À venir : `Talaqqi/` (application), `Packages/ShadowingCore/` (logique pure et tests), `tools/` (préparation du contenu).
+| `Talaqqi/` | Projet Xcode de l'application (`Talaqqi.xcodeproj`) |
+| `Packages/ShadowingCore/` | Logique pure, sans interface ni audio : modèles, sélection, plan de lecture, libellés. Tests : `cd Packages/ShadowingCore && swift test` |
+
+À venir : `tools/` (préparation du contenu).
 
 ## Installation sur l'iPhone
 

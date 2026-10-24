@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/aya/french_hameedullah/1/1",
+  "fetched_at": "2026-10-24T17:23:37+00:00",
+  "data": {
+    "id": "1",
+    "sura": "1",
+    "aya": "1",
+    "arabic_text": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.[1]",
+    "footnotes": "[1] C’est la formule que prononce le Musulman au commencement de tout acte, se rappelant ainsi de son Créateur et de son Guide et Lui demandant Son aide pour bien l’accomplir. Selon les commentateurs, il faut sous-entendre: «Je commence» par le nom d’Allah, etc. Mais comme «par le nom» donne une ambiguïté et peut également signifier «Je jure par le nom d’Allah», il est préférable d’écarter ici la formule «Par le nom». Qu’on entende seulement «Je commence par le nom d’Allah». Les adjectifs Rahman et Rahim sont tous deux d’une même racine, signifiant Miséricordieux (le premier étant plus intense que l’autre). Nous traduisons donc par «le Tout Miséricordieux, le Très Miséricordieux»."
+  }
+}

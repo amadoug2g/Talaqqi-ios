@@ -1,0 +1,158 @@
+{
+  "reciter": {
+    "id": "hudhaify",
+    "name": "Ali Al-Hudhaify"
+  },
+  "sources": {
+    "audio": "Récitation d’Ali Al-Hudhaify, everyayah.com",
+    "arabic": "Texte ottoman (Hafs) du Complexe du Roi Fahd, QuranEnc",
+    "phonetic": "English Transliteration (Tajweed), Quranic Universal Library (QUL, Tarteel)",
+    "translation": "Traduction de Muhammad Hamidullah, QuranEnc",
+    "surahInfo": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+  },
+  "sections": [
+    {
+      "title": "Versets",
+      "items": [
+        "2:255"
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "id": "2:255",
+      "kind": "verse",
+      "title": "Ayat al-Kursî",
+      "subtitle": "Al-Baqara · 255",
+      "arabicName": "آية الكرسي",
+      "surah": 2,
+      "verseCount": 1,
+      "verses": [
+        {
+          "number": 255,
+          "translation": "Allah! Point de divinité à part Lui, le Vivant, Celui qui subsiste par Lui-même (Al Qayyum). Ni somnolence ni sommeil ne Le saisissent. A Lui appartient tout ce qui est dans les cieux et sur la terre. Qui peut intercéder auprès de Lui sans Sa permission? Il connaît leur passé et leur futur. Et, de Sa science, ils n’embrassent que ce qu’Il veut. Son Trône « Kursîy » déborde les cieux et la terre, dont la garde ne Lui coûte aucune peine. Et Il est le Très-Haut, le Très-Grand .",
+          "firstPiece": 1,
+          "lastPiece": 8
+        }
+      ],
+      "pieces": [
+        {
+          "index": 0,
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          }
+        },
+        {
+          "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ",
+          "phonetic": "Allahu laaa ilaaha illaa Huwal Haiyul Qaiyoom,(u)",
+          "translation": "Allah! Point de divinité à part Lui, le Vivant, Celui qui subsiste par Lui-même (Al Qayyum).",
+          "audio": {
+            "file": "hudhaify_002255.m4a",
+            "startFrame": 28224,
+            "endFrame": 392049,
+            "sampleRate": 44100
+          },
+          "index": 1,
+          "verse": 255
+        },
+        {
+          "arabic": "لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ",
+          "phonetic": "laa taakhuzuhoo sinatunw wa-laa nawm,(un)",
+          "translation": "Ni somnolence ni sommeil ne Le saisissent.",
+          "audio": {
+            "file": "hudhaify_002255.m4a",
+            "startFrame": 429975,
+            "endFrame": 686196,
+            "sampleRate": 44100
+          },
+          "index": 2,
+          "verse": 255
+        },
+        {
+          "arabic": "لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ",
+          "phonetic": "lahoo maa fis samaawaati wa-maa fil ard:(i)",
+          "translation": "A Lui appartient tout ce qui est dans les cieux et sur la terre.",
+          "audio": {
+            "file": "hudhaify_002255.m4a",
+            "startFrame": 719271,
+            "endFrame": 906696,
+            "sampleRate": 44100
+          },
+          "index": 3,
+          "verse": 255
+        },
+        {
+          "arabic": "مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ",
+          "phonetic": "man zal lazee yashfa'u indahooo illaa bi-iznih,(i)",
+          "translation": "Qui peut intercéder auprès de Lui sans Sa permission?",
+          "audio": {
+            "file": "hudhaify_002255.m4a",
+            "startFrame": 937566,
+            "endFrame": 1281105,
+            "sampleRate": 44100
+          },
+          "index": 4,
+          "verse": 255
+        },
+        {
+          "arabic": "يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ",
+          "phonetic": "ya'lamu maa baina aydeehim wa-maa khalfahum;",
+          "translation": "Il connaît leur passé et leur futur.",
+          "audio": {
+            "file": "hudhaify_002255.m4a",
+            "startFrame": 1311975,
+            "endFrame": 1526742,
+            "sampleRate": 44100
+          },
+          "index": 5,
+          "verse": 255
+        },
+        {
+          "arabic": "وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ",
+          "phonetic": "wa-laa yuheetoona bishai'im min 'ilmihee illaa bimaa shaaa',(a)",
+          "translation": "Et, de Sa science, ils n’embrassent que ce qu’Il veut.",
+          "audio": {
+            "file": "hudhaify_002255.m4a",
+            "startFrame": 1561140,
+            "endFrame": 2028600,
+            "sampleRate": 44100
+          },
+          "index": 6,
+          "verse": 255
+        },
+        {
+          "arabic": "وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَـُٔودُهُۥ حِفۡظُهُمَاۚ",
+          "phonetic": "wasi'a Kursiyyuhus samaawaati wal-ard(a); wa-laa Ya'ooduhoo hifzuhum,(aa)",
+          "translation": "Son Trône « Kursîy » déborde les cieux et la terre, dont la garde ne Lui coûte aucune peine.",
+          "audio": {
+            "file": "hudhaify_002255.m4a",
+            "startFrame": 2056383,
+            "endFrame": 2377872,
+            "sampleRate": 44100
+          },
+          "index": 7,
+          "verse": 255
+        },
+        {
+          "arabic": "وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ",
+          "phonetic": "wa-Huwal Aliyyul 'Azeem",
+          "translation": "Et Il est le Très-Haut, le Très-Grand .",
+          "audio": {
+            "file": "hudhaify_002255.m4a",
+            "startFrame": 2415357,
+            "endFrame": 2590875,
+            "sampleRate": 44100
+          },
+          "index": 8,
+          "verse": 255
+        }
+      ]
+    }
+  ]
+}

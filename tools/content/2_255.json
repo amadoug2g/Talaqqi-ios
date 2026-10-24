@@ -1,0 +1,24 @@
+{
+  "id": "2:255",
+  "kind": "verse",
+  "title": "Ayat al-Kursî",
+  "subtitle": "Al-Baqara · 255",
+  "arabicName": "آية الكرسي",
+  "surah": 2,
+  "basmala": true,
+  "verses": [
+    {
+      "number": 255,
+      "pieces": [
+        { "phrases": [1, 1], "sentences": [1, 2] },
+        { "phrases": [2, 2], "sentences": [3, 3] },
+        { "phrases": [3, 3], "sentences": [4, 4] },
+        { "phrases": [4, 4], "sentences": [5, 5] },
+        { "phrases": [5, 5], "sentences": [6, 6] },
+        { "phrases": [6, 6], "sentences": [7, 7] },
+        { "phrases": [7, 8], "sentences": [8, 8] },
+        { "phrases": [9, 9], "sentences": [9, 9] }
+      ]
+    }
+  ]
+}

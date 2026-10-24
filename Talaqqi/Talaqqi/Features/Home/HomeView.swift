@@ -38,7 +38,7 @@ struct ContentRow: View {
                 .frame(width: 28, alignment: .leading)
             VStack(alignment: .leading, spacing: 1) {
                 Text(content.title)
-                Text(content.kind == .surah ? Format.verseCount(content.verseCount) : content.subtitle)
+                Text(Format.listSubtitle(of: content))
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }

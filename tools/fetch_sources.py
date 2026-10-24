@@ -24,6 +24,7 @@ AUDIO_URL = "https://everyayah.com/data/{folder}/{name}.mp3"
 QURANENC_AYA_URL = "https://quranenc.com/api/v1/translation/aya/{key}/{surah}/{ayah}"
 QURANENC_SURA_URL = "https://quranenc.com/api/v1/translation/sura/{key}/{surah}"
 QURANENC_BROWSE_URL = "https://quranenc.com/fr/browse/french_mokhtasar/{surah}"
+QURANCOM_CHAPTERS_URL = "https://api.quran.com/api/v4/chapters?language=fr"
 QUL_TRANSLITERATION_URL = "https://qul.tarteel.ai/resources/transliteration/{resource}?ayah={surah}:{ayah}"
 
 TRANSLATION_KEY = "french_hameedullah"
@@ -105,6 +106,16 @@ def fetch_surah_info(surah: int) -> None:
     })
 
 
+def fetch_surah_names() -> None:
+    """Noms des sourates traduits en français (Quran.com), pour les 114 sourates."""
+    chapters = get(QURANCOM_CHAPTERS_URL).json()["chapters"]
+    write_json(SOURCES / "qurancom" / "chapters_fr.json", {
+        "url": QURANCOM_CHAPTERS_URL,
+        "fetched_at": now(),
+        "data": {str(c["id"]): c["translated_name"]["name"] for c in chapters},
+    })
+
+
 def fetch_qul_transliteration(surah: int, ayah: int) -> None:
     """QUL ne propose le téléchargement en bloc qu'avec un compte : on lit la page publique du verset."""
     url = QUL_TRANSLITERATION_URL.format(resource=QUL_TRANSLITERATION_RESOURCE, surah=surah, ayah=ayah)
@@ -139,6 +150,8 @@ def fetch_surah(surah: int) -> None:
 
 
 def main(keys: list[str]) -> None:
+    if not (SOURCES / "qurancom" / "chapters_fr.json").exists():
+        fetch_surah_names()
     for key in keys:
         if ":" in key:
             surah, ayah = (int(part) for part in key.split(":"))

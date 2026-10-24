@@ -30,6 +30,25 @@ struct FormatTests {
         #expect(Format.selectionSummary(PieceSelection(start: 2, end: 3), in: surah) == "Morceaux 2 → 3")
     }
 
+    @Test func subtitlesIncludeTheTranslatedName() {
+        var surah = Fixtures.content
+        surah.kind = .surah
+        surah.subtitle = "Sourate 114"
+        surah.translatedName = "Les humains"
+        surah.verseCount = 6
+        #expect(Format.subtitle(of: surah) == "Sourate 114 · Les humains")
+        #expect(Format.listSubtitle(of: surah) == "Les humains · 6 versets")
+
+        var verse = Fixtures.content
+        verse.subtitle = "Al-Baqara · 255"
+        verse.translatedName = "La vache"
+        #expect(Format.subtitle(of: verse) == "Al-Baqara · 255 · La vache")
+        #expect(Format.listSubtitle(of: verse) == "Al-Baqara · 255 · La vache")
+
+        verse.translatedName = nil
+        #expect(Format.subtitle(of: verse) == "Al-Baqara · 255")
+    }
+
     @Test func playerLabels() {
         #expect(Format.repetition(1, of: .times(3)) == "Répétition 2 sur 3")
         #expect(Format.repetition(6, of: .infinite) == "Répétition 7")

@@ -14,7 +14,7 @@ struct SurahInfoSheet: View {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(content.title)
                                 .font(.system(size: 28, weight: .bold))
-                            Text(Format.verseCount(content.verseCount))
+                            Text(Format.listSubtitle(of: content))
                                 .foregroundStyle(.secondary)
                         }
                         Spacer()
@@ -34,6 +34,12 @@ struct SurahInfoSheet: View {
                             .font(.footnote)
                             .foregroundStyle(.secondary)
                             .padding(.top, 20)
+                    }
+                    if content.translatedName != nil, let names = ContentLibrary.shared.sources.surahNames {
+                        Text("Nom en français : \(names)")
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
+                            .padding(.top, 4)
                     }
                 }
                 .padding(.horizontal, 24)

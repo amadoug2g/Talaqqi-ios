@@ -8,7 +8,8 @@
     "arabic": "Texte ottoman (Hafs) du Complexe du Roi Fahd, QuranEnc",
     "phonetic": "English Transliteration (Tajweed), Quranic Universal Library (QUL, Tarteel)",
     "translation": "Traduction de Muhammad Hamidullah, QuranEnc",
-    "surahInfo": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+    "surahInfo": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc",
+    "surahNames": "Noms des sourates en français, Quran.com"
   },
   "sections": [
     {
@@ -45,6 +46,7 @@
       "title": "Al-‘Âdiyât",
       "subtitle": "Sourate 100",
       "arabicName": "العاديات",
+      "translatedName": "Les coursiers",
       "surah": 100,
       "verseCount": 11,
       "verses": [
@@ -283,6 +285,7 @@
       "title": "Al-Qâri‘a",
       "subtitle": "Sourate 101",
       "arabicName": "القارعة",
+      "translatedName": "Le fracas",
       "surah": 101,
       "verseCount": 11,
       "verses": [
@@ -521,6 +524,7 @@
       "title": "At-Takâthur",
       "subtitle": "Sourate 102",
       "arabicName": "التكاثر",
+      "translatedName": "La course aux richesses",
       "surah": 102,
       "verseCount": 8,
       "verses": [
@@ -702,6 +706,7 @@
       "title": "Al-‘Asr",
       "subtitle": "Sourate 103",
       "arabicName": "العصر",
+      "translatedName": "Le temps",
       "surah": 103,
       "verseCount": 3,
       "verses": [
@@ -788,6 +793,7 @@
       "title": "Al-Humaza",
       "subtitle": "Sourate 104",
       "arabicName": "الهمزة",
+      "translatedName": "Les calomniateurs",
       "surah": 104,
       "verseCount": 9,
       "verses": [
@@ -988,6 +994,7 @@
       "title": "Al-Fîl",
       "subtitle": "Sourate 105",
       "arabicName": "الفيل",
+      "translatedName": "L'éléphant",
       "surah": 105,
       "verseCount": 5,
       "verses": [
@@ -1112,6 +1119,7 @@
       "title": "Quraysh",
       "subtitle": "Sourate 106",
       "arabicName": "قريش",
+      "translatedName": "Les Quraysh",
       "surah": 106,
       "verseCount": 4,
       "verses": [
@@ -1217,6 +1225,7 @@
       "title": "Al-Mâ‘ûn",
       "subtitle": "Sourate 107",
       "arabicName": "الماعون",
+      "translatedName": "L'entraide",
       "surah": 107,
       "verseCount": 7,
       "verses": [
@@ -1379,6 +1388,7 @@
       "title": "Al-Kawthar",
       "subtitle": "Sourate 108",
       "arabicName": "الكوثر",
+      "translatedName": "L'abondance",
       "surah": 108,
       "verseCount": 3,
       "verses": [
@@ -1465,6 +1475,7 @@
       "title": "Al-Kâfirûn",
       "subtitle": "Sourate 109",
       "arabicName": "الكافرون",
+      "translatedName": "Les mécréants",
       "surah": 109,
       "verseCount": 6,
       "verses": [
@@ -1608,6 +1619,7 @@
       "title": "An-Nasr",
       "subtitle": "Sourate 110",
       "arabicName": "النصر",
+      "translatedName": "Le secours",
       "surah": 110,
       "verseCount": 3,
       "verses": [
@@ -1707,6 +1719,7 @@
       "title": "Al-Masad",
       "subtitle": "Sourate 111",
       "arabicName": "المسد",
+      "translatedName": "Les fibres",
       "surah": 111,
       "verseCount": 5,
       "verses": [
@@ -1831,6 +1844,7 @@
       "title": "Al-Ikhlâs",
       "subtitle": "Sourate 112",
       "arabicName": "الإخلاص",
+      "translatedName": "La sincérité",
       "surah": 112,
       "verseCount": 4,
       "verses": [
@@ -1936,6 +1950,7 @@
       "title": "Al-Falaq",
       "subtitle": "Sourate 113",
       "arabicName": "الفلق",
+      "translatedName": "L'aube naissante",
       "surah": 113,
       "verseCount": 5,
       "verses": [
@@ -2060,6 +2075,7 @@
       "title": "An-Nâs",
       "subtitle": "Sourate 114",
       "arabicName": "الناس",
+      "translatedName": "Les humains",
       "surah": 114,
       "verseCount": 6,
       "verses": [
@@ -2203,6 +2219,7 @@
       "title": "Ayat al-Kursî",
       "subtitle": "Al-Baqara · 255",
       "arabicName": "آية الكرسي",
+      "translatedName": "La vache",
       "surah": 2,
       "verseCount": 1,
       "verses": [

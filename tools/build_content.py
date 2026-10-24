@@ -30,6 +30,7 @@ LIBRARY_SOURCES = {
     "phonetic": "English Transliteration (Tajweed), Quranic Universal Library (QUL, Tarteel)",
     "translation": "Traduction de Muhammad Hamidullah, QuranEnc",
     "surahInfo": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc",
+    "surahNames": "Noms des sourates en français, Quran.com",
 }
 
 
@@ -64,6 +65,10 @@ def piece_groups(spec: dict, number: int) -> list[dict] | None:
         if verse["number"] == number:
             return verse.get("pieces")
     return None
+
+
+def surah_names_source() -> Path:
+    return SOURCES / "qurancom" / "chapters_fr.json"
 
 
 def surah_info_source(surah: int) -> Path:
@@ -144,6 +149,7 @@ def build(spec: dict) -> dict:
         "title": spec["title"],
         "subtitle": spec.get("subtitle", f"Sourate {spec['surah']}"),
         "arabicName": spec["arabicName"],
+        "translatedName": load(surah_names_source())["data"][str(spec["surah"])],
         "surah": spec["surah"],
         "verseCount": len(verses),
         "verses": verses,

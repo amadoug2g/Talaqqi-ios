@@ -45,7 +45,7 @@ struct PracticeView: View {
                 VStack(spacing: 0) {
                     Text(session.content.title)
                         .font(.system(size: 17, weight: .semibold))
-                    Text(session.content.subtitle)
+                    Text(Format.subtitle(of: session.content))
                         .font(.system(size: 13))
                         .foregroundStyle(.secondary)
                 }
@@ -212,9 +212,9 @@ struct PieceRow: View {
                 phoneticText(phonetic)
             }
             if display.arabic, let arabic = piece.arabic {
-                arabicText(withVerseEnd(arabic))
-            } else if let verseEnd {
-                arabicText(Format.verseEndMarker(verseEnd.number))
+                arabicText(arabic)
+            } else if verseEnd != nil {
+                verseEndLine
             }
             if display.translation, let translation = piece.translation {
                 Text(translation)
@@ -235,7 +235,7 @@ struct PieceRow: View {
     @ViewBuilder
     private var unselectedText: some View {
         if !display.phonetic && display.arabic, let arabic = piece.arabic {
-            arabicText(withVerseEnd(arabic))
+            arabicText(arabic)
         } else {
             if !display.phonetic && display.translation, let translation = piece.translation {
                 Text(translation)
@@ -244,8 +244,8 @@ struct PieceRow: View {
             } else if let phonetic = piece.phonetic {
                 phoneticText(phonetic)
             }
-            if let verseEnd {
-                arabicText(Format.verseEndMarker(verseEnd.number))
+            if verseEnd != nil {
+                verseEndLine
             }
         }
     }
@@ -256,19 +256,35 @@ struct PieceRow: View {
             .lineSpacing(4)
     }
 
-    private func arabicText(_ text: String) -> some View {
-        Text(Theme.arabicForDisplay(text))
+    /// Le texte arabe, suivi du marqueur de fin de verset en plus petit et en gris.
+    private func arabicText(_ arabic: String) -> some View {
+        var line = AttributedString(Theme.arabicForDisplay(arabic))
+        if let verseEnd {
+            var marker = AttributedString(" " + Format.verseEndMarker(verseEnd.number))
+            marker.font = Theme.arabic(Self.inlineMarkerSize)
+            marker.foregroundColor = .secondary
+            line.append(marker)
+        }
+        return Text(line)
             .font(Theme.arabic(26))
             .lineSpacing(6)
             .multilineTextAlignment(.trailing)
             .frame(maxWidth: .infinity, alignment: .trailing)
     }
 
-    /// Le marqueur de fin de verset se place à la fin du texte arabe quand celui-ci est affiché.
-    private func withVerseEnd(_ arabic: String) -> String {
-        guard let verseEnd else { return arabic }
-        return "\(arabic) \(Format.verseEndMarker(verseEnd.number))"
+    /// Sans le texte arabe, le numéro du verset reste discret sur sa propre ligne.
+    @ViewBuilder
+    private var verseEndLine: some View {
+        if let verseEnd {
+            Text(Format.verseEndMarker(verseEnd.number))
+                .font(Theme.arabic(Self.aloneMarkerSize))
+                .foregroundStyle(.secondary)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+        }
     }
+
+    private static let inlineMarkerSize: CGFloat = 18
+    private static let aloneMarkerSize: CGFloat = 15
 
     /// Barre de 2 pt sous le morceau en lecture.
     private var progressBar: some View {

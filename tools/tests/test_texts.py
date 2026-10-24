@@ -82,3 +82,8 @@ def test_surah_info_reproduces_its_source(content):
         return
     source = build_content.load(path)["data"]["french"]
     assert content["info"] == {"objectives": source, "source": build_content.LIBRARY_SOURCES["surahInfo"]}
+
+
+def test_translated_name_reproduces_its_source(content):
+    names = build_content.load(build_content.surah_names_source())["data"]
+    assert content["translatedName"] == names[str(content["surah"])]

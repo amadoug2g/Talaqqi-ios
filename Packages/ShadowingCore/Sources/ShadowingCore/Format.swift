@@ -38,6 +38,21 @@ public enum Format {
         }
     }
 
+    /// Sous-titre de l'écran de pratique : « Sourate 114 · Les humains », « Al-Baqara · 255 · La vache ».
+    public static func subtitle(of content: Content) -> String {
+        [content.subtitle, content.translatedName].compactMap { $0 }.filter { !$0.isEmpty }.joined(separator: " · ")
+    }
+
+    /// Deuxième ligne de l'accueil : « Les humains · 6 versets », « Al-Baqara · 255 · La vache ».
+    public static func listSubtitle(of content: Content) -> String {
+        switch content.kind {
+        case .surah:
+            return [content.translatedName, verseCount(content.verseCount)].compactMap { $0 }.joined(separator: " · ")
+        case .verse:
+            return subtitle(of: content)
+        }
+    }
+
     /// « Répétition 2 sur 3 », ou « Répétition 2 » en boucle infinie. `index` part de 0.
     public static func repetition(_ index: Int, of repetitions: Repetitions) -> String {
         guard let count = repetitions.count else { return "Répétition \(index + 1)" }

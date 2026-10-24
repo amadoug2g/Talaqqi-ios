@@ -25,6 +25,7 @@ public struct Sources: Codable, Sendable, Hashable {
     public var phonetic: String
     public var translation: String
     public var surahInfo: String
+    public var surahNames: String?
 }
 
 /// Une section de l'accueil (« Versets », « Juz ‘Amma »).
@@ -47,6 +48,8 @@ public struct Content: Codable, Sendable, Hashable, Identifiable {
     public var title: String
     public var subtitle: String
     public var arabicName: String
+    /// Nom de la sourate en français (Quran.com) ; pour un verset seul, celui de sa sourate.
+    public var translatedName: String?
     public var surah: Int
     public var verseCount: Int
     public var info: SurahInfo?

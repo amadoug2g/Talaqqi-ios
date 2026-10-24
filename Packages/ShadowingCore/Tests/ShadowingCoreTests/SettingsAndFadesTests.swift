@@ -43,7 +43,7 @@ struct FadesTests {
         #expect(samples[10] == 1)
         #expect(samples[50] == 1)
         #expect(samples[69] == 1)
-        #expect(samples[70] == 29.0 / 30.0)
+        #expect(samples[70] == Float(29) / Float(30))
         #expect(samples[99] == 0)
     }
 

@@ -215,6 +215,8 @@ Chaque étape se termine par un commit poussé sur `claude/clever-mayer-c5wxy7` 
 
 **État de l'étape 1** : projet créé par Amadou (commit `8a9d937`, après correction d'un dépôt Git imbriqué créé par Xcode). Réglages de la cible appliqués ensuite directement dans `project.pbxproj` : iOS 26.0, iPhone seul, portrait seul, et `Talaqqi/Talaqqi-Info.plist` (hors du dossier synchronisé) avec `UIBackgroundModes` = `audio`. La disposition imbriquée `Talaqqi/Talaqqi.xcodeproj` (créée automatiquement par Xcode) est conservée ; le paquet sera référencé comme `../Packages/ShadowingCore`. Les cibles de test `TalaqqiTests` et `TalaqqiUITests` créées par Xcode sont gardées.
 
+**État de l'étape 2 (commit `996cd87`)** : premier `swift test` sur le Mac d'Amadou : compilation OK, 42 tests sur 43 passent. Échec dans `FadesTests.fadesInAndOutWithoutTouchingTheMiddle` (`Packages/ShadowingCore/Tests/ShadowingCoreTests/SettingsAndFadesTests.swift:46`) : `samples[70] == 29.0 / 30.0` compare un `Float` (0.96666664) à un `Double` (0.9666666666666667), car la macro `#expect` type les deux côtés séparément. Le code de `Fades.apply` est correct, c'est le test qui est faux. Correction : écrire `#expect(samples[70] == Float(29) / Float(30))`. Aucun autre fichier touché ; commit + push, puis Amadou relance `swift test` (attendu : 43 tests passés).
+
 L'audio passe en premier (étape 4), sur une interface minimale : c'est le risque principal, et le prototype web a justement échoué sur iPhone à cet endroit.
 
 ## 9. Installation sur ton iPhone (résumé, détaillé dans le README)

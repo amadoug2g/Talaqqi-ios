@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/104",
+  "fetched_at": "2026-10-24T19:41:52+00:00",
+  "data": {
+    "id": "6185",
+    "sura": "104",
+    "aya": "6",
+    "arabic_text": "نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ",
+    "translation": "Le Feu attisé d’Allah.",
+    "footnotes": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/101",
+  "fetched_at": "2026-10-24T19:41:12+00:00",
+  "data": {
+    "id": "6165",
+    "sura": "101",
+    "aya": "8",
+    "arabic_text": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ",
+    "translation": "et quant à celui dont la balance sera légère,",
+    "footnotes": ""
+  }
+}

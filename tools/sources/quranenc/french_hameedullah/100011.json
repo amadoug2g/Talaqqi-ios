@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/100",
+  "fetched_at": "2026-10-24T19:40:53+00:00",
+  "data": {
+    "id": "6157",
+    "sura": "100",
+    "aya": "11",
+    "arabic_text": "إِنَّ رَبَّهُم بِهِمۡ يَوۡمَئِذٖ لَّخَبِيرُۢ",
+    "translation": "ce jour-là, certes, leur Seigneur sera Parfaitement Connaisseur d’eux ?",
+    "footnotes": ""
+  }
+}

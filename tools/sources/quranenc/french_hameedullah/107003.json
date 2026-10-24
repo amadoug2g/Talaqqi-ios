@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/107",
+  "fetched_at": "2026-10-24T19:42:26+00:00",
+  "data": {
+    "id": "6200",
+    "sura": "107",
+    "aya": "3",
+    "arabic_text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+    "translation": "et qui n’encourage point à nourrir le pauvre.",
+    "footnotes": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/103",
+  "fetched_at": "2026-10-24T19:41:44+00:00",
+  "data": {
+    "id": "6177",
+    "sura": "103",
+    "aya": "1",
+    "arabic_text": "وَٱلۡعَصۡرِ",
+    "translation": "Par le Temps !",
+    "footnotes": ""
+  }
+}

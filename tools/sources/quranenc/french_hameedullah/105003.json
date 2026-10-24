@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/105",
+  "fetched_at": "2026-10-24T19:42:08+00:00",
+  "data": {
+    "id": "6191",
+    "sura": "105",
+    "aya": "3",
+    "arabic_text": "وَأَرۡسَلَ عَلَيۡهِمۡ طَيۡرًا أَبَابِيلَ",
+    "translation": "et envoyé sur eux des oiseaux par volées.",
+    "footnotes": ""
+  }
+}

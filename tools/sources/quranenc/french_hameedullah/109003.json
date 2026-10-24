@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/109",
+  "fetched_at": "2026-10-24T19:42:45+00:00",
+  "data": {
+    "id": "6210",
+    "sura": "109",
+    "aya": "3",
+    "arabic_text": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+    "translation": "Et vous n’êtes pas adorateurs de ce que j’adore.",
+    "footnotes": ""
+  }
+}

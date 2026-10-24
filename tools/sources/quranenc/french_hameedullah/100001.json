@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/100",
+  "fetched_at": "2026-10-24T19:40:53+00:00",
+  "data": {
+    "id": "6147",
+    "sura": "100",
+    "aya": "1",
+    "arabic_text": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا",
+    "translation": "Par les coursiers qui halètent,",
+    "footnotes": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/107",
+  "fetched_at": "2026-10-24T19:42:26+00:00",
+  "data": {
+    "id": "6199",
+    "sura": "107",
+    "aya": "2",
+    "arabic_text": "فَذَٰلِكَ ٱلَّذِي يَدُعُّ ٱلۡيَتِيمَ",
+    "translation": "C’est bien lui qui repousse l’orphelin,",
+    "footnotes": ""
+  }
+}

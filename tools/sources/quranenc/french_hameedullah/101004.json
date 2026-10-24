@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/101",
+  "fetched_at": "2026-10-24T19:41:12+00:00",
+  "data": {
+    "id": "6161",
+    "sura": "101",
+    "aya": "4",
+    "arabic_text": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ",
+    "translation": "C’est le jour où les gens seront comme des papillons éparpillés,",
+    "footnotes": ""
+  }
+}

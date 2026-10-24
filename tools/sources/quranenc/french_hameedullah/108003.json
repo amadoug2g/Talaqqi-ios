@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/108",
+  "fetched_at": "2026-10-24T19:42:39+00:00",
+  "data": {
+    "id": "6207",
+    "sura": "108",
+    "aya": "3",
+    "arabic_text": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+    "translation": "Celui qui te hait sera certes, sans postérité.",
+    "footnotes": ""
+  }
+}

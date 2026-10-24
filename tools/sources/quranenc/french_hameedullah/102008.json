@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/102",
+  "fetched_at": "2026-10-24T19:41:30+00:00",
+  "data": {
+    "id": "6176",
+    "sura": "102",
+    "aya": "8",
+    "arabic_text": "ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ",
+    "translation": "Puis, assurément, vous serez interrogés, ce jour-là, sur les délices.",
+    "footnotes": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/102",
+  "fetched_at": "2026-10-24T19:41:30+00:00",
+  "data": {
+    "id": "6169",
+    "sura": "102",
+    "aya": "1",
+    "arabic_text": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ",
+    "translation": "La course aux richesses vous distrait,",
+    "footnotes": ""
+  }
+}

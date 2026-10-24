@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/110",
+  "fetched_at": "2026-10-24T19:42:57+00:00",
+  "data": {
+    "id": "6214",
+    "sura": "110",
+    "aya": "1",
+    "arabic_text": "إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ",
+    "translation": "Lorsque vient le secours d’Allah ainsi que la victoire,",
+    "footnotes": ""
+  }
+}

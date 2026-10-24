@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/100",
+  "fetched_at": "2026-10-24T19:40:53+00:00",
+  "data": {
+    "id": "6153",
+    "sura": "100",
+    "aya": "7",
+    "arabic_text": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ",
+    "translation": "et pourtant, il est certes, témoin de cela ;",
+    "footnotes": ""
+  }
+}

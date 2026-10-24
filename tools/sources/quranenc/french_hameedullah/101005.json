@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/101",
+  "fetched_at": "2026-10-24T19:41:12+00:00",
+  "data": {
+    "id": "6162",
+    "sura": "101",
+    "aya": "5",
+    "arabic_text": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ",
+    "translation": "et les montagnes comme de la laine cardée ;",
+    "footnotes": ""
+  }
+}

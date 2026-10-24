@@ -1,0 +1,35 @@
+{
+  "id": "110",
+  "kind": "surah",
+  "surah": 110,
+  "title": "An-Nasr",
+  "arabicName": "النصر",
+  "basmala": true,
+  "verses": [
+    {
+      "number": 3,
+      "pieces": [
+        {
+          "phrases": [
+            1,
+            1
+          ],
+          "sentences": [
+            1,
+            1
+          ]
+        },
+        {
+          "phrases": [
+            2,
+            2
+          ],
+          "sentences": [
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

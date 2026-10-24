@@ -20,6 +20,17 @@
     {
       "title": "Juz ‘Amma",
       "items": [
+        "100",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
         "111",
         "112",
         "113",
@@ -28,6 +39,1668 @@
     }
   ],
   "contents": [
+    {
+      "id": "100",
+      "kind": "surah",
+      "title": "Al-‘Âdiyât",
+      "subtitle": "Sourate 100",
+      "arabicName": "العاديات",
+      "surah": 100,
+      "verseCount": 11,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Par les coursiers qui halètent,",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "qui font jaillir des étincelles,",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "qui attaquent au matin.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "et font ainsi voler la poussière,",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "et pénètrent au centre de la troupe ennemie.",
+          "firstPiece": 5,
+          "lastPiece": 5
+        },
+        {
+          "number": 6,
+          "translation": "L’homme est, certes, ingrat envers son Seigneur ;",
+          "firstPiece": 6,
+          "lastPiece": 6
+        },
+        {
+          "number": 7,
+          "translation": "et pourtant, il est certes, témoin de cela ;",
+          "firstPiece": 7,
+          "lastPiece": 7
+        },
+        {
+          "number": 8,
+          "translation": "et pour l’amour des richesses il est certes ardent.",
+          "firstPiece": 8,
+          "lastPiece": 8
+        },
+        {
+          "number": 9,
+          "translation": "Ne sait-il donc pas que lorsque ce qui est dans les tombes sera bouleversé,",
+          "firstPiece": 9,
+          "lastPiece": 9
+        },
+        {
+          "number": 10,
+          "translation": "et que sera dévoilé ce qui est dans les poitrines,",
+          "firstPiece": 10,
+          "lastPiece": 10
+        },
+        {
+          "number": 11,
+          "translation": "ce jour-là, certes, leur Seigneur sera Parfaitement Connaisseur d’eux ?",
+          "firstPiece": 11,
+          "lastPiece": 11
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا",
+          "translation": "Par les coursiers qui halètent,",
+          "phonetic": "Wal'aadi-yaati dabha",
+          "audio": {
+            "file": "hudhaify_100001.m4a",
+            "startFrame": 1764,
+            "endFrame": 156672,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "فَٱلۡمُورِيَٰتِ قَدۡحٗا",
+          "translation": "qui font jaillir des étincelles,",
+          "phonetic": "Fal-moori-yaati qadha",
+          "audio": {
+            "file": "hudhaify_100002.m4a",
+            "startFrame": 2205,
+            "endFrame": 151552,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "فَٱلۡمُغِيرَٰتِ صُبۡحٗا",
+          "translation": "qui attaquent au matin.",
+          "phonetic": "Fal-mugheeraati subha",
+          "audio": {
+            "file": "hudhaify_100003.m4a",
+            "startFrame": 0,
+            "endFrame": 160768,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "فَأَثَرۡنَ بِهِۦ نَقۡعٗا",
+          "translation": "et font ainsi voler la poussière,",
+          "phonetic": "Fa-atharna bihee naq'a",
+          "audio": {
+            "file": "hudhaify_100004.m4a",
+            "startFrame": 882,
+            "endFrame": 160768,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "فَوَسَطۡنَ بِهِۦ جَمۡعًا",
+          "translation": "et pénètrent au centre de la troupe ennemie.",
+          "phonetic": "Fawa-satna bihee jam'a",
+          "audio": {
+            "file": "hudhaify_100005.m4a",
+            "startFrame": 0,
+            "endFrame": 168960,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        },
+        {
+          "arabic": "إِنَّ ٱلۡإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٞ",
+          "translation": "L’homme est, certes, ingrat envers son Seigneur ;",
+          "phonetic": "Innal insana lirabbihee lakanood",
+          "audio": {
+            "file": "hudhaify_100006.m4a",
+            "startFrame": 0,
+            "endFrame": 326656,
+            "sampleRate": 44100
+          },
+          "verse": 6,
+          "index": 6
+        },
+        {
+          "arabic": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ",
+          "translation": "et pourtant, il est certes, témoin de cela ;",
+          "phonetic": "Wa-innahu 'alaa zaalika la-shaheed",
+          "audio": {
+            "file": "hudhaify_100007.m4a",
+            "startFrame": 23814,
+            "endFrame": 263168,
+            "sampleRate": 44100
+          },
+          "verse": 7,
+          "index": 7
+        },
+        {
+          "arabic": "وَإِنَّهُۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ",
+          "translation": "et pour l’amour des richesses il est certes ardent.",
+          "phonetic": "Wa-innahu lihubbil khairi la-shadeed",
+          "audio": {
+            "file": "hudhaify_100008.m4a",
+            "startFrame": 0,
+            "endFrame": 296960,
+            "sampleRate": 44100
+          },
+          "verse": 8,
+          "index": 8
+        },
+        {
+          "arabic": "۞ أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُورِ",
+          "translation": "Ne sait-il donc pas que lorsque ce qui est dans les tombes sera bouleversé,",
+          "phonetic": "Afala ya'lamu iza b'uthira ma fil quboor",
+          "audio": {
+            "file": "hudhaify_100009.m4a",
+            "startFrame": 28665,
+            "endFrame": 279552,
+            "sampleRate": 44100
+          },
+          "verse": 9,
+          "index": 9
+        },
+        {
+          "arabic": "وَحُصِّلَ مَا فِي ٱلصُّدُورِ",
+          "translation": "et que sera dévoilé ce qui est dans les poitrines,",
+          "phonetic": "Wa-hussila maa fis sudoor",
+          "audio": {
+            "file": "hudhaify_100010.m4a",
+            "startFrame": 0,
+            "endFrame": 214016,
+            "sampleRate": 44100
+          },
+          "verse": 10,
+          "index": 10
+        },
+        {
+          "arabic": "إِنَّ رَبَّهُم بِهِمۡ يَوۡمَئِذٖ لَّخَبِيرُۢ",
+          "translation": "ce jour-là, certes, leur Seigneur sera Parfaitement Connaisseur d’eux ?",
+          "phonetic": "Inna rabbahum bihim yauma-'izin lakhabeer",
+          "audio": {
+            "file": "hudhaify_100011.m4a",
+            "startFrame": 441,
+            "endFrame": 348160,
+            "sampleRate": 44100
+          },
+          "verse": 11,
+          "index": 11
+        }
+      ],
+      "info": {
+        "objectives": "Elle énumère de quelle manière l’être humain exprime son intérêt pour le bas monde en guise de rappel de ce que sera son sort et d’incitation à corriger son comportement.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "101",
+      "kind": "surah",
+      "title": "Al-Qâri‘a",
+      "subtitle": "Sourate 101",
+      "arabicName": "القارعة",
+      "surah": 101,
+      "verseCount": 11,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Le fracas!",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "Qu’est-ce que le fracas?",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "Et qui te dira ce qu’est le fracas?",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "C’est le jour où les gens seront comme des papillons éparpillés,",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "et les montagnes comme de la laine cardée ;",
+          "firstPiece": 5,
+          "lastPiece": 5
+        },
+        {
+          "number": 6,
+          "translation": "quant à celui dont la balance sera lourde.",
+          "firstPiece": 6,
+          "lastPiece": 6
+        },
+        {
+          "number": 7,
+          "translation": "il sera dans une vie agréable ;",
+          "firstPiece": 7,
+          "lastPiece": 7
+        },
+        {
+          "number": 8,
+          "translation": "et quant à celui dont la balance sera légère,",
+          "firstPiece": 8,
+          "lastPiece": 8
+        },
+        {
+          "number": 9,
+          "translation": "sa mère [destination] est un abîme très profond.",
+          "firstPiece": 9,
+          "lastPiece": 9
+        },
+        {
+          "number": 10,
+          "translation": "Et qui te dira ce que c’est ?",
+          "firstPiece": 10,
+          "lastPiece": 10
+        },
+        {
+          "number": 11,
+          "translation": "C’est un Feu ardent.",
+          "firstPiece": 11,
+          "lastPiece": 11
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "ٱلۡقَارِعَةُ",
+          "translation": "Le fracas!",
+          "phonetic": "Al-qaari'ah",
+          "audio": {
+            "file": "hudhaify_101001.m4a",
+            "startFrame": 26019,
+            "endFrame": 108544,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "مَا ٱلۡقَارِعَةُ",
+          "translation": "Qu’est-ce que le fracas?",
+          "phonetic": "Mal qaariah",
+          "audio": {
+            "file": "hudhaify_101002.m4a",
+            "startFrame": 3528,
+            "endFrame": 109568,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡقَارِعَةُ",
+          "translation": "Et qui te dira ce qu’est le fracas?",
+          "phonetic": "Wa-maa adraaka mal qaari'ah",
+          "audio": {
+            "file": "hudhaify_101003.m4a",
+            "startFrame": 0,
+            "endFrame": 263168,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ",
+          "translation": "C’est le jour où les gens seront comme des papillons éparpillés,",
+          "phonetic": "Yauma ya-koonun naasu kal-farashil mabthooth",
+          "audio": {
+            "file": "hudhaify_101004.m4a",
+            "startFrame": 21168,
+            "endFrame": 302526,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ",
+          "translation": "et les montagnes comme de la laine cardée ;",
+          "phonetic": "Wa-ta-koonul jibalu kal-'ihnil manfoosh",
+          "audio": {
+            "file": "hudhaify_101005.m4a",
+            "startFrame": 17199,
+            "endFrame": 280917,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        },
+        {
+          "arabic": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ",
+          "translation": "quant à celui dont la balance sera lourde.",
+          "phonetic": "Fa-amma man thaqulat mawa-zeenuh",
+          "audio": {
+            "file": "hudhaify_101006.m4a",
+            "startFrame": 22050,
+            "endFrame": 242991,
+            "sampleRate": 44100
+          },
+          "verse": 6,
+          "index": 6
+        },
+        {
+          "arabic": "فَهُوَ فِي عِيشَةٖ رَّاضِيَةٖ",
+          "translation": "il sera dans une vie agréable ;",
+          "phonetic": "Fahuwa fee 'ishatir raadiyah",
+          "audio": {
+            "file": "hudhaify_101007.m4a",
+            "startFrame": 26019,
+            "endFrame": 181251,
+            "sampleRate": 44100
+          },
+          "verse": 7,
+          "index": 7
+        },
+        {
+          "arabic": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ",
+          "translation": "et quant à celui dont la balance sera légère,",
+          "phonetic": "Wa-amma man khaffat mawa-zeenuh",
+          "audio": {
+            "file": "hudhaify_101008.m4a",
+            "startFrame": 14112,
+            "endFrame": 214016,
+            "sampleRate": 44100
+          },
+          "verse": 8,
+          "index": 8
+        },
+        {
+          "arabic": "فَأُمُّهُۥ هَاوِيَةٞ",
+          "translation": "sa mère [destination] est un abîme très profond.",
+          "phonetic": "Fa-ummuhu haawiyah",
+          "audio": {
+            "file": "hudhaify_101009.m4a",
+            "startFrame": 0,
+            "endFrame": 179928,
+            "sampleRate": 44100
+          },
+          "verse": 9,
+          "index": 9
+        },
+        {
+          "arabic": "وَمَآ أَدۡرَىٰكَ مَا هِيَهۡ",
+          "translation": "Et qui te dira ce que c’est ?",
+          "phonetic": "Wa-maa adraaka maa hiyah",
+          "audio": {
+            "file": "hudhaify_101010.m4a",
+            "startFrame": 18963,
+            "endFrame": 229320,
+            "sampleRate": 44100
+          },
+          "verse": 10,
+          "index": 10
+        },
+        {
+          "arabic": "نَارٌ حَامِيَةُۢ",
+          "translation": "C’est un Feu ardent.",
+          "phonetic": "Naarun hamiyah",
+          "audio": {
+            "file": "hudhaify_101011.m4a",
+            "startFrame": 17199,
+            "endFrame": 122157,
+            "sampleRate": 44100
+          },
+          "verse": 11,
+          "index": 11
+        }
+      ],
+      "info": {
+        "objectives": "Elle secoue les cœurs afin qu’ils aient à l’esprit l’effroi de la Résurrection.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "102",
+      "kind": "surah",
+      "title": "At-Takâthur",
+      "subtitle": "Sourate 102",
+      "arabicName": "التكاثر",
+      "surah": 102,
+      "verseCount": 8,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "La course aux richesses vous distrait,",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "jusqu’à ce que vous visitiez les tombes .",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "Mais non ! Vous saurez bientôt !",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "(Encore une fois) ! Vous saurez bientôt !",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "Sûrement ! Si vous saviez de science certaine .",
+          "firstPiece": 5,
+          "lastPiece": 5
+        },
+        {
+          "number": 6,
+          "translation": "Vous verrez, certes, la Fournaise.",
+          "firstPiece": 6,
+          "lastPiece": 6
+        },
+        {
+          "number": 7,
+          "translation": "Puis, vous la verrez certes, avec l’œil de certitude.",
+          "firstPiece": 7,
+          "lastPiece": 7
+        },
+        {
+          "number": 8,
+          "translation": "Puis, assurément, vous serez interrogés, ce jour-là, sur les délices.",
+          "firstPiece": 8,
+          "lastPiece": 8
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ",
+          "translation": "La course aux richesses vous distrait,",
+          "phonetic": "Al-haaku mut-takathur",
+          "audio": {
+            "file": "hudhaify_102001.m4a",
+            "startFrame": 17640,
+            "endFrame": 142884,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ",
+          "translation": "jusqu’à ce que vous visitiez les tombes .",
+          "phonetic": "Hatta zurtumul maqaabir",
+          "audio": {
+            "file": "hudhaify_102002.m4a",
+            "startFrame": 15876,
+            "endFrame": 166698,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "كَلَّا سَوۡفَ تَعۡلَمُونَ",
+          "translation": "Mais non ! Vous saurez bientôt !",
+          "phonetic": "Kalla sawfa ta'lamoon",
+          "audio": {
+            "file": "hudhaify_102003.m4a",
+            "startFrame": 9702,
+            "endFrame": 187425,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ",
+          "translation": "(Encore une fois) ! Vous saurez bientôt !",
+          "phonetic": "Thumma kalla sawfa ta'lamoon",
+          "audio": {
+            "file": "hudhaify_102004.m4a",
+            "startFrame": 16758,
+            "endFrame": 281799,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "كَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ",
+          "translation": "Sûrement ! Si vous saviez de science certaine .",
+          "phonetic": "Kalla law ta'lamoona 'ilmal yaqeen",
+          "audio": {
+            "file": "hudhaify_102005.m4a",
+            "startFrame": 16758,
+            "endFrame": 251811,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        },
+        {
+          "arabic": "لَتَرَوُنَّ ٱلۡجَحِيمَ",
+          "translation": "Vous verrez, certes, la Fournaise.",
+          "phonetic": "Latara-wun-nal jaheem",
+          "audio": {
+            "file": "hudhaify_102006.m4a",
+            "startFrame": 20286,
+            "endFrame": 229376,
+            "sampleRate": 44100
+          },
+          "verse": 6,
+          "index": 6
+        },
+        {
+          "arabic": "ثُمَّ لَتَرَوُنَّهَا عَيۡنَ ٱلۡيَقِينِ",
+          "translation": "Puis, vous la verrez certes, avec l’œil de certitude.",
+          "phonetic": "Thumma latara-wunnaha 'ainal yaqeen",
+          "audio": {
+            "file": "hudhaify_102007.m4a",
+            "startFrame": 15876,
+            "endFrame": 310023,
+            "sampleRate": 44100
+          },
+          "verse": 7,
+          "index": 7
+        },
+        {
+          "arabic": "ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ",
+          "translation": "Puis, assurément, vous serez interrogés, ce jour-là, sur les délices.",
+          "phonetic": "Thumma latus-alunna yauma-izin 'anin na'eem",
+          "audio": {
+            "file": "hudhaify_102008.m4a",
+            "startFrame": 21609,
+            "endFrame": 387639,
+            "sampleRate": 44100
+          },
+          "verse": 8,
+          "index": 8
+        }
+      ],
+      "info": {
+        "objectives": "Elle rappelle à ceux qui sont préoccupés par le bas monde qu’ils mourront et qu’ils rendront des comptes.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "103",
+      "kind": "surah",
+      "title": "Al-‘Asr",
+      "subtitle": "Sourate 103",
+      "arabicName": "العصر",
+      "surah": 103,
+      "verseCount": 3,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Par le Temps !",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "L’homme est certes, en perdition,",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "sauf ceux qui croient et accomplissent les bonnes œuvres, s’enjoignent mutuellement la vérité et s’enjoignent mutuellement l’endurance.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "وَٱلۡعَصۡرِ",
+          "translation": "Par le Temps !",
+          "phonetic": "Wal-'asr",
+          "audio": {
+            "file": "hudhaify_103001.m4a",
+            "startFrame": 17640,
+            "endFrame": 76734,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ",
+          "translation": "L’homme est certes, en perdition,",
+          "phonetic": "Innal insaana lafee khusr",
+          "audio": {
+            "file": "hudhaify_103002.m4a",
+            "startFrame": 14994,
+            "endFrame": 236817,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ",
+          "translation": "sauf ceux qui croient et accomplissent les bonnes œuvres, s’enjoignent mutuellement la vérité et s’enjoignent mutuellement l’endurance.",
+          "phonetic": "Illal lazeena aamanoo Wa-'amilus saalihaati Wa-tawaasaw bilhaqq; Wa-tawaasaw bissabr",
+          "audio": {
+            "file": "hudhaify_103003.m4a",
+            "startFrame": 16317,
+            "endFrame": 424242,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        }
+      ],
+      "info": {
+        "objectives": "Elle définit ce que sont les véritables réussite et échec dans la vie et attire l’attention sur l’importance du temps qui s’écoule de la vie de l’être humain.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "104",
+      "kind": "surah",
+      "title": "Al-Humaza",
+      "subtitle": "Sourate 104",
+      "arabicName": "الهمزة",
+      "surah": 104,
+      "verseCount": 9,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Malheur à tout calomniateur diffamateur,",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "qui amasse une fortune et la compte,",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "pensant que sa fortune l’immortalisera.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "Mais non ! Il sera certes, jeté dans la Hutamah .",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "Et qui te dira ce qu’est la Hutamah ?",
+          "firstPiece": 5,
+          "lastPiece": 5
+        },
+        {
+          "number": 6,
+          "translation": "Le Feu attisé d’Allah.",
+          "firstPiece": 6,
+          "lastPiece": 6
+        },
+        {
+          "number": 7,
+          "translation": "qui monte jusqu’aux cœurs.",
+          "firstPiece": 7,
+          "lastPiece": 7
+        },
+        {
+          "number": 8,
+          "translation": "Il se refermera sur eux,",
+          "firstPiece": 8,
+          "lastPiece": 8
+        },
+        {
+          "number": 9,
+          "translation": "en colonnes (de flammes) étendues.",
+          "firstPiece": 9,
+          "lastPiece": 9
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "وَيۡلٞ لِّكُلِّ هُمَزَةٖ لُّمَزَةٍ",
+          "translation": "Malheur à tout calomniateur diffamateur,",
+          "phonetic": "Wailul likulli hu-mazatil lumazah",
+          "audio": {
+            "file": "hudhaify_104001.m4a",
+            "startFrame": 12789,
+            "endFrame": 188748,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "ٱلَّذِي جَمَعَ مَالٗا وَعَدَّدَهُۥ",
+          "translation": "qui amasse une fortune et la compte,",
+          "phonetic": "Allazee jama'a maalanw Wa-'addadah",
+          "audio": {
+            "file": "hudhaify_104002.m4a",
+            "startFrame": 22932,
+            "endFrame": 239022,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "يَحۡسَبُ أَنَّ مَالَهُۥٓ أَخۡلَدَهُۥ",
+          "translation": "pensant que sa fortune l’immortalisera.",
+          "phonetic": "Yahsabu anna maalahooo akhladah",
+          "audio": {
+            "file": "hudhaify_104003.m4a",
+            "startFrame": 19404,
+            "endFrame": 293706,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "كَلَّاۖ لَيُنۢبَذَنَّ فِي ٱلۡحُطَمَةِ",
+          "translation": "Mais non ! Il sera certes, jeté dans la Hutamah .",
+          "phonetic": "Kallaa; layumbazanna fil hutamah",
+          "audio": {
+            "file": "hudhaify_104004.m4a",
+            "startFrame": 8379,
+            "endFrame": 241668,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡحُطَمَةُ",
+          "translation": "Et qui te dira ce qu’est la Hutamah ?",
+          "phonetic": "Wa-maa adraaka mal hutamah",
+          "audio": {
+            "file": "hudhaify_104005.m4a",
+            "startFrame": 23814,
+            "endFrame": 234612,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        },
+        {
+          "arabic": "نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ",
+          "translation": "Le Feu attisé d’Allah.",
+          "phonetic": "Naarul laahil mooqada",
+          "audio": {
+            "file": "hudhaify_104006.m4a",
+            "startFrame": 20727,
+            "endFrame": 158760,
+            "sampleRate": 44100
+          },
+          "verse": 6,
+          "index": 6
+        },
+        {
+          "arabic": "ٱلَّتِي تَطَّلِعُ عَلَى ٱلۡأَفۡـِٔدَةِ",
+          "translation": "qui monte jusqu’aux cœurs.",
+          "phonetic": "Allatee tattali'u 'alal af'idah",
+          "audio": {
+            "file": "hudhaify_104007.m4a",
+            "startFrame": 13671,
+            "endFrame": 188307,
+            "sampleRate": 44100
+          },
+          "verse": 7,
+          "index": 7
+        },
+        {
+          "arabic": "إِنَّهَا عَلَيۡهِم مُّؤۡصَدَةٞ",
+          "translation": "Il se refermera sur eux,",
+          "phonetic": "Innahaa 'alaihim mu'sada",
+          "audio": {
+            "file": "hudhaify_104008.m4a",
+            "startFrame": 22932,
+            "endFrame": 238581,
+            "sampleRate": 44100
+          },
+          "verse": 8,
+          "index": 8
+        },
+        {
+          "arabic": "فِي عَمَدٖ مُّمَدَّدَةِۭ",
+          "translation": "en colonnes (de flammes) étendues.",
+          "phonetic": "Fee 'amadim mumaddadah",
+          "audio": {
+            "file": "hudhaify_104009.m4a",
+            "startFrame": 17199,
+            "endFrame": 190512,
+            "sampleRate": 44100
+          },
+          "verse": 9,
+          "index": 9
+        }
+      ],
+      "info": {
+        "objectives": "Elle menace les arrogants qui raillent la religion et ses fidèles.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "105",
+      "kind": "surah",
+      "title": "Al-Fîl",
+      "subtitle": "Sourate 105",
+      "arabicName": "الفيل",
+      "surah": 105,
+      "verseCount": 5,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "N’as-tu pas vu comment ton Seigneur a agi envers les gens de l’Eléphant .",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "N’a-t-Il pas rendu leur ruse complètement vaine ?",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "et envoyé sur eux des oiseaux par volées.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "qui leur lançaient des pierres d’argile ?",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "Et Il les a rendus semblables à une paille mâchée.",
+          "firstPiece": 5,
+          "lastPiece": 5
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِأَصۡحَٰبِ ٱلۡفِيلِ",
+          "translation": "N’as-tu pas vu comment ton Seigneur a agi envers les gens de l’Eléphant .",
+          "phonetic": "Alam tara kaifa fa'ala rabbuka bi-ashaabil feel",
+          "audio": {
+            "file": "hudhaify_105001.m4a",
+            "startFrame": 18081,
+            "endFrame": 299008,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "أَلَمۡ يَجۡعَلۡ كَيۡدَهُمۡ فِي تَضۡلِيلٖ",
+          "translation": "N’a-t-Il pas rendu leur ruse complètement vaine ?",
+          "phonetic": "Alam yaj'al kaidahum fee tadleel",
+          "audio": {
+            "file": "hudhaify_105002.m4a",
+            "startFrame": 24255,
+            "endFrame": 244314,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "وَأَرۡسَلَ عَلَيۡهِمۡ طَيۡرًا أَبَابِيلَ",
+          "translation": "et envoyé sur eux des oiseaux par volées.",
+          "phonetic": "Wa-arsala 'alaihim tairan abaabeel",
+          "audio": {
+            "file": "hudhaify_105003.m4a",
+            "startFrame": 22932,
+            "endFrame": 261513,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "تَرۡمِيهِم بِحِجَارَةٖ مِّن سِجِّيلٖ",
+          "translation": "qui leur lançaient des pierres d’argile ?",
+          "phonetic": "Tarmeehim bihijaaratim min sijjeel",
+          "audio": {
+            "file": "hudhaify_105004.m4a",
+            "startFrame": 22932,
+            "endFrame": 351918,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "فَجَعَلَهُمۡ كَعَصۡفٖ مَّأۡكُولِۭ",
+          "translation": "Et Il les a rendus semblables à une paille mâchée.",
+          "phonetic": "Faja-'alahum ka'asfim m'akool",
+          "audio": {
+            "file": "hudhaify_105005.m4a",
+            "startFrame": 26460,
+            "endFrame": 251811,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        }
+      ],
+      "info": {
+        "objectives": "Elle met en exergue le pouvoir d’Allah dans la protection de Sa Maison Sacrée en guise de remise en mémoire et de rappel de Sa faveur.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "106",
+      "kind": "surah",
+      "title": "Quraysh",
+      "subtitle": "Sourate 106",
+      "arabicName": "قريش",
+      "surah": 106,
+      "verseCount": 4,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "A cause de l'habitude des Quraysh ,",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "De leur habitude [concernant] les voyages d’hiver et d’été .",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "Qu’ils adorent donc le Seigneur de cette Maison (la Kaaba).",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "qui les a nourris contre la faim et rassurés de la crainte!",
+          "firstPiece": 4,
+          "lastPiece": 4
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "لِإِيلَٰفِ قُرَيۡشٍ",
+          "translation": "A cause de l'habitude des Quraysh ,",
+          "phonetic": "Li-eelaafi quraish",
+          "audio": {
+            "file": "hudhaify_106001.m4a",
+            "startFrame": 19404,
+            "endFrame": 173754,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ",
+          "translation": "De leur habitude [concernant] les voyages d’hiver et d’été .",
+          "phonetic": "Eelaafihim rihlatash shitaaa'i wassaif",
+          "audio": {
+            "file": "hudhaify_106002.m4a",
+            "startFrame": 22050,
+            "endFrame": 322812,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ",
+          "translation": "Qu’ils adorent donc le Seigneur de cette Maison (la Kaaba).",
+          "phonetic": "Faly'abudoo rabba haazal bait",
+          "audio": {
+            "file": "hudhaify_106003.m4a",
+            "startFrame": 35721,
+            "endFrame": 233730,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ",
+          "translation": "qui les a nourris contre la faim et rassurés de la crainte!",
+          "phonetic": "Allazeee at'amahum min joo'inw wa-aamanahum min khawf",
+          "audio": {
+            "file": "hudhaify_106004.m4a",
+            "startFrame": 29988,
+            "endFrame": 570654,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        }
+      ],
+      "info": {
+        "objectives": "Elle rappelle les faveurs faites aux Quraychites et comment ils doivent se montrer reconnaissants.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "107",
+      "kind": "surah",
+      "title": "Al-Mâ‘ûn",
+      "subtitle": "Sourate 107",
+      "arabicName": "الماعون",
+      "surah": 107,
+      "verseCount": 7,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Vois-tu celui qui traite de mensonge la Rétribution ?",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "C’est bien lui qui repousse l’orphelin,",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "et qui n’encourage point à nourrir le pauvre.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "Malheur donc, à ceux qui prient.",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "tout en négligeant (et retardant) leur prière (As-Salât),",
+          "firstPiece": 5,
+          "lastPiece": 5
+        },
+        {
+          "number": 6,
+          "translation": "qui sont pleins d’ostentation,",
+          "firstPiece": 6,
+          "lastPiece": 6
+        },
+        {
+          "number": 7,
+          "translation": "et refusent l’ustensile (à celui qui en a besoin).",
+          "firstPiece": 7,
+          "lastPiece": 7
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ",
+          "translation": "Vois-tu celui qui traite de mensonge la Rétribution ?",
+          "phonetic": "Ara-'aytal lazee yukazzibu biddeen",
+          "audio": {
+            "file": "hudhaify_107001.m4a",
+            "startFrame": 28665,
+            "endFrame": 263168,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "فَذَٰلِكَ ٱلَّذِي يَدُعُّ ٱلۡيَتِيمَ",
+          "translation": "C’est bien lui qui repousse l’orphelin,",
+          "phonetic": "Fazaalikal lazee yadu'ul yateem",
+          "audio": {
+            "file": "hudhaify_107002.m4a",
+            "startFrame": 26019,
+            "endFrame": 248832,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+          "translation": "et qui n’encourage point à nourrir le pauvre.",
+          "phonetic": "Wa-la yahuddu 'alaa ta'aamil miskeen",
+          "audio": {
+            "file": "hudhaify_107003.m4a",
+            "startFrame": 19845,
+            "endFrame": 268128,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "فَوَيۡلٞ لِّلۡمُصَلِّينَ",
+          "translation": "Malheur donc, à ceux qui prient.",
+          "phonetic": "Fa-wailul lil-musalleen",
+          "audio": {
+            "file": "hudhaify_107004.m4a",
+            "startFrame": 25137,
+            "endFrame": 219177,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ",
+          "translation": "tout en négligeant (et retardant) leur prière (As-Salât),",
+          "phonetic": "Allazeena hum 'an salaatihim saahoon",
+          "audio": {
+            "file": "hudhaify_107005.m4a",
+            "startFrame": 15435,
+            "endFrame": 294147,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        },
+        {
+          "arabic": "ٱلَّذِينَ هُمۡ يُرَآءُونَ",
+          "translation": "qui sont pleins d’ostentation,",
+          "phonetic": "Allazeena hum yuraaa'oon",
+          "audio": {
+            "file": "hudhaify_107006.m4a",
+            "startFrame": 21609,
+            "endFrame": 262395,
+            "sampleRate": 44100
+          },
+          "verse": 6,
+          "index": 6
+        },
+        {
+          "arabic": "وَيَمۡنَعُونَ ٱلۡمَاعُونَ",
+          "translation": "et refusent l’ustensile (à celui qui en a besoin).",
+          "phonetic": "Wa-yamna'oonal maa'oon",
+          "audio": {
+            "file": "hudhaify_107007.m4a",
+            "startFrame": 17640,
+            "endFrame": 182133,
+            "sampleRate": 44100
+          },
+          "verse": 7,
+          "index": 7
+        }
+      ],
+      "info": {
+        "objectives": "Elle décrit le comportement de ceux qui traitent la religion et l’au-delà de mensonge, à titre d’avertissement pour les croyants et de condamnation pour les mécréants.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "108",
+      "kind": "surah",
+      "title": "Al-Kawthar",
+      "subtitle": "Sourate 108",
+      "arabicName": "الكوثر",
+      "surah": 108,
+      "verseCount": 3,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Nous t’avons certes, accordé l’Abondance.",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "Accomplis la Ṣalāt pour ton Seigneur et sacrifie.",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "Celui qui te hait sera certes, sans postérité.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+          "translation": "Nous t’avons certes, accordé l’Abondance.",
+          "phonetic": "Innaaa a'tainaa-kal kauthar",
+          "audio": {
+            "file": "hudhaify_108001.m4a",
+            "startFrame": 11466,
+            "endFrame": 291942,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+          "translation": "Accomplis la Ṣalāt pour ton Seigneur et sacrifie.",
+          "phonetic": "Fasalli li-rabbika wanhar",
+          "audio": {
+            "file": "hudhaify_108002.m4a",
+            "startFrame": 22491,
+            "endFrame": 164934,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+          "translation": "Celui qui te hait sera certes, sans postérité.",
+          "phonetic": "Inna shaani'aka huwal abtar",
+          "audio": {
+            "file": "hudhaify_108003.m4a",
+            "startFrame": 21168,
+            "endFrame": 216090,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        }
+      ],
+      "info": {
+        "objectives": "Allah évoque la faveur qu’il fit à Son Messager et met un terme à la postérité de ceux qui le haïssent.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "109",
+      "kind": "surah",
+      "title": "Al-Kâfirûn",
+      "subtitle": "Sourate 109",
+      "arabicName": "الكافرون",
+      "surah": 109,
+      "verseCount": 6,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Dis : \"Ô vous les infidèles !",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "Je n’adore pas ce que vous adorez.",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "Et vous n’êtes pas adorateurs de ce que j’adore.",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "Je ne suis pas adorateur de ce que vous adorez.",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "Et vous n’êtes pas adorateurs de ce que j’adore.",
+          "firstPiece": 5,
+          "lastPiece": 5
+        },
+        {
+          "number": 6,
+          "translation": "A vous votre religion, et à moi ma religion.\"",
+          "firstPiece": 6,
+          "lastPiece": 6
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "قُلۡ يَٰٓأَيُّهَا ٱلۡكَٰفِرُونَ",
+          "translation": "Dis : \"Ô vous les infidèles !",
+          "phonetic": "Qul yaaa-ayyuhal kaafiroon",
+          "audio": {
+            "file": "hudhaify_109001.m4a",
+            "startFrame": 14994,
+            "endFrame": 301056,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ",
+          "translation": "Je n’adore pas ce que vous adorez.",
+          "phonetic": "Laaa a'budu maa t'abudoon",
+          "audio": {
+            "file": "hudhaify_109002.m4a",
+            "startFrame": 18963,
+            "endFrame": 271215,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+          "translation": "Et vous n’êtes pas adorateurs de ce que j’adore.",
+          "phonetic": "Wa-laaa antum 'aabidoona maaa a'bud",
+          "audio": {
+            "file": "hudhaify_109003.m4a",
+            "startFrame": 25137,
+            "endFrame": 407925,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ",
+          "translation": "Je ne suis pas adorateur de ce que vous adorez.",
+          "phonetic": "Wa-laaa ana 'abidum maa 'abattum",
+          "audio": {
+            "file": "hudhaify_109004.m4a",
+            "startFrame": 18963,
+            "endFrame": 291501,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+          "translation": "Et vous n’êtes pas adorateurs de ce que j’adore.",
+          "phonetic": "Wa-laaa antum 'aabidoona maaa a'bud",
+          "audio": {
+            "file": "hudhaify_109005.m4a",
+            "startFrame": 18522,
+            "endFrame": 411012,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        },
+        {
+          "arabic": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ",
+          "translation": "A vous votre religion, et à moi ma religion.\"",
+          "phonetic": "Lakum deenukum Wa-liya deen",
+          "audio": {
+            "file": "hudhaify_109006.m4a",
+            "startFrame": 21168,
+            "endFrame": 222264,
+            "sampleRate": 44100
+          },
+          "verse": 6,
+          "index": 6
+        }
+      ],
+      "info": {
+        "objectives": "Elle affirme l’Unicité de l’adoration et le désaveu du polythéisme ainsi que l’incompatibilité totale entre l’Islam et le polythéisme.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
+    {
+      "id": "110",
+      "kind": "surah",
+      "title": "An-Nasr",
+      "subtitle": "Sourate 110",
+      "arabicName": "النصر",
+      "surah": 110,
+      "verseCount": 3,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Lorsque vient le secours d’Allah ainsi que la victoire,",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "et que tu vois les gens entrer en foule dans la religion d’Allah,",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon. Car c’est Lui le grand Accueillant au repentir.",
+          "firstPiece": 3,
+          "lastPiece": 4
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ",
+          "translation": "Lorsque vient le secours d’Allah ainsi que la victoire,",
+          "phonetic": "Iza jaaa'a nasrul laahi walfath",
+          "audio": {
+            "file": "hudhaify_110001.m4a",
+            "startFrame": 2205,
+            "endFrame": 273861,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "وَرَأَيۡتَ ٱلنَّاسَ يَدۡخُلُونَ فِي دِينِ ٱللَّهِ أَفۡوَاجٗا",
+          "translation": "et que tu vois les gens entrer en foule dans la religion d’Allah,",
+          "phonetic": "Wa-ra-aitan naasa yadkhuloona fee deenil laahi afwajaa",
+          "audio": {
+            "file": "hudhaify_110002.m4a",
+            "startFrame": 17199,
+            "endFrame": 343980,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ",
+          "phonetic": "Fasabbih bihamdi rabbika wastaghfirh,",
+          "translation": "alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon.",
+          "audio": {
+            "file": "hudhaify_110003.m4a",
+            "startFrame": 22491,
+            "endFrame": 199332,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "إِنَّهُۥ كَانَ تَوَّابَۢا",
+          "phonetic": "innahoo kaana tawwaaba",
+          "translation": "Car c’est Lui le grand Accueillant au repentir.",
+          "audio": {
+            "file": "hudhaify_110003.m4a",
+            "startFrame": 235053,
+            "endFrame": 422037,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 4
+        }
+      ],
+      "info": {
+        "objectives": "Elle affirme que le destin de l’Islam est d’être victorieux et conquérant et énonce ce qui est prescrit lorsque cela aura lieu. Elle indique par la même occasion que le terme du Prophète est proche.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
     {
       "id": "111",
       "kind": "surah",

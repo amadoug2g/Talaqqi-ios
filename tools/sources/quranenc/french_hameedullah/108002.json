@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/108",
+  "fetched_at": "2026-10-24T19:42:39+00:00",
+  "data": {
+    "id": "6206",
+    "sura": "108",
+    "aya": "2",
+    "arabic_text": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+    "translation": "Accomplis la Ṣalāt pour ton Seigneur et sacrifie.",
+    "footnotes": ""
+  }
+}

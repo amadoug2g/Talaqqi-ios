@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/102",
+  "fetched_at": "2026-10-24T19:41:30+00:00",
+  "data": {
+    "id": "6170",
+    "sura": "102",
+    "aya": "2",
+    "arabic_text": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ",
+    "translation": "jusqu’à ce que vous visitiez les tombes [1090].",
+    "footnotes": "[1090] Jusqu’à ce que vous visitiez les tombes: jusqu’à la mort."
+  }
+}

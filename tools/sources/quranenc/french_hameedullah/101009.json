@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/101",
+  "fetched_at": "2026-10-24T19:41:12+00:00",
+  "data": {
+    "id": "6166",
+    "sura": "101",
+    "aya": "9",
+    "arabic_text": "فَأُمُّهُۥ هَاوِيَةٞ",
+    "translation": "sa mère [destination] est un abîme très profond.",
+    "footnotes": ""
+  }
+}

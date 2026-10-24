@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/107",
+  "fetched_at": "2026-10-24T19:42:26+00:00",
+  "data": {
+    "id": "6198",
+    "sura": "107",
+    "aya": "1",
+    "arabic_text": "أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ",
+    "translation": "Vois-tu celui qui traite de mensonge la Rétribution ?",
+    "footnotes": ""
+  }
+}

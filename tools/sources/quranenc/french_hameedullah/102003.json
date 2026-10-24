@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/102",
+  "fetched_at": "2026-10-24T19:41:30+00:00",
+  "data": {
+    "id": "6171",
+    "sura": "102",
+    "aya": "3",
+    "arabic_text": "كَلَّا سَوۡفَ تَعۡلَمُونَ",
+    "translation": "Mais non ! Vous saurez bientôt !",
+    "footnotes": ""
+  }
+}

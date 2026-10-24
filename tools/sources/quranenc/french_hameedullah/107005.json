@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/107",
+  "fetched_at": "2026-10-24T19:42:26+00:00",
+  "data": {
+    "id": "6202",
+    "sura": "107",
+    "aya": "5",
+    "arabic_text": "ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ",
+    "translation": "tout en négligeant (et retardant) leur prière (As-Salât),",
+    "footnotes": ""
+  }
+}

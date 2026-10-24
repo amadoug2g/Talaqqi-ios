@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/100",
+  "fetched_at": "2026-10-24T19:40:53+00:00",
+  "data": {
+    "id": "6155",
+    "sura": "100",
+    "aya": "9",
+    "arabic_text": "۞ أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُورِ",
+    "translation": "Ne sait-il donc pas que lorsque ce qui est dans les tombes sera bouleversé,",
+    "footnotes": ""
+  }
+}

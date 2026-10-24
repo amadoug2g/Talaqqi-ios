@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/101",
+  "fetched_at": "2026-10-24T19:41:12+00:00",
+  "data": {
+    "id": "6163",
+    "sura": "101",
+    "aya": "6",
+    "arabic_text": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ",
+    "translation": "quant à celui dont la balance sera lourde.",
+    "footnotes": ""
+  }
+}

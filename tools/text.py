@@ -25,8 +25,8 @@ def waqf_phrases(arabic: str) -> list[str]:
 
 
 def transliteration_phrases(text: str) -> list[str]:
-    """La translittération QUL (Tajweed) marque chaque arrêt par « ,(u) », « :(i) » ou « ; »."""
-    return [part for part in re.split(r"(?<=[);])\s+", text.strip()) if part]
+    """La translittération QUL (Tajweed) marque chaque arrêt par « ,(u) », « :(i) », « ; » ou une simple virgule."""
+    return [part for part in re.split(r"(?<=[);,])\s+", text.strip()) if part]
 
 
 def sentences(text: str) -> list[str]:

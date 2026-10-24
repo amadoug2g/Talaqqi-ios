@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/106",
+  "fetched_at": "2026-10-24T19:42:17+00:00",
+  "data": {
+    "id": "6195",
+    "sura": "106",
+    "aya": "2",
+    "arabic_text": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ",
+    "translation": "De leur habitude [concernant] les voyages d’hiver et d’été [1099].",
+    "footnotes": "[1099] En hiver: vers le Yémen. En été: vers la Syrie."
+  }
+}

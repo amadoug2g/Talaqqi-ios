@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/103",
+  "fetched_at": "2026-10-24T19:41:44+00:00",
+  "data": {
+    "id": "6178",
+    "sura": "103",
+    "aya": "2",
+    "arabic_text": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ",
+    "translation": "L’homme est certes, en perdition,",
+    "footnotes": ""
+  }
+}

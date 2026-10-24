@@ -17,7 +17,7 @@ tools/.venv/bin/pip install -r tools/requirements.txt
 
    Les versets sont lus dans les sources, un morceau par verset. Pour un verset long, `verses[].pieces`
    dit comment les phrases (coupées aux signes de pause) et les phrases de la traduction se regroupent
-   en morceaux : voir `content/2_255.json`.
+   en morceaux : voir `content/2_255.json`. Une sourate peut aussi découper un seul de ses versets (`content/110.json`, verset 3 : le récitant marque la pause du signe ۚ).
 
 2. Lancer :
 

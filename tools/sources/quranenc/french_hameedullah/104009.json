@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/104",
+  "fetched_at": "2026-10-24T19:41:52+00:00",
+  "data": {
+    "id": "6188",
+    "sura": "104",
+    "aya": "9",
+    "arabic_text": "فِي عَمَدٖ مُّمَدَّدَةِۭ",
+    "translation": "en colonnes (de flammes) étendues.",
+    "footnotes": ""
+  }
+}

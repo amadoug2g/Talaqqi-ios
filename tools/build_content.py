@@ -53,7 +53,7 @@ def verse_sources(surah: int, ayah: int) -> dict:
 
 
 def verse_numbers(spec: dict) -> list[int]:
-    if "verses" in spec:
+    if spec["kind"] == "verse":
         return [verse["number"] for verse in spec["verses"]]
     count = load(SOURCES / "quranenc" / TRANSLATION_KEY / "index" / f"{spec['surah']:03d}.json")["verseCount"]
     return list(range(1, count + 1))

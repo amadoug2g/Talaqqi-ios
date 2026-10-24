@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/114",
+  "fetched_at": "2026-10-24T19:13:04+00:00",
+  "data": {
+    "id": "6235",
+    "sura": "114",
+    "aya": "5",
+    "arabic_text": "ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ",
+    "translation": "qui insuffle des mauvaises pensées dans les poitrines des hommes,",
+    "footnotes": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/114",
+  "fetched_at": "2026-10-24T19:13:04+00:00",
+  "data": {
+    "id": "6234",
+    "sura": "114",
+    "aya": "4",
+    "arabic_text": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ",
+    "translation": "contre le mal du mauvais conseiller, furtif,",
+    "footnotes": ""
+  }
+}

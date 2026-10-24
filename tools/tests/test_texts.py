@@ -73,3 +73,12 @@ def test_pieces_and_verses_are_consistent(content):
         expected_first = verse["lastPiece"] + 1
     assert expected_first == len(content["pieces"])
     assert content["verseCount"] == len(content["verses"])
+
+
+def test_surah_info_reproduces_its_source(content):
+    path = build_content.surah_info_source(content["surah"])
+    if content["kind"] != "surah" or not path.exists():
+        assert content.get("info") is None, "pas de fiche sans source"
+        return
+    source = build_content.load(path)["data"]["french"]
+    assert content["info"] == {"objectives": source, "source": build_content.LIBRARY_SOURCES["surahInfo"]}

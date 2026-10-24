@@ -1,0 +1,12 @@
+{
+  "url": "https://quranenc.com/api/v1/translation/sura/french_hameedullah/114",
+  "fetched_at": "2026-10-24T19:13:04+00:00",
+  "data": {
+    "id": "6236",
+    "sura": "114",
+    "aya": "6",
+    "arabic_text": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+    "translation": "qu’il (le conseiller) soit un djinn, ou un être humain\".",
+    "footnotes": ""
+  }
+}

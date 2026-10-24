@@ -66,6 +66,10 @@ def piece_groups(spec: dict, number: int) -> list[dict] | None:
     return None
 
 
+def surah_info_source(surah: int) -> Path:
+    return SOURCES / "quranenc" / "french_mokhtasar" / "objectives" / f"{surah:03d}.json"
+
+
 def source_audio(name: str) -> Path:
     return SOURCES / "audio" / RECITER_FOLDER / f"{name}.mp3"
 
@@ -145,6 +149,9 @@ def build(spec: dict) -> dict:
         "verses": verses,
         "pieces": pieces,
     }
+    info = surah_info_source(spec["surah"])
+    if spec["kind"] == "surah" and info.exists():
+        content["info"] = {"objectives": load(info)["data"]["french"], "source": LIBRARY_SOURCES["surahInfo"]}
     return content
 
 

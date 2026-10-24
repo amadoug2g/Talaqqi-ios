@@ -16,9 +16,158 @@
       "items": [
         "2:255"
       ]
+    },
+    {
+      "title": "Juz ‘Amma",
+      "items": [
+        "114"
+      ]
     }
   ],
   "contents": [
+    {
+      "id": "114",
+      "kind": "surah",
+      "title": "An-Nâs",
+      "subtitle": "Sourate 114",
+      "arabicName": "الناس",
+      "surah": 114,
+      "verseCount": 6,
+      "verses": [
+        {
+          "number": 1,
+          "translation": "Dis : \"Je cherche protection auprès du Seigneur des hommes.",
+          "firstPiece": 1,
+          "lastPiece": 1
+        },
+        {
+          "number": 2,
+          "translation": "Le Souverain des hommes,",
+          "firstPiece": 2,
+          "lastPiece": 2
+        },
+        {
+          "number": 3,
+          "translation": "Dieu des hommes,",
+          "firstPiece": 3,
+          "lastPiece": 3
+        },
+        {
+          "number": 4,
+          "translation": "contre le mal du mauvais conseiller, furtif,",
+          "firstPiece": 4,
+          "lastPiece": 4
+        },
+        {
+          "number": 5,
+          "translation": "qui insuffle des mauvaises pensées dans les poitrines des hommes,",
+          "firstPiece": 5,
+          "lastPiece": 5
+        },
+        {
+          "number": 6,
+          "translation": "qu’il (le conseiller) soit un djinn, ou un être humain\".",
+          "firstPiece": 6,
+          "lastPiece": 6
+        }
+      ],
+      "pieces": [
+        {
+          "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+          "phonetic": "Bismil laahir Rahmaanir Raheem",
+          "audio": {
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
+            "sampleRate": 44100
+          },
+          "index": 0
+        },
+        {
+          "arabic": "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+          "translation": "Dis : \"Je cherche protection auprès du Seigneur des hommes.",
+          "phonetic": "Qul a'oozu birabbin naas",
+          "audio": {
+            "file": "hudhaify_114001.m4a",
+            "startFrame": 29106,
+            "endFrame": 249165,
+            "sampleRate": 44100
+          },
+          "verse": 1,
+          "index": 1
+        },
+        {
+          "arabic": "مَلِكِ ٱلنَّاسِ",
+          "translation": "Le Souverain des hommes,",
+          "phonetic": "Malikin naas",
+          "audio": {
+            "file": "hudhaify_114002.m4a",
+            "startFrame": 35721,
+            "endFrame": 189440,
+            "sampleRate": 44100
+          },
+          "verse": 2,
+          "index": 2
+        },
+        {
+          "arabic": "إِلَٰهِ ٱلنَّاسِ",
+          "translation": "Dieu des hommes,",
+          "phonetic": "Ilaahin naas",
+          "audio": {
+            "file": "hudhaify_114003.m4a",
+            "startFrame": 29106,
+            "endFrame": 191835,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 3
+        },
+        {
+          "arabic": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ",
+          "translation": "contre le mal du mauvais conseiller, furtif,",
+          "phonetic": "Min sharril waswaasil khannaas",
+          "audio": {
+            "file": "hudhaify_114004.m4a",
+            "startFrame": 18522,
+            "endFrame": 284004,
+            "sampleRate": 44100
+          },
+          "verse": 4,
+          "index": 4
+        },
+        {
+          "arabic": "ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ",
+          "translation": "qui insuffle des mauvaises pensées dans les poitrines des hommes,",
+          "phonetic": "Allazee yuwaswisu fee sudoorin naas",
+          "audio": {
+            "file": "hudhaify_114005.m4a",
+            "startFrame": 27342,
+            "endFrame": 280476,
+            "sampleRate": 44100
+          },
+          "verse": 5,
+          "index": 5
+        },
+        {
+          "arabic": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+          "translation": "qu’il (le conseiller) soit un djinn, ou un être humain\".",
+          "phonetic": "Minal jinnati wannaas",
+          "audio": {
+            "file": "hudhaify_114006.m4a",
+            "startFrame": 4410,
+            "endFrame": 282681,
+            "sampleRate": 44100
+          },
+          "verse": 6,
+          "index": 6
+        }
+      ],
+      "info": {
+        "objectives": "Elle commande de se prémunir et de se préserver par Allah contre le mal de Satan et son insufflation.",
+        "source": "Al-Mukhtasar fi Tafsir al-Qur’an, Markaz Tafsir · QuranEnc"
+      }
+    },
     {
       "id": "2:255",
       "kind": "verse",

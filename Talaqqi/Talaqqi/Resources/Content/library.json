@@ -2236,9 +2236,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "hudhaify_bismillah.m4a",
-            "startFrame": 38367,
-            "endFrame": 305613,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 8820,
+            "endFrame": 227115,
             "sampleRate": 44100
           },
           "index": 0
@@ -2247,107 +2247,111 @@
           "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ",
           "phonetic": "Allahu laaa ilaaha illaa Huwal Haiyul Qaiyoom,(u)",
           "translation": "Allah! Point de divinité à part Lui, le Vivant, Celui qui subsiste par Lui-même (Al Qayyum).",
+          "verse": 255,
           "audio": {
-            "file": "hudhaify_002255.m4a",
-            "startFrame": 28224,
-            "endFrame": 392049,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 254898,
+            "endFrame": 590940,
             "sampleRate": 44100
           },
-          "verse": 255,
           "index": 1
         },
         {
           "arabic": "لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ",
           "phonetic": "laa taakhuzuhoo sinatunw wa-laa nawm,(un)",
           "translation": "Ni somnolence ni sommeil ne Le saisissent.",
+          "verse": 255,
           "audio": {
-            "file": "hudhaify_002255.m4a",
-            "startFrame": 429975,
-            "endFrame": 686196,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 607698,
+            "endFrame": 857745,
             "sampleRate": 44100
           },
-          "verse": 255,
           "index": 2
         },
         {
           "arabic": "لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ",
           "phonetic": "lahoo maa fis samaawaati wa-maa fil ard:(i)",
           "translation": "A Lui appartient tout ce qui est dans les cieux et sur la terre.",
+          "verse": 255,
           "audio": {
-            "file": "hudhaify_002255.m4a",
-            "startFrame": 719271,
-            "endFrame": 906696,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 872298,
+            "endFrame": 1042965,
             "sampleRate": 44100
           },
-          "verse": 255,
           "index": 3
         },
         {
           "arabic": "مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ",
           "phonetic": "man zal lazee yashfa'u indahooo illaa bi-iznih,(i)",
           "translation": "Qui peut intercéder auprès de Lui sans Sa permission?",
+          "verse": 255,
           "audio": {
-            "file": "hudhaify_002255.m4a",
-            "startFrame": 937566,
-            "endFrame": 1281105,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 1062810,
+            "endFrame": 1345050,
             "sampleRate": 44100
           },
-          "verse": 255,
           "index": 4
         },
         {
           "arabic": "يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ",
           "phonetic": "ya'lamu maa baina aydeehim wa-maa khalfahum;",
           "translation": "Il connaît leur passé et leur futur.",
+          "verse": 255,
           "audio": {
-            "file": "hudhaify_002255.m4a",
-            "startFrame": 1311975,
-            "endFrame": 1526742,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 1361808,
+            "endFrame": 1563345,
             "sampleRate": 44100
           },
-          "verse": 255,
           "index": 5
         },
         {
           "arabic": "وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ",
           "phonetic": "wa-laa yuheetoona bishai'im min 'ilmihee illaa bimaa shaaa',(a)",
           "translation": "Et, de Sa science, ils n’embrassent que ce qu’Il veut.",
+          "verse": 255,
           "audio": {
-            "file": "hudhaify_002255.m4a",
-            "startFrame": 1561140,
-            "endFrame": 2028600,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 1575693,
+            "endFrame": 1958040,
             "sampleRate": 44100
           },
-          "verse": 255,
           "index": 6
         },
         {
           "arabic": "وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَـُٔودُهُۥ حِفۡظُهُمَاۚ",
           "phonetic": "wasi'a Kursiyyuhus samaawaati wal-ard(a); wa-laa Ya'ooduhoo hifzuhum,(aa)",
           "translation": "Son Trône « Kursîy » déborde les cieux et la terre, dont la garde ne Lui coûte aucune peine.",
+          "verse": 255,
           "audio": {
-            "file": "hudhaify_002255.m4a",
-            "startFrame": 2056383,
-            "endFrame": 2377872,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 1974798,
+            "endFrame": 2292318,
             "sampleRate": 44100
           },
-          "verse": 255,
           "index": 7
         },
         {
           "arabic": "وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ",
           "phonetic": "wa-Huwal Aliyyul 'Azeem",
           "translation": "Et Il est le Très-Haut, le Très-Grand .",
+          "verse": 255,
           "audio": {
-            "file": "hudhaify_002255.m4a",
-            "startFrame": 2415357,
-            "endFrame": 2590875,
+            "file": "ghamidi_kursi.m4a",
+            "startFrame": 2292318,
+            "endFrame": 2440935,
             "sampleRate": 44100
           },
-          "verse": 255,
           "index": 8
         }
-      ]
+      ],
+      "reciter": {
+        "id": "ghamidi",
+        "name": "Saad Al-Ghamidi"
+      }
     }
   ]
 }

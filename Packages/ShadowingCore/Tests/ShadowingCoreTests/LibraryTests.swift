@@ -38,6 +38,12 @@ struct LibraryTests {
         }
     }
 
+    @Test func contentsWithTheirOwnRecitationUseASingleFile() throws {
+        for content in try Self.load().contents where content.reciter != nil {
+            #expect(Set(content.pieces.map(\.audio.file)).count == 1, "\(content.id)")
+        }
+    }
+
     @Test func versesCoverTheirPieces() throws {
         for content in try Self.load().contents {
             for verse in content.verses {

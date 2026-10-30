@@ -109,7 +109,7 @@ final class PracticeSession {
     private func start() {
         player.play(content: content, selection: selection, settings: settings,
                     title: "\(content.title) · \(Format.selection(selection))",
-                    artist: ContentLibrary.shared.reciter.name)
+                    artist: (content.reciter ?? ContentLibrary.shared.reciter).name)
     }
 }
 

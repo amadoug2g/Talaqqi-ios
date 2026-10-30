@@ -20,5 +20,15 @@
         { "phrases": [9, 9], "sentences": [9, 9] }
       ]
     }
-  ]
+  ],
+  "recording": {
+    "reciter": { "id": "ghamidi", "name": "Saad Al-Ghamidi" },
+    "file": "docs/prototype/kursi.mp3",
+    "sha256": "0202fb19760c92da0b295df148ab47e934e6ce2c4dd569c4f4f4840b9215c39d",
+    "origin": "Enregistrement du prototype fourni par Amadou ; coupes du bloc LESSON de docs/prototype/index.html, validées à l'oreille et par transcription.",
+    "pieces": [
+      [0.20, 5.15], [5.78, 13.40], [13.78, 19.45], [19.78, 23.65], [24.10, 30.50],
+      [30.88, 35.45], [35.73, 44.40], [44.78, 51.98], [51.98, 55.35]
+    ]
+  }
 }

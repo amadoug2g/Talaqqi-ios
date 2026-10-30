@@ -51,6 +51,8 @@ public struct Content: Codable, Sendable, Hashable, Identifiable {
     /// Nom de la sourate en français (Quran.com) ; pour un verset seul, celui de sa sourate.
     public var translatedName: String?
     public var surah: Int
+    /// Récitant propre à ce contenu ; sinon, celui de la bibliothèque.
+    public var reciter: Reciter?
     public var verseCount: Int
     public var info: SurahInfo?
     public var verses: [Verse]

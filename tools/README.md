@@ -19,6 +19,8 @@ tools/.venv/bin/pip install -r tools/requirements.txt
    dit comment les phrases (coupées aux signes de pause) et les phrases de la traduction se regroupent
    en morceaux : voir `content/2_255.json`. Une sourate peut aussi découper un seul de ses versets (`content/110.json`, verset 3 : le récitant marque la pause du signe ۚ).
 
+   Un contenu peut aussi avoir son propre enregistrement et ses coupes déjà validées à l'oreille (`recording` : récitant, fichier, empreinte sha256, temps de chaque morceau). C'est le cas d'Ayat al-Kursî, récitée par Saad Al-Ghamidi comme dans le prototype ; les surates restent celles d'Al-Hudhaify.
+
 2. Lancer :
 
    ```

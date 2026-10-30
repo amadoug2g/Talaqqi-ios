@@ -283,6 +283,8 @@ Paquet `ShadowingCore` relié à la cible dans `project.pbxproj` (référence lo
 - **D, lecteur et réglages** : frise proportionnelle aux durées (visible aussi à l'arrêt), compte à rebours doré, frise estompée pendant « À toi », Liquid Glass, feuille Réglages.
 - **Reste** (étapes E et F) : accueil conforme et bandeau « Récemment », persistance SwiftData, finitions sombre et VoiceOver ; Whisper toujours bloqué.
 
+**Ayat al-Kursî, récitant d'origine** (demande d'Amadou) : l'audio vient de `docs/prototype/kursi.mp3` (Saad Al-Ghamidi), coupé aux 9 temps validés du prototype (y compris « ḥifẓuhumā / wa huwa », sans pause) ; textes inchangés (sources) ; récitant propre au contenu (`Content.reciter`), affiché sur l'écran verrouillé ; contrôle de silence autour des coupes levé pour ces coupes validées, empreinte sha256 de l'enregistrement vérifiée.
+
 L'audio passe avant l'interface (étape 4), sur une interface minimale : c'est le risque principal, et le prototype web a justement échoué sur iPhone à cet endroit. Il est testé directement sur Ayat al-Kursî, le cas le plus exigeant (9 morceaux, coupes nettes, enchaînement « ḥifẓuhumā / wa huwa »).
 
 ## 9. Installation sur ton iPhone (résumé, détaillé dans le README)

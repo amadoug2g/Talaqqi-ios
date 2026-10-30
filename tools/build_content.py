@@ -7,7 +7,9 @@ nom et du numéro : les versets sont lus dans les sources, un morceau par verset
 `pieces` dit comment les phrases (coupées aux signes de pause) se regroupent en morceaux.
 """
 
+import hashlib
 import json
+import sys
 from pathlib import Path
 
 import audio
@@ -128,18 +130,45 @@ def build_verse(surah: int, number: int, groups: list[dict] | None) -> list[dict
             for texts, span in zip(verse_texts(sources, groups), segmentation.pieces)]
 
 
+def recording_audio(spec: dict) -> tuple[Path, Path]:
+    """Enregistrement propre à un contenu (par exemple celui du prototype) et sa version embarquée."""
+    recording = spec["recording"]
+    source = TOOLS.parent / recording["file"]
+    return source, RESOURCES / "Audio" / f"{recording['reciter']['id']}_{source.stem}.m4a"
+
+
+def build_from_recording(spec: dict) -> list[dict]:
+    """Un seul enregistrement pour tout le contenu, coupé aux temps déjà validés à l'oreille."""
+    source, target = recording_audio(spec)
+    recording = spec["recording"]
+    if hashlib.sha256(source.read_bytes()).hexdigest() != recording["sha256"]:
+        sys.exit(f"{recording['file']} ne correspond pas à l'enregistrement validé (sha256)")
+    audio.to_m4a(source, target)
+    texts = [verse_sources(1, 1)] if spec.get("basmala") else []
+    for number in verse_numbers(spec):
+        for piece in verse_texts(verse_sources(spec["surah"], number), piece_groups(spec, number)):
+            texts.append(dict(piece, verse=number))
+    spans = [audio.Span(start, end) for start, end in recording["pieces"]]
+    if len(spans) != len(texts):
+        sys.exit(f"{spec['id']} : {len(texts)} morceaux de texte pour {len(spans)} coupes")
+    return [dict(piece, audio=clip(target, span)) for piece, span in zip(texts, spans)]
+
+
 def build(spec: dict) -> dict:
-    pieces = build_verse(1, 1, None) if spec.get("basmala") else []
+    if "recording" in spec:
+        pieces = build_from_recording(spec)
+    else:
+        pieces = build_verse(1, 1, None) if spec.get("basmala") else []
+        for number in verse_numbers(spec):
+            pieces += [dict(piece, verse=number) for piece in build_verse(spec["surah"], number, piece_groups(spec, number))]
     verses = []
     for number in verse_numbers(spec):
-        first = len(pieces)
-        for piece in build_verse(spec["surah"], number, piece_groups(spec, number)):
-            pieces.append(dict(piece, verse=number))
+        indices = [i for i, piece in enumerate(pieces) if piece.get("verse") == number]
         verses.append({
             "number": number,
             "translation": verse_sources(spec["surah"], number)["translation"],
-            "firstPiece": first,
-            "lastPiece": len(pieces) - 1,
+            "firstPiece": indices[0],
+            "lastPiece": indices[-1],
         })
     for index, piece in enumerate(pieces):
         piece["index"] = index
@@ -155,6 +184,8 @@ def build(spec: dict) -> dict:
         "verses": verses,
         "pieces": pieces,
     }
+    if "recording" in spec:
+        content["reciter"] = spec["recording"]["reciter"]
     info = surah_info_source(spec["surah"])
     if spec["kind"] == "surah" and info.exists():
         content["info"] = {"objectives": load(info)["data"]["french"], "source": LIBRARY_SOURCES["surahInfo"]}

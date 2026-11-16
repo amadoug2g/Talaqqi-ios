@@ -19,7 +19,7 @@ import requests
 
 SOURCES = Path(__file__).resolve().parent / "sources"
 
-RECITER_FOLDER = "Hudhaify_128kbps"
+RECITER_FOLDER = "Ghamadi_40kbps"
 AUDIO_URL = "https://everyayah.com/data/{folder}/{name}.mp3"
 QURANENC_AYA_URL = "https://quranenc.com/api/v1/translation/aya/{key}/{surah}/{ayah}"
 QURANENC_SURA_URL = "https://quranenc.com/api/v1/translation/sura/{key}/{surah}"

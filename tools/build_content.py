@@ -21,13 +21,13 @@ CONTENT = TOOLS / "content"
 RESOURCES = TOOLS.parent / "Talaqqi" / "Talaqqi" / "Resources"
 LIBRARY = RESOURCES / "Content" / "library.json"
 
-RECITER = {"id": "hudhaify", "name": "Ali Al-Hudhaify"}
-RECITER_FOLDER = "Hudhaify_128kbps"
+RECITER = {"id": "ghamidi", "name": "Saad Al-Ghamidi"}
+RECITER_FOLDER = "Ghamadi_40kbps"
 TRANSLATION_KEY = "french_hameedullah"
 TRANSLITERATION = "transliteration_469"
 
 LIBRARY_SOURCES = {
-    "audio": "Récitation d’Ali Al-Hudhaify, everyayah.com",
+    "audio": "Récitation de Saad Al-Ghamidi, everyayah.com",
     "arabic": "Texte ottoman (Hafs) du Complexe du Roi Fahd, QuranEnc",
     "phonetic": "English Transliteration (Tajweed), Quranic Universal Library (QUL, Tarteel)",
     "translation": "Traduction de Muhammad Hamidullah, QuranEnc",

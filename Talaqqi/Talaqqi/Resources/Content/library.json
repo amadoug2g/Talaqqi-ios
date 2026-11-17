@@ -1,10 +1,10 @@
 {
   "reciter": {
-    "id": "ghamidi",
-    "name": "Saad Al-Ghamidi"
+    "id": "hudhaify",
+    "name": "Ali Al-Hudhaify"
   },
   "sources": {
-    "audio": "Récitation de Saad Al-Ghamidi, everyayah.com",
+    "audio": "Récitation d’Ali Al-Hudhaify, everyayah.com",
     "arabic": "Texte ottoman (Hafs) du Complexe du Roi Fahd, QuranEnc",
     "phonetic": "English Transliteration (Tajweed), Quranic Universal Library (QUL, Tarteel)",
     "translation": "Traduction de Muhammad Hamidullah, QuranEnc",
@@ -123,9 +123,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -135,9 +135,9 @@
           "translation": "Par les coursiers qui halètent,",
           "phonetic": "Wal'aadi-yaati dabha",
           "audio": {
-            "file": "ghamidi_100001.m4a",
-            "startFrame": 0,
-            "endFrame": 154624,
+            "file": "hudhaify_100001.m4a",
+            "startFrame": 1764,
+            "endFrame": 156672,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -148,9 +148,9 @@
           "translation": "qui font jaillir des étincelles,",
           "phonetic": "Fal-moori-yaati qadha",
           "audio": {
-            "file": "ghamidi_100002.m4a",
-            "startFrame": 0,
-            "endFrame": 131072,
+            "file": "hudhaify_100002.m4a",
+            "startFrame": 2205,
+            "endFrame": 151552,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -161,9 +161,9 @@
           "translation": "qui attaquent au matin.",
           "phonetic": "Fal-mugheeraati subha",
           "audio": {
-            "file": "ghamidi_100003.m4a",
-            "startFrame": 441,
-            "endFrame": 125952,
+            "file": "hudhaify_100003.m4a",
+            "startFrame": 0,
+            "endFrame": 160768,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -174,9 +174,9 @@
           "translation": "et font ainsi voler la poussière,",
           "phonetic": "Fa-atharna bihee naq'a",
           "audio": {
-            "file": "ghamidi_100004.m4a",
+            "file": "hudhaify_100004.m4a",
             "startFrame": 882,
-            "endFrame": 154624,
+            "endFrame": 160768,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -187,9 +187,9 @@
           "translation": "et pénètrent au centre de la troupe ennemie.",
           "phonetic": "Fawa-satna bihee jam'a",
           "audio": {
-            "file": "ghamidi_100005.m4a",
+            "file": "hudhaify_100005.m4a",
             "startFrame": 0,
-            "endFrame": 122880,
+            "endFrame": 168960,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -200,9 +200,9 @@
           "translation": "L’homme est, certes, ingrat envers son Seigneur ;",
           "phonetic": "Innal insana lirabbihee lakanood",
           "audio": {
-            "file": "ghamidi_100006.m4a",
-            "startFrame": 882,
-            "endFrame": 331776,
+            "file": "hudhaify_100006.m4a",
+            "startFrame": 0,
+            "endFrame": 326656,
             "sampleRate": 44100
           },
           "verse": 6,
@@ -213,9 +213,9 @@
           "translation": "et pourtant, il est certes, témoin de cela ;",
           "phonetic": "Wa-innahu 'alaa zaalika la-shaheed",
           "audio": {
-            "file": "ghamidi_100007.m4a",
-            "startFrame": 441,
-            "endFrame": 190464,
+            "file": "hudhaify_100007.m4a",
+            "startFrame": 23814,
+            "endFrame": 263168,
             "sampleRate": 44100
           },
           "verse": 7,
@@ -226,9 +226,9 @@
           "translation": "et pour l’amour des richesses il est certes ardent.",
           "phonetic": "Wa-innahu lihubbil khairi la-shadeed",
           "audio": {
-            "file": "ghamidi_100008.m4a",
-            "startFrame": 441,
-            "endFrame": 266240,
+            "file": "hudhaify_100008.m4a",
+            "startFrame": 0,
+            "endFrame": 296960,
             "sampleRate": 44100
           },
           "verse": 8,
@@ -239,9 +239,9 @@
           "translation": "Ne sait-il donc pas que lorsque ce qui est dans les tombes sera bouleversé,",
           "phonetic": "Afala ya'lamu iza b'uthira ma fil quboor",
           "audio": {
-            "file": "ghamidi_100009.m4a",
-            "startFrame": 882,
-            "endFrame": 214016,
+            "file": "hudhaify_100009.m4a",
+            "startFrame": 28665,
+            "endFrame": 279552,
             "sampleRate": 44100
           },
           "verse": 9,
@@ -252,9 +252,9 @@
           "translation": "et que sera dévoilé ce qui est dans les poitrines,",
           "phonetic": "Wa-hussila maa fis sudoor",
           "audio": {
-            "file": "ghamidi_100010.m4a",
-            "startFrame": 441,
-            "endFrame": 167936,
+            "file": "hudhaify_100010.m4a",
+            "startFrame": 0,
+            "endFrame": 214016,
             "sampleRate": 44100
           },
           "verse": 10,
@@ -265,9 +265,9 @@
           "translation": "ce jour-là, certes, leur Seigneur sera Parfaitement Connaisseur d’eux ?",
           "phonetic": "Inna rabbahum bihim yauma-'izin lakhabeer",
           "audio": {
-            "file": "ghamidi_100011.m4a",
+            "file": "hudhaify_100011.m4a",
             "startFrame": 441,
-            "endFrame": 371712,
+            "endFrame": 348160,
             "sampleRate": 44100
           },
           "verse": 11,
@@ -362,9 +362,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -374,9 +374,9 @@
           "translation": "Le fracas!",
           "phonetic": "Al-qaari'ah",
           "audio": {
-            "file": "ghamidi_101001.m4a",
-            "startFrame": 2646,
-            "endFrame": 64512,
+            "file": "hudhaify_101001.m4a",
+            "startFrame": 26019,
+            "endFrame": 108544,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -387,9 +387,9 @@
           "translation": "Qu’est-ce que le fracas?",
           "phonetic": "Mal qaariah",
           "audio": {
-            "file": "ghamidi_101002.m4a",
-            "startFrame": 441,
-            "endFrame": 66560,
+            "file": "hudhaify_101002.m4a",
+            "startFrame": 3528,
+            "endFrame": 109568,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -400,9 +400,9 @@
           "translation": "Et qui te dira ce qu’est le fracas?",
           "phonetic": "Wa-maa adraaka mal qaari'ah",
           "audio": {
-            "file": "ghamidi_101003.m4a",
-            "startFrame": 882,
-            "endFrame": 216064,
+            "file": "hudhaify_101003.m4a",
+            "startFrame": 0,
+            "endFrame": 263168,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -413,9 +413,9 @@
           "translation": "C’est le jour où les gens seront comme des papillons éparpillés,",
           "phonetic": "Yauma ya-koonun naasu kal-farashil mabthooth",
           "audio": {
-            "file": "ghamidi_101004.m4a",
-            "startFrame": 441,
-            "endFrame": 327680,
+            "file": "hudhaify_101004.m4a",
+            "startFrame": 21168,
+            "endFrame": 302526,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -426,9 +426,9 @@
           "translation": "et les montagnes comme de la laine cardée ;",
           "phonetic": "Wa-ta-koonul jibalu kal-'ihnil manfoosh",
           "audio": {
-            "file": "ghamidi_101005.m4a",
-            "startFrame": 882,
-            "endFrame": 297984,
+            "file": "hudhaify_101005.m4a",
+            "startFrame": 17199,
+            "endFrame": 280917,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -439,9 +439,9 @@
           "translation": "quant à celui dont la balance sera lourde.",
           "phonetic": "Fa-amma man thaqulat mawa-zeenuh",
           "audio": {
-            "file": "ghamidi_101006.m4a",
-            "startFrame": 441,
-            "endFrame": 208896,
+            "file": "hudhaify_101006.m4a",
+            "startFrame": 22050,
+            "endFrame": 242991,
             "sampleRate": 44100
           },
           "verse": 6,
@@ -452,9 +452,9 @@
           "translation": "il sera dans une vie agréable ;",
           "phonetic": "Fahuwa fee 'ishatir raadiyah",
           "audio": {
-            "file": "ghamidi_101007.m4a",
-            "startFrame": 441,
-            "endFrame": 128000,
+            "file": "hudhaify_101007.m4a",
+            "startFrame": 26019,
+            "endFrame": 181251,
             "sampleRate": 44100
           },
           "verse": 7,
@@ -465,9 +465,9 @@
           "translation": "et quant à celui dont la balance sera légère,",
           "phonetic": "Wa-amma man khaffat mawa-zeenuh",
           "audio": {
-            "file": "ghamidi_101008.m4a",
-            "startFrame": 882,
-            "endFrame": 223232,
+            "file": "hudhaify_101008.m4a",
+            "startFrame": 14112,
+            "endFrame": 214016,
             "sampleRate": 44100
           },
           "verse": 8,
@@ -478,9 +478,9 @@
           "translation": "sa mère [destination] est un abîme très profond.",
           "phonetic": "Fa-ummuhu haawiyah",
           "audio": {
-            "file": "ghamidi_101009.m4a",
-            "startFrame": 441,
-            "endFrame": 136192,
+            "file": "hudhaify_101009.m4a",
+            "startFrame": 0,
+            "endFrame": 179928,
             "sampleRate": 44100
           },
           "verse": 9,
@@ -491,9 +491,9 @@
           "translation": "Et qui te dira ce que c’est ?",
           "phonetic": "Wa-maa adraaka maa hiyah",
           "audio": {
-            "file": "ghamidi_101010.m4a",
-            "startFrame": 882,
-            "endFrame": 172032,
+            "file": "hudhaify_101010.m4a",
+            "startFrame": 18963,
+            "endFrame": 229320,
             "sampleRate": 44100
           },
           "verse": 10,
@@ -504,9 +504,9 @@
           "translation": "C’est un Feu ardent.",
           "phonetic": "Naarun hamiyah",
           "audio": {
-            "file": "ghamidi_101011.m4a",
-            "startFrame": 882,
-            "endFrame": 103424,
+            "file": "hudhaify_101011.m4a",
+            "startFrame": 17199,
+            "endFrame": 122157,
             "sampleRate": 44100
           },
           "verse": 11,
@@ -583,9 +583,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -595,9 +595,9 @@
           "translation": "La course aux richesses vous distrait,",
           "phonetic": "Al-haaku mut-takathur",
           "audio": {
-            "file": "ghamidi_102001.m4a",
-            "startFrame": 882,
-            "endFrame": 121856,
+            "file": "hudhaify_102001.m4a",
+            "startFrame": 17640,
+            "endFrame": 142884,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -608,9 +608,9 @@
           "translation": "jusqu’à ce que vous visitiez les tombes .",
           "phonetic": "Hatta zurtumul maqaabir",
           "audio": {
-            "file": "ghamidi_102002.m4a",
-            "startFrame": 441,
-            "endFrame": 126976,
+            "file": "hudhaify_102002.m4a",
+            "startFrame": 15876,
+            "endFrame": 166698,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -621,9 +621,9 @@
           "translation": "Mais non ! Vous saurez bientôt !",
           "phonetic": "Kalla sawfa ta'lamoon",
           "audio": {
-            "file": "ghamidi_102003.m4a",
-            "startFrame": 882,
-            "endFrame": 123904,
+            "file": "hudhaify_102003.m4a",
+            "startFrame": 9702,
+            "endFrame": 187425,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -634,9 +634,9 @@
           "translation": "(Encore une fois) ! Vous saurez bientôt !",
           "phonetic": "Thumma kalla sawfa ta'lamoon",
           "audio": {
-            "file": "ghamidi_102004.m4a",
-            "startFrame": 441,
-            "endFrame": 227328,
+            "file": "hudhaify_102004.m4a",
+            "startFrame": 16758,
+            "endFrame": 281799,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -647,9 +647,9 @@
           "translation": "Sûrement ! Si vous saviez de science certaine .",
           "phonetic": "Kalla law ta'lamoona 'ilmal yaqeen",
           "audio": {
-            "file": "ghamidi_102005.m4a",
-            "startFrame": 882,
-            "endFrame": 186368,
+            "file": "hudhaify_102005.m4a",
+            "startFrame": 16758,
+            "endFrame": 251811,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -660,9 +660,9 @@
           "translation": "Vous verrez, certes, la Fournaise.",
           "phonetic": "Latara-wun-nal jaheem",
           "audio": {
-            "file": "ghamidi_102006.m4a",
-            "startFrame": 441,
-            "endFrame": 193536,
+            "file": "hudhaify_102006.m4a",
+            "startFrame": 20286,
+            "endFrame": 229376,
             "sampleRate": 44100
           },
           "verse": 6,
@@ -673,9 +673,9 @@
           "translation": "Puis, vous la verrez certes, avec l’œil de certitude.",
           "phonetic": "Thumma latara-wunnaha 'ainal yaqeen",
           "audio": {
-            "file": "ghamidi_102007.m4a",
-            "startFrame": 0,
-            "endFrame": 299008,
+            "file": "hudhaify_102007.m4a",
+            "startFrame": 15876,
+            "endFrame": 310023,
             "sampleRate": 44100
           },
           "verse": 7,
@@ -686,9 +686,9 @@
           "translation": "Puis, assurément, vous serez interrogés, ce jour-là, sur les délices.",
           "phonetic": "Thumma latus-alunna yauma-izin 'anin na'eem",
           "audio": {
-            "file": "ghamidi_102008.m4a",
-            "startFrame": 882,
-            "endFrame": 371712,
+            "file": "hudhaify_102008.m4a",
+            "startFrame": 21609,
+            "endFrame": 387639,
             "sampleRate": 44100
           },
           "verse": 8,
@@ -735,9 +735,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -747,9 +747,9 @@
           "translation": "Par le Temps !",
           "phonetic": "Wal-'asr",
           "audio": {
-            "file": "ghamidi_103001.m4a",
-            "startFrame": 2646,
-            "endFrame": 50176,
+            "file": "hudhaify_103001.m4a",
+            "startFrame": 17640,
+            "endFrame": 76734,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -760,9 +760,9 @@
           "translation": "L’homme est certes, en perdition,",
           "phonetic": "Innal insaana lafee khusr",
           "audio": {
-            "file": "ghamidi_103002.m4a",
-            "startFrame": 441,
-            "endFrame": 202752,
+            "file": "hudhaify_103002.m4a",
+            "startFrame": 14994,
+            "endFrame": 236817,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -773,9 +773,9 @@
           "translation": "sauf ceux qui croient et accomplissent les bonnes œuvres, s’enjoignent mutuellement la vérité et s’enjoignent mutuellement l’endurance.",
           "phonetic": "Illal lazeena aamanoo Wa-'amilus saalihaati Wa-tawaasaw bilhaqq; Wa-tawaasaw bissabr",
           "audio": {
-            "file": "ghamidi_103003.m4a",
-            "startFrame": 2205,
-            "endFrame": 421888,
+            "file": "hudhaify_103003.m4a",
+            "startFrame": 16317,
+            "endFrame": 424242,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -858,9 +858,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -870,9 +870,9 @@
           "translation": "Malheur à tout calomniateur diffamateur,",
           "phonetic": "Wailul likulli hu-mazatil lumazah",
           "audio": {
-            "file": "ghamidi_104001.m4a",
-            "startFrame": 882,
-            "endFrame": 179200,
+            "file": "hudhaify_104001.m4a",
+            "startFrame": 12789,
+            "endFrame": 188748,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -883,9 +883,9 @@
           "translation": "qui amasse une fortune et la compte,",
           "phonetic": "Allazee jama'a maalanw Wa-'addadah",
           "audio": {
-            "file": "ghamidi_104002.m4a",
-            "startFrame": 441,
-            "endFrame": 197632,
+            "file": "hudhaify_104002.m4a",
+            "startFrame": 22932,
+            "endFrame": 239022,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -896,9 +896,9 @@
           "translation": "pensant que sa fortune l’immortalisera.",
           "phonetic": "Yahsabu anna maalahooo akhladah",
           "audio": {
-            "file": "ghamidi_104003.m4a",
-            "startFrame": 441,
-            "endFrame": 265216,
+            "file": "hudhaify_104003.m4a",
+            "startFrame": 19404,
+            "endFrame": 293706,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -909,9 +909,9 @@
           "translation": "Mais non ! Il sera certes, jeté dans la Hutamah .",
           "phonetic": "Kallaa; layumbazanna fil hutamah",
           "audio": {
-            "file": "ghamidi_104004.m4a",
-            "startFrame": 0,
-            "endFrame": 204800,
+            "file": "hudhaify_104004.m4a",
+            "startFrame": 8379,
+            "endFrame": 241668,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -922,9 +922,9 @@
           "translation": "Et qui te dira ce qu’est la Hutamah ?",
           "phonetic": "Wa-maa adraaka mal hutamah",
           "audio": {
-            "file": "ghamidi_104005.m4a",
-            "startFrame": 882,
-            "endFrame": 187392,
+            "file": "hudhaify_104005.m4a",
+            "startFrame": 23814,
+            "endFrame": 234612,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -935,9 +935,9 @@
           "translation": "Le Feu attisé d’Allah.",
           "phonetic": "Naarul laahil mooqada",
           "audio": {
-            "file": "ghamidi_104006.m4a",
-            "startFrame": 441,
-            "endFrame": 129024,
+            "file": "hudhaify_104006.m4a",
+            "startFrame": 20727,
+            "endFrame": 158760,
             "sampleRate": 44100
           },
           "verse": 6,
@@ -948,9 +948,9 @@
           "translation": "qui monte jusqu’aux cœurs.",
           "phonetic": "Allatee tattali'u 'alal af'idah",
           "audio": {
-            "file": "ghamidi_104007.m4a",
-            "startFrame": 882,
-            "endFrame": 173056,
+            "file": "hudhaify_104007.m4a",
+            "startFrame": 13671,
+            "endFrame": 188307,
             "sampleRate": 44100
           },
           "verse": 7,
@@ -961,9 +961,9 @@
           "translation": "Il se refermera sur eux,",
           "phonetic": "Innahaa 'alaihim mu'sada",
           "audio": {
-            "file": "ghamidi_104008.m4a",
-            "startFrame": 882,
-            "endFrame": 219136,
+            "file": "hudhaify_104008.m4a",
+            "startFrame": 22932,
+            "endFrame": 238581,
             "sampleRate": 44100
           },
           "verse": 8,
@@ -974,9 +974,9 @@
           "translation": "en colonnes (de flammes) étendues.",
           "phonetic": "Fee 'amadim mumaddadah",
           "audio": {
-            "file": "ghamidi_104009.m4a",
-            "startFrame": 441,
-            "endFrame": 138240,
+            "file": "hudhaify_104009.m4a",
+            "startFrame": 17199,
+            "endFrame": 190512,
             "sampleRate": 44100
           },
           "verse": 9,
@@ -1035,9 +1035,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1047,9 +1047,9 @@
           "translation": "N’as-tu pas vu comment ton Seigneur a agi envers les gens de l’Eléphant .",
           "phonetic": "Alam tara kaifa fa'ala rabbuka bi-ashaabil feel",
           "audio": {
-            "file": "ghamidi_105001.m4a",
-            "startFrame": 2205,
-            "endFrame": 239616,
+            "file": "hudhaify_105001.m4a",
+            "startFrame": 18081,
+            "endFrame": 299008,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -1060,9 +1060,9 @@
           "translation": "N’a-t-Il pas rendu leur ruse complètement vaine ?",
           "phonetic": "Alam yaj'al kaidahum fee tadleel",
           "audio": {
-            "file": "ghamidi_105002.m4a",
-            "startFrame": 441,
-            "endFrame": 227328,
+            "file": "hudhaify_105002.m4a",
+            "startFrame": 24255,
+            "endFrame": 244314,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -1073,9 +1073,9 @@
           "translation": "et envoyé sur eux des oiseaux par volées.",
           "phonetic": "Wa-arsala 'alaihim tairan abaabeel",
           "audio": {
-            "file": "ghamidi_105003.m4a",
-            "startFrame": 882,
-            "endFrame": 173056,
+            "file": "hudhaify_105003.m4a",
+            "startFrame": 22932,
+            "endFrame": 261513,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -1086,9 +1086,9 @@
           "translation": "qui leur lançaient des pierres d’argile ?",
           "phonetic": "Tarmeehim bihijaaratim min sijjeel",
           "audio": {
-            "file": "ghamidi_105004.m4a",
-            "startFrame": 441,
-            "endFrame": 273408,
+            "file": "hudhaify_105004.m4a",
+            "startFrame": 22932,
+            "endFrame": 351918,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -1099,9 +1099,9 @@
           "translation": "Et Il les a rendus semblables à une paille mâchée.",
           "phonetic": "Faja-'alahum ka'asfim m'akool",
           "audio": {
-            "file": "ghamidi_105005.m4a",
-            "startFrame": 882,
-            "endFrame": 243712,
+            "file": "hudhaify_105005.m4a",
+            "startFrame": 26460,
+            "endFrame": 251811,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -1154,9 +1154,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1166,9 +1166,9 @@
           "translation": "A cause de l'habitude des Quraysh ,",
           "phonetic": "Li-eelaafi quraish",
           "audio": {
-            "file": "ghamidi_106001.m4a",
-            "startFrame": 441,
-            "endFrame": 153600,
+            "file": "hudhaify_106001.m4a",
+            "startFrame": 19404,
+            "endFrame": 173754,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -1179,9 +1179,9 @@
           "translation": "De leur habitude [concernant] les voyages d’hiver et d’été .",
           "phonetic": "Eelaafihim rihlatash shitaaa'i wassaif",
           "audio": {
-            "file": "ghamidi_106002.m4a",
-            "startFrame": 441,
-            "endFrame": 281600,
+            "file": "hudhaify_106002.m4a",
+            "startFrame": 22050,
+            "endFrame": 322812,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -1192,9 +1192,9 @@
           "translation": "Qu’ils adorent donc le Seigneur de cette Maison (la Kaaba).",
           "phonetic": "Faly'abudoo rabba haazal bait",
           "audio": {
-            "file": "ghamidi_106003.m4a",
-            "startFrame": 441,
-            "endFrame": 205824,
+            "file": "hudhaify_106003.m4a",
+            "startFrame": 35721,
+            "endFrame": 233730,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -1205,9 +1205,9 @@
           "translation": "qui les a nourris contre la faim et rassurés de la crainte!",
           "phonetic": "Allazeee at'amahum min joo'inw wa-aamanahum min khawf",
           "audio": {
-            "file": "ghamidi_106004.m4a",
-            "startFrame": 882,
-            "endFrame": 439296,
+            "file": "hudhaify_106004.m4a",
+            "startFrame": 29988,
+            "endFrame": 570654,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -1278,9 +1278,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1290,9 +1290,9 @@
           "translation": "Vois-tu celui qui traite de mensonge la Rétribution ?",
           "phonetic": "Ara-'aytal lazee yukazzibu biddeen",
           "audio": {
-            "file": "ghamidi_107001.m4a",
-            "startFrame": 1323,
-            "endFrame": 173056,
+            "file": "hudhaify_107001.m4a",
+            "startFrame": 28665,
+            "endFrame": 263168,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -1303,9 +1303,9 @@
           "translation": "C’est bien lui qui repousse l’orphelin,",
           "phonetic": "Fazaalikal lazee yadu'ul yateem",
           "audio": {
-            "file": "ghamidi_107002.m4a",
-            "startFrame": 441,
-            "endFrame": 242688,
+            "file": "hudhaify_107002.m4a",
+            "startFrame": 26019,
+            "endFrame": 248832,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -1316,9 +1316,9 @@
           "translation": "et qui n’encourage point à nourrir le pauvre.",
           "phonetic": "Wa-la yahuddu 'alaa ta'aamil miskeen",
           "audio": {
-            "file": "ghamidi_107003.m4a",
-            "startFrame": 441,
-            "endFrame": 262144,
+            "file": "hudhaify_107003.m4a",
+            "startFrame": 19845,
+            "endFrame": 268128,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -1329,9 +1329,9 @@
           "translation": "Malheur donc, à ceux qui prient.",
           "phonetic": "Fa-wailul lil-musalleen",
           "audio": {
-            "file": "ghamidi_107004.m4a",
-            "startFrame": 1323,
-            "endFrame": 188416,
+            "file": "hudhaify_107004.m4a",
+            "startFrame": 25137,
+            "endFrame": 219177,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -1342,9 +1342,9 @@
           "translation": "tout en négligeant (et retardant) leur prière (As-Salât),",
           "phonetic": "Allazeena hum 'an salaatihim saahoon",
           "audio": {
-            "file": "ghamidi_107005.m4a",
-            "startFrame": 441,
-            "endFrame": 304128,
+            "file": "hudhaify_107005.m4a",
+            "startFrame": 15435,
+            "endFrame": 294147,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -1355,9 +1355,9 @@
           "translation": "qui sont pleins d’ostentation,",
           "phonetic": "Allazeena hum yuraaa'oon",
           "audio": {
-            "file": "ghamidi_107006.m4a",
-            "startFrame": 0,
-            "endFrame": 154624,
+            "file": "hudhaify_107006.m4a",
+            "startFrame": 21609,
+            "endFrame": 262395,
             "sampleRate": 44100
           },
           "verse": 6,
@@ -1368,9 +1368,9 @@
           "translation": "et refusent l’ustensile (à celui qui en a besoin).",
           "phonetic": "Wa-yamna'oonal maa'oon",
           "audio": {
-            "file": "ghamidi_107007.m4a",
-            "startFrame": 441,
-            "endFrame": 163840,
+            "file": "hudhaify_107007.m4a",
+            "startFrame": 17640,
+            "endFrame": 182133,
             "sampleRate": 44100
           },
           "verse": 7,
@@ -1417,9 +1417,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1429,9 +1429,9 @@
           "translation": "Nous t’avons certes, accordé l’Abondance.",
           "phonetic": "Innaaa a'tainaa-kal kauthar",
           "audio": {
-            "file": "ghamidi_108001.m4a",
-            "startFrame": 882,
-            "endFrame": 235520,
+            "file": "hudhaify_108001.m4a",
+            "startFrame": 11466,
+            "endFrame": 291942,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -1442,9 +1442,9 @@
           "translation": "Accomplis la Ṣalāt pour ton Seigneur et sacrifie.",
           "phonetic": "Fasalli li-rabbika wanhar",
           "audio": {
-            "file": "ghamidi_108002.m4a",
-            "startFrame": 441,
-            "endFrame": 129024,
+            "file": "hudhaify_108002.m4a",
+            "startFrame": 22491,
+            "endFrame": 164934,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -1455,9 +1455,9 @@
           "translation": "Celui qui te hait sera certes, sans postérité.",
           "phonetic": "Inna shaani'aka huwal abtar",
           "audio": {
-            "file": "ghamidi_108003.m4a",
-            "startFrame": 441,
-            "endFrame": 154624,
+            "file": "hudhaify_108003.m4a",
+            "startFrame": 21168,
+            "endFrame": 216090,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -1522,9 +1522,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1534,9 +1534,9 @@
           "translation": "Dis : \"Ô vous les infidèles !",
           "phonetic": "Qul yaaa-ayyuhal kaafiroon",
           "audio": {
-            "file": "ghamidi_109001.m4a",
-            "startFrame": 0,
-            "endFrame": 243712,
+            "file": "hudhaify_109001.m4a",
+            "startFrame": 14994,
+            "endFrame": 301056,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -1547,9 +1547,9 @@
           "translation": "Je n’adore pas ce que vous adorez.",
           "phonetic": "Laaa a'budu maa t'abudoon",
           "audio": {
-            "file": "ghamidi_109002.m4a",
-            "startFrame": 441,
-            "endFrame": 252928,
+            "file": "hudhaify_109002.m4a",
+            "startFrame": 18963,
+            "endFrame": 271215,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -1560,9 +1560,9 @@
           "translation": "Et vous n’êtes pas adorateurs de ce que j’adore.",
           "phonetic": "Wa-laaa antum 'aabidoona maaa a'bud",
           "audio": {
-            "file": "ghamidi_109003.m4a",
-            "startFrame": 882,
-            "endFrame": 289792,
+            "file": "hudhaify_109003.m4a",
+            "startFrame": 25137,
+            "endFrame": 407925,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -1573,9 +1573,9 @@
           "translation": "Je ne suis pas adorateur de ce que vous adorez.",
           "phonetic": "Wa-laaa ana 'abidum maa 'abattum",
           "audio": {
-            "file": "ghamidi_109004.m4a",
-            "startFrame": 441,
-            "endFrame": 186368,
+            "file": "hudhaify_109004.m4a",
+            "startFrame": 18963,
+            "endFrame": 291501,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -1586,9 +1586,9 @@
           "translation": "Et vous n’êtes pas adorateurs de ce que j’adore.",
           "phonetic": "Wa-laaa antum 'aabidoona maaa a'bud",
           "audio": {
-            "file": "ghamidi_109005.m4a",
-            "startFrame": 441,
-            "endFrame": 269312,
+            "file": "hudhaify_109005.m4a",
+            "startFrame": 18522,
+            "endFrame": 411012,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -1599,9 +1599,9 @@
           "translation": "A vous votre religion, et à moi ma religion.\"",
           "phonetic": "Lakum deenukum Wa-liya deen",
           "audio": {
-            "file": "ghamidi_109006.m4a",
-            "startFrame": 441,
-            "endFrame": 220160,
+            "file": "hudhaify_109006.m4a",
+            "startFrame": 21168,
+            "endFrame": 222264,
             "sampleRate": 44100
           },
           "verse": 6,
@@ -1639,7 +1639,7 @@
           "number": 3,
           "translation": "alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon. Car c’est Lui le grand Accueillant au repentir.",
           "firstPiece": 3,
-          "lastPiece": 3
+          "lastPiece": 4
         }
       ],
       "pieces": [
@@ -1648,9 +1648,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1660,9 +1660,9 @@
           "translation": "Lorsque vient le secours d’Allah ainsi que la victoire,",
           "phonetic": "Iza jaaa'a nasrul laahi walfath",
           "audio": {
-            "file": "ghamidi_110001.m4a",
-            "startFrame": 0,
-            "endFrame": 221184,
+            "file": "hudhaify_110001.m4a",
+            "startFrame": 2205,
+            "endFrame": 273861,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -1673,26 +1673,39 @@
           "translation": "et que tu vois les gens entrer en foule dans la religion d’Allah,",
           "phonetic": "Wa-ra-aitan naasa yadkhuloona fee deenil laahi afwajaa",
           "audio": {
-            "file": "ghamidi_110002.m4a",
-            "startFrame": 1323,
-            "endFrame": 340992,
+            "file": "hudhaify_110002.m4a",
+            "startFrame": 17199,
+            "endFrame": 343980,
             "sampleRate": 44100
           },
           "verse": 2,
           "index": 2
         },
         {
-          "arabic": "فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ إِنَّهُۥ كَانَ تَوَّابَۢا",
-          "translation": "alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon. Car c’est Lui le grand Accueillant au repentir.",
-          "phonetic": "Fasabbih bihamdi rabbika wastaghfirh, innahoo kaana tawwaaba",
+          "arabic": "فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ",
+          "phonetic": "Fasabbih bihamdi rabbika wastaghfirh,",
+          "translation": "alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon.",
           "audio": {
-            "file": "ghamidi_110003.m4a",
-            "startFrame": 882,
-            "endFrame": 350208,
+            "file": "hudhaify_110003.m4a",
+            "startFrame": 22491,
+            "endFrame": 199332,
             "sampleRate": 44100
           },
           "verse": 3,
           "index": 3
+        },
+        {
+          "arabic": "إِنَّهُۥ كَانَ تَوَّابَۢا",
+          "phonetic": "innahoo kaana tawwaaba",
+          "translation": "Car c’est Lui le grand Accueillant au repentir.",
+          "audio": {
+            "file": "hudhaify_110003.m4a",
+            "startFrame": 235053,
+            "endFrame": 422037,
+            "sampleRate": 44100
+          },
+          "verse": 3,
+          "index": 4
         }
       ],
       "info": {
@@ -1747,9 +1760,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1759,9 +1772,9 @@
           "translation": "Que périssent les deux mains d’Abû-Lahab  et que lui-même périsse.",
           "phonetic": "Tabbat yadaa abee Lahabinw wa-tabb",
           "audio": {
-            "file": "ghamidi_111001.m4a",
-            "startFrame": 0,
-            "endFrame": 265216,
+            "file": "hudhaify_111001.m4a",
+            "startFrame": 22050,
+            "endFrame": 310905,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -1772,9 +1785,9 @@
           "translation": "Sa fortune ne lui sert à rien, ni ce qu’il a acquis.",
           "phonetic": "Maa aghnaa 'anhu maaluhoo Wa-ma kasab",
           "audio": {
-            "file": "ghamidi_111002.m4a",
-            "startFrame": 441,
-            "endFrame": 243712,
+            "file": "hudhaify_111002.m4a",
+            "startFrame": 18522,
+            "endFrame": 275184,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -1785,9 +1798,9 @@
           "translation": "Il sera brûlé dans un Feu plein de flammes.",
           "phonetic": "Sa-yaslaa naaran zaata lahab",
           "audio": {
-            "file": "ghamidi_111003.m4a",
-            "startFrame": 882,
-            "endFrame": 180224,
+            "file": "hudhaify_111003.m4a",
+            "startFrame": 24255,
+            "endFrame": 231525,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -1798,9 +1811,9 @@
           "translation": "de même sa femme, la porteuse de bois ,",
           "phonetic": "Wamra-atuhoo hammaa-latal hatab",
           "audio": {
-            "file": "ghamidi_111004.m4a",
-            "startFrame": 1764,
-            "endFrame": 210944,
+            "file": "hudhaify_111004.m4a",
+            "startFrame": 17640,
+            "endFrame": 224910,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -1811,9 +1824,9 @@
           "translation": "à son cou, une corde de fibres.",
           "phonetic": "Fee jeedihaa hablum mim masad",
           "audio": {
-            "file": "ghamidi_111005.m4a",
-            "startFrame": 882,
-            "endFrame": 211968,
+            "file": "hudhaify_111005.m4a",
+            "startFrame": 16758,
+            "endFrame": 251811,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -1866,9 +1879,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1878,9 +1891,9 @@
           "translation": "Dis : \"Il est Allah, Unique.",
           "phonetic": "Qul huwal laahu ahad",
           "audio": {
-            "file": "ghamidi_112001.m4a",
-            "startFrame": 1764,
-            "endFrame": 131072,
+            "file": "hudhaify_112001.m4a",
+            "startFrame": 0,
+            "endFrame": 149499,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -1891,9 +1904,9 @@
           "translation": "Allah, Le Seul à être imploré pour ce que nous désirons.",
           "phonetic": "Allah-hus samad",
           "audio": {
-            "file": "ghamidi_112002.m4a",
-            "startFrame": 1764,
-            "endFrame": 92160,
+            "file": "hudhaify_112002.m4a",
+            "startFrame": 22491,
+            "endFrame": 132741,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -1904,9 +1917,9 @@
           "translation": "Il n’a jamais engendré, n’a pas été engendré non plus.",
           "phonetic": "Lam yalid Wa-lam yoolad",
           "audio": {
-            "file": "ghamidi_112003.m4a",
-            "startFrame": 441,
-            "endFrame": 109568,
+            "file": "hudhaify_112003.m4a",
+            "startFrame": 20727,
+            "endFrame": 155673,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -1917,9 +1930,9 @@
           "translation": "Et nul n’est égal à Lui.\"",
           "phonetic": "Wa-lam yakul lahoo kufuwan ahad",
           "audio": {
-            "file": "ghamidi_112004.m4a",
-            "startFrame": 441,
-            "endFrame": 150528,
+            "file": "hudhaify_112004.m4a",
+            "startFrame": 18522,
+            "endFrame": 189630,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -1978,9 +1991,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -1990,9 +2003,9 @@
           "translation": "Dis: \"Je cherche protection auprès du Seigneur de l’aube naissante,",
           "phonetic": "Qul a'oozu bi-rabbil falaq",
           "audio": {
-            "file": "ghamidi_113001.m4a",
-            "startFrame": 882,
-            "endFrame": 141312,
+            "file": "hudhaify_113001.m4a",
+            "startFrame": 26460,
+            "endFrame": 177282,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -2003,9 +2016,9 @@
           "translation": "contre le mal des êtres qu’Il a créés,",
           "phonetic": "Min sharri maa khalaq",
           "audio": {
-            "file": "ghamidi_113002.m4a",
-            "startFrame": 441,
-            "endFrame": 147456,
+            "file": "hudhaify_113002.m4a",
+            "startFrame": 25578,
+            "endFrame": 174080,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -2016,9 +2029,9 @@
           "translation": "contre le mal de l’obscurité quand elle s’approfondit,",
           "phonetic": "Wa-min sharri ghaasiqin izaa waqab",
           "audio": {
-            "file": "ghamidi_113003.m4a",
+            "file": "hudhaify_113003.m4a",
             "startFrame": 882,
-            "endFrame": 216064,
+            "endFrame": 229320,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -2029,9 +2042,9 @@
           "translation": "contre le mal de celles qui soufflent (les sorcières) sur les nœuds,",
           "phonetic": "Wa-min sharrin naffaa-saati fil 'uqad",
           "audio": {
-            "file": "ghamidi_113004.m4a",
-            "startFrame": 882,
-            "endFrame": 242688,
+            "file": "hudhaify_113004.m4a",
+            "startFrame": 18963,
+            "endFrame": 272097,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -2042,9 +2055,9 @@
           "translation": "et contre le mal de l’envieux quand il envie .\"",
           "phonetic": "Wa-min sharri haasidin izaa hasad",
           "audio": {
-            "file": "ghamidi_113005.m4a",
-            "startFrame": 882,
-            "endFrame": 221184,
+            "file": "hudhaify_113005.m4a",
+            "startFrame": 1323,
+            "endFrame": 227997,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -2109,9 +2122,9 @@
           "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
           "phonetic": "Bismil laahir Rahmaanir Raheem",
           "audio": {
-            "file": "ghamidi_bismillah.m4a",
-            "startFrame": 3528,
-            "endFrame": 235494,
+            "file": "hudhaify_bismillah.m4a",
+            "startFrame": 38367,
+            "endFrame": 305613,
             "sampleRate": 44100
           },
           "index": 0
@@ -2121,9 +2134,9 @@
           "translation": "Dis : \"Je cherche protection auprès du Seigneur des hommes.",
           "phonetic": "Qul a'oozu birabbin naas",
           "audio": {
-            "file": "ghamidi_114001.m4a",
-            "startFrame": 0,
-            "endFrame": 167936,
+            "file": "hudhaify_114001.m4a",
+            "startFrame": 29106,
+            "endFrame": 249165,
             "sampleRate": 44100
           },
           "verse": 1,
@@ -2134,9 +2147,9 @@
           "translation": "Le Souverain des hommes,",
           "phonetic": "Malikin naas",
           "audio": {
-            "file": "ghamidi_114002.m4a",
-            "startFrame": 441,
-            "endFrame": 92160,
+            "file": "hudhaify_114002.m4a",
+            "startFrame": 35721,
+            "endFrame": 189440,
             "sampleRate": 44100
           },
           "verse": 2,
@@ -2147,9 +2160,9 @@
           "translation": "Dieu des hommes,",
           "phonetic": "Ilaahin naas",
           "audio": {
-            "file": "ghamidi_114003.m4a",
-            "startFrame": 441,
-            "endFrame": 154624,
+            "file": "hudhaify_114003.m4a",
+            "startFrame": 29106,
+            "endFrame": 191835,
             "sampleRate": 44100
           },
           "verse": 3,
@@ -2160,9 +2173,9 @@
           "translation": "contre le mal du mauvais conseiller, furtif,",
           "phonetic": "Min sharril waswaasil khannaas",
           "audio": {
-            "file": "ghamidi_114004.m4a",
-            "startFrame": 882,
-            "endFrame": 311296,
+            "file": "hudhaify_114004.m4a",
+            "startFrame": 18522,
+            "endFrame": 284004,
             "sampleRate": 44100
           },
           "verse": 4,
@@ -2173,9 +2186,9 @@
           "translation": "qui insuffle des mauvaises pensées dans les poitrines des hommes,",
           "phonetic": "Allazee yuwaswisu fee sudoorin naas",
           "audio": {
-            "file": "ghamidi_114005.m4a",
-            "startFrame": 441,
-            "endFrame": 273408,
+            "file": "hudhaify_114005.m4a",
+            "startFrame": 27342,
+            "endFrame": 280476,
             "sampleRate": 44100
           },
           "verse": 5,
@@ -2186,9 +2199,9 @@
           "translation": "qu’il (le conseiller) soit un djinn, ou un être humain\".",
           "phonetic": "Minal jinnati wannaas",
           "audio": {
-            "file": "ghamidi_114006.m4a",
-            "startFrame": 441,
-            "endFrame": 276066,
+            "file": "hudhaify_114006.m4a",
+            "startFrame": 4410,
+            "endFrame": 282681,
             "sampleRate": 44100
           },
           "verse": 6,
